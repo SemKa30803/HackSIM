@@ -1,0 +1,24 @@
+﻿<MessageDictionary>
+	<Name>UserAlarmsHandler</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<AlarmHeader>Ошибка модуля пользовательских оповещений</AlarmHeader>
+		<AlarmCodeAlreadyExist>Код оповещения встречается в конфигурации более одного раза. Группа оповещений: {0}, локальный код: {1}</AlarmCodeAlreadyExist>
+		<AlarmTagAlreadyExist>Тэг оповещения встречается в конфигурации более одного раза. Тэг: {0}</AlarmTagAlreadyExist>
+		<UnknownCode>Попытка обратиться к модулю по коду оповещения, отсутствующему в конфигурации модуля</UnknownCode>
+		<AlarmNumberOutOfRange>Попытка обратиться по номеру оповещения, превышающему количество сконфигурированных оповещений</AlarmNumberOutOfRange>
+		<Alarms>Перечень пользовательских оповещений</Alarms>
+		<Alarm>Оповещение</Alarm>
+		<GroupCode>Код группы оповещений</GroupCode>
+		<LocalCode>Номер оповещения в группе</LocalCode>
+		<Tag>Тэг оповещения</Tag>
+		<IsWarning>Оповещение относится к категории предупреждения</IsWarning>
+		<UseDictionary>Использовать словари для заголовка и сообщения</UseDictionary>
+		<Header>Заголовок оповещения</Header>
+		<Message>Сообщение оповещения</Message>
+		<UserAlarmsHandlerNotFound>Модуль пользовательских оповещений не активирован на данном роботе</UserAlarmsHandlerNotFound>
+		<AlarmNr>Номер оповещения</AlarmNr>
+		<AlarmCode>Код оповещения</AlarmCode>
+		<AlarmTag>Тэг оповещения</AlarmTag>				
+	</Messages>
+</MessageDictionary>

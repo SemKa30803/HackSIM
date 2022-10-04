@@ -1,0 +1,105 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://components_lib/basic_cylinder/scripts/basic_cylinder.gd" type="Script" id=1]
+[ext_resource path="res://components_lib/basic_cylinder/materials/black.tres" type="Material" id=2]
+[ext_resource path="res://components_lib/basic_cylinder/materials/light_gray.tres" type="Material" id=3]
+
+[sub_resource type="CylinderMesh" id=1]
+top_radius = 15.0
+bottom_radius = 15.0
+height = 399.0
+radial_segments = 24
+rings = 1
+
+[sub_resource type="CylinderMesh" id=2]
+top_radius = 16.0
+bottom_radius = 16.0
+height = 26.0
+radial_segments = 24
+rings = 1
+
+[sub_resource type="CylinderMesh" id=3]
+top_radius = 4.5
+bottom_radius = 4.5
+height = 402.0
+radial_segments = 24
+rings = 1
+
+[sub_resource type="CubeMesh" id=4]
+size = Vector3( 45.0772, 24, 45.0772 )
+
+[sub_resource type="CubeMesh" id=5]
+size = Vector3( 45.0772, 24, 45.0772 )
+
+[sub_resource type="CylinderMesh" id=6]
+top_radius = 8.0
+bottom_radius = 8.0
+height = 420.0
+radial_segments = 24
+rings = 1
+
+[node name="basic_cylinder" type="Spatial"]
+transform = Transform( -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, 0, 0, 0 )
+script = ExtResource( 1 )
+toggle_positive = false
+body_length = 400.0
+shaft_length = 420.0
+shaft_diameter = 16.0
+shaft_move = 400.0
+body_diameter = 30.0
+support_diameter = 9.0
+cap_thickness = 24.0
+
+[node name="main_body" type="MeshInstance" parent="."]
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="shaft_way" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 188, 0 )
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="support_shaft_1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.0386, 0, 16.0386 )
+mesh = SubResource( 3 )
+material/0 = ExtResource( 3 )
+
+[node name="support_shaft_2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.0386, 0, 16.0386 )
+mesh = SubResource( 3 )
+material/0 = ExtResource( 3 )
+
+[node name="support_shaft_3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.0386, 0, -16.0386 )
+mesh = SubResource( 3 )
+material/0 = ExtResource( 3 )
+
+[node name="support_shaft_4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.0386, 0, -16.0386 )
+mesh = SubResource( 3 )
+material/0 = ExtResource( 3 )
+
+[node name="top_cap" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 188, 0 )
+mesh = SubResource( 4 )
+material/0 = ExtResource( 2 )
+
+[node name="bottom_cap" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -188, 0 )
+mesh = SubResource( 5 )
+material/0 = ExtResource( 2 )
+
+[node name="joint" type="RcsToggleJoint" parent="."]
+rotation_axis = Vector3( 0, 0, 0 )
+translation_axis = Vector3( 0, 1, 0 )
+ToggleEnabled = true
+TogglePositive = false
+MaxBorder = 400.0
+MinBorder = 0.0
+Throttle = 1000.0
+
+[node name="shaft" type="MeshInstance" parent="joint"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0 )
+redirect_selection = true
+mesh = SubResource( 6 )
+material/0 = ExtResource( 3 )

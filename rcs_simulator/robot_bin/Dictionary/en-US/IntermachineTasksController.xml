@@ -1,0 +1,19 @@
+﻿<MessageDictionary>
+	<Name>IntermachineTasksController</Name>
+	<Language>English</Language>
+	<Messages>
+			<AlarmHeader> Intermachine tasks controller error</AlarmHeader>
+			<ReceiveQueueOverflow> Receive queue overflow</ReceiveQueueOverflow>
+			<SentQueueOverflow> Sent queue overflow </SentQueueOverflow>
+			<TooBigTaskTag> Too big task tag </TooBigTaskTag>
+			<TooBigPayloadOnSend> An attempt was made to send a task with too big payload</TooBigPayloadOnSend>
+			<InvalidMesageCode> An datagram was received with inavalid message code </InvalidMesageCode>
+			<NotInitialized> An attempt was made to send a task while module was not initialized</NotInitialized>
+			<SendingFaild>  Task sending failed </SendingFaild>
+			<SubscribeFaild> Subscribing on datagrams failed </SubscribeFaild>
+			<PerformerReplyError> Performer reply error</PerformerReplyError>
+			<TooShortPayloadReceived> An datagram was received with payload which is shorter than task header </TooShortPayloadReceived>
+			<MaxTasksQueueLength> Maximum task queue length </MaxTasksQueueLength>
+		</Messages>
+	</MessageDictionary>
+	

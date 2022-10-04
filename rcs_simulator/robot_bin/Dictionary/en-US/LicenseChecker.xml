@@ -1,0 +1,12 @@
+<MessageDictionary>
+	<Name>LicenseChecker</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>License is missing</Header>
+		<NoLicense>Current license is incorrect. Please, call company for service engineer</NoLicense>
+		<ErrorGeneratingLicense>Error while gathering system information</ErrorGeneratingLicense>
+		
+		<SerialHeader>Robot configuration error</SerialHeader>
+		<SerialContent>Robot serial number is unknown, call for tech. support</SerialContent>
+	</Messages>
+</MessageDictionary>

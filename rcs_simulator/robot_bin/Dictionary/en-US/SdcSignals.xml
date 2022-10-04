@@ -1,0 +1,17 @@
+<MessageDictionary>
+<Name>SdcSignals</Name>
+<Language>English</Language>
+<Messages>
+	<ReceiveFailed>Could not receive data.</ReceiveFailed>
+	<SendFailed>Can not send data.</SendFailed>
+	<CanNotBind>Can not create socket. Maybe ip address and port is busy.</CanNotBind>
+	<TimedOut>Answer from device timed out.</TimedOut>
+	
+	<BindAddress>Rcs computer address</BindAddress>
+	<BindPort>Rcs computer port</BindPort>
+	<DeviceAddress>Device address</DeviceAddress>
+	<DevicePort>Device port</DevicePort>
+	<AskPeriod>Monitor period, ms</AskPeriod>
+	<WaitTimeoutMs>Device reply await timeout, ms</WaitTimeoutMs>
+</Messages>
+</MessageDictionary>

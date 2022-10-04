@@ -1,0 +1,10 @@
+<MessageDictionary>
+	<Name>MotionRequestHandler</Name>
+	<Language>English</Language>
+	<Messages>
+		<NoHeartBeat>Internal error, heartbeat signal is missing.</NoHeartBeat>
+		<HaveError>Robot contain errors.</HaveError>
+		<ProgramIsRunning>Main program is executing.</ProgramIsRunning>
+		<RobotIsNotUstated>Robot is not calibrated.</RobotIsNotUstated>
+	</Messages>
+</MessageDictionary>

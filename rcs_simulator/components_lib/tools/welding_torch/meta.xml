@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component_meta>
+<name>welding_torch</name>
+<developer>eidos</developer>
+<version>1</version>
+<description>Scene for welding torch. The user can adjust the length of the goose before the bend, the angle of the bend and the angle of the torch. </description>
+</component_meta>

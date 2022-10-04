@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://components_lib/parametric_conveyor/materials/black.tres" type="Material" id=1]
+[ext_resource path="res://components_lib/parametric_conveyor/meshes/chip_2.tres" type="CylinderMesh" id=2]
+[ext_resource path="res://components_lib/parametric_conveyor/meshes/chip_1.tres" type="CubeMesh" id=3]
+
+[sub_resource type="BoxShape" id=1]
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 32, 9.80463, 48 )
+
+[node name="chip_simple" type="StaticBody" groups=[
+"grabable",
+]]
+
+[node name="chip_1" type="MeshInstance" parent="."]
+transform = Transform( 30, 0, 0, 0, 2.5, 0, 0, 0, 45, 0, -2.60624, 0 )
+mesh = ExtResource( 3 )
+material/0 = ExtResource( 1 )
+
+[node name="chip_2" type="MeshInstance" parent="."]
+transform = Transform( 5.1, 0, 0, 0, -2.18557e-07, 5.1, 0, -5, -2.22928e-07, 0, -5.99122, -46.9364 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 30, 0, 0, 0, 8, 0, 0, 0, 24, 0, -6, -27.4033 )
+shape = SubResource( 1 )
+
+[node name="RcsStickyArea" type="RcsStickyArea" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6, 0 )
+grab_all = null
+drop_all = null
+
+[node name="CollisionShape" type="CollisionShape" parent="RcsStickyArea"]
+transform = Transform( 0.5, 0, 0, 0, 1.5, 0, 0, 0, 0.2, 0, -0.368672, 14.9661 )
+shape = SubResource( 2 )

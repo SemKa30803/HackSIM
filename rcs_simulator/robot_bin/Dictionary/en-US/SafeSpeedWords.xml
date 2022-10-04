@@ -1,0 +1,10 @@
+﻿<MessageDictionary>
+	<Name>SafeSpeedWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<SafeSpeedSetts>Teach mode speed limitations</SafeSpeedSetts>
+		<SafeJointsArray>Maximum joint speed,  deg. / sec.</SafeJointsArray>
+		<SafeDecardSpeed>Maximum linear speed, mm / sec.</SafeDecardSpeed>
+		<SafeJointsArrayPart>Joint</SafeJointsArrayPart>
+	</Messages>
+</MessageDictionary>

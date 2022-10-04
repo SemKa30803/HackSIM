@@ -1,0 +1,19 @@
+<MessageDictionary>
+	<Name>MultiprocessLibrary</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<FileNotFound>Файл не найден</FileNotFound>
+		<incorrectXML>Файл не является XML</incorrectXML>
+		
+		<GroupErrorHeader>Ошибка чтения файла группы глобальных переменных</GroupErrorHeader>
+		<GroupTwoSameName>Более две группы обладают одинаковыми именами. Имя {0}.</GroupTwoSameName>
+		<GroupTwoSameId>Более две группы обладают одинаковыми id. Значение {0}.</GroupTwoSameId>
+		<GroupUnknownError>Неизвестная ошибка. Имя группы {0}. Ошибка: {1}.</GroupUnknownError>
+		
+		<VarMetaErrorHeader>Ошибка чтения файла метаданных глобальных переменных</VarMetaErrorHeader>
+		<VarValueErrorHeader>Ошибка чтения файла значений глобальных переменных</VarValueErrorHeader>
+		<VarTwoSameName>Более две переменные обладают одинаковыми именами. Имя {0}.</VarTwoSameName>
+		<VarTwoSameId>Более две переменными обладают одинаковыми id. Значение {0}.</VarTwoSameId>
+		<VarUnknownError>Неизвестная ошибка. Имя переменной {0}. Ошибка: {1}.</VarUnknownError>
+	</Messages>
+</MessageDictionary>

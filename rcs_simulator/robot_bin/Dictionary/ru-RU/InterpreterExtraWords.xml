@@ -1,0 +1,46 @@
+﻿<MessageDictionary>
+	<Name>InterpreterExtraWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<InvCmd>Команда не верна</InvCmd>
+		<WrongRawInput>RawPathGenerator: Неверные входные данные</WrongRawInput>
+		<RawLimit>RawPathGenerator: Ограничение осей</RawLimit>
+		<RawUnknown>RawPathGenerator: Неизвестная ошибка</RawUnknown>
+		<KinError>Ошибка кинематики</KinError>
+		
+		<ErrorLoadingParam>Ошибка загрузки входного параметра</ErrorLoadingParam>
+		<ErrorLoadingParamN>Ошибка загрузки входного параметра, номер параметра </ErrorLoadingParamN>
+		<TypeMismatch>Несовпадение типа входного параметра</TypeMismatch>
+		<TooMuchParams>Слишком много входных параметров</TooMuchParams>
+		<TooFewParams>Слишком мало входных параметров</TooFewParams>
+		<CartPtpCantuseMatrix4>cart_ptp не принимает матрицу в качестве цели</CartPtpCantuseMatrix4>
+		
+		<TypeMismatch2>Несовпадение типа входного параметра, номер параметра </TypeMismatch2>
+		<NotEnoughParams>Слишком мало входных параметров, необходимое минимальное число параметров: </NotEnoughParams>
+		
+		<PointIncorrectInputType>Параметр точка может принимать только тип string или Matrix4</PointIncorrectInputType>
+		<PointCanNotFindByName>Точка не найдена, имя искомой точки </PointCanNotFindByName>
+		<PointNoMatrix4>Данная команда не принимает тип Matrix4, доступен только string</PointNoMatrix4>
+		<PointIncorrectBaseSystem>Точка найдена, но базовая система координат неверна, имя точки </PointIncorrectBaseSystem>
+		<SignalNotFound>Сигнал не найден, имя сигнала </SignalNotFound>
+		<SignalWrongType>Для передачи сигнала необходимо использовать тип string, с именем сигнала</SignalWrongType>
+		<ToolNotFound>Инструмент не найден, имя искомого инструмента </ToolNotFound>
+		<ToolBadType>Неверный тип для задания инструмента, ожидался тип string</ToolBadType>
+		<FrameNotFound>Система координат не найдена, имя искомой системы координат </FrameNotFound>
+		<FrameIncorrectType>Неверный тип для задания системы координат, ожидался тип string</FrameIncorrectType>
+		<JointNotFound>Угловая точка не найдена, имя искомой точки </JointNotFound>
+		<JointIncorrectType>Неверный тип для задания угловой точки, ожидался тип string или массив из float</JointIncorrectType>
+		<JointRelIncorrectType>Неверный тип для относительной угловой точки, ожидался массив float</JointRelIncorrectType>
+		<PositionIncorrectType>Неверный тип для позиции, ожидался массив из трёх float или Vector3</PositionIncorrectType>
+		<RotationIncorrectType>Неверный тип для угловой позиции, ожидался массив из трёх float или Vector3</RotationIncorrectType>
+		<StructIncorrectType>Неверный тип для задания структуры, ожидался string</StructIncorrectType>
+		<StructNotFound>Структура не найдена, имя искомой структуры </StructNotFound>
+				<IncorrectKinematicLinksCount>Размер массива, переданного в параметр перемещения доп осей отличается от количества осей в кинематической цепи базовой системы координат. Количество осей в кинематической цепи базовой системы координат: </IncorrectKinematicLinksCount>
+		<CommandNotAllowedWithKinematicBase>Недопустимо использовать данную команду с точками из подвижной системы координат </CommandNotAllowedWithKinematicBase>
+		<InvMoveCmdSpeed>Недопустимое значение скорости</InvMoveCmdSpeed>
+		<InvMoveCmdAccel>Недопустимое значение ускорения</InvMoveCmdAccel>
+		
+		<MoveCmdIncorrectJoint>Недопустимый номер оси. Нумерация осей начинается с единицы. Номер оси в параметрах команды не может быть больше количества осей.</MoveCmdIncorrectJoint>
+		<JointCountMismatch>Не совпадение количества осей</JointCountMismatch>
+	</Messages>
+</MessageDictionary>

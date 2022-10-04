@@ -1,0 +1,7 @@
+<MessageDictionary>
+	<Name>SoftwareSafetyState</Name>
+	<Language>English</Language>
+	<Messages>
+		<start_mode>Safety mode on start</start_mode>
+	</Messages>
+</MessageDictionary>

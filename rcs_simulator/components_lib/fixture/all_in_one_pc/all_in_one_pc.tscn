@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://components_lib/all_in_one_pc/script/all_in_one_pc.gd" type="Script" id=1]
+[ext_resource path="res://components_lib/all_in_one_pc/mesh/monitor.tres" type="CubeMesh" id=2]
+[ext_resource path="res://components_lib/all_in_one_pc/mesh/inside_monitor.tres" type="CubeMesh" id=3]
+[ext_resource path="res://components_lib/all_in_one_pc/materials/black_body.tres" type="Material" id=4]
+[ext_resource path="res://components_lib/all_in_one_pc/mesh/fastener.tres" type="CubeMesh" id=5]
+
+[sub_resource type="CubeMesh" id=1]
+material = ExtResource( 4 )
+size = Vector3( 1, 1, 1 )
+
+[node name="All_in_one_pc" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 321.854, 0 )
+script = ExtResource( 1 )
+diagonal_of_monitor_inch = 50.0
+
+[node name="stationary_part" type="Spatial" parent="."]
+
+[node name="monitor" type="MeshInstance" parent="stationary_part"]
+transform = Transform( 1106.9, 0, 0, 0, 622.631, 0, 0, 0, 10, 0, 0, 10 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 4 )
+
+[node name="inside_monitor" type="MeshInstance" parent="stationary_part"]
+transform = Transform( 1093.06, 0, 0, 0, 608.795, 0, 0, 0, 10, 0, 0, 10.1 )
+mesh = ExtResource( 3 )
+material/0 = null
+
+[node name="back_1" type="MeshInstance" parent="stationary_part"]
+transform = Transform( 1106.9, 0, 0, 0, 311.316, 0, 0, 0, 40, 0, 155.658, -10 )
+mesh = SubResource( 1 )
+material/0 = ExtResource( 4 )
+
+[node name="back_2" type="MeshInstance" parent="stationary_part"]
+transform = Transform( 1106.9, 0, 0, 0, 311.316, 0, 0, 0, 40, 0, -31.1316, -10 )
+mesh = SubResource( 1 )
+material/0 = ExtResource( 4 )
+
+[node name="fastener_1" type="MeshInstance" parent="stationary_part"]
+transform = Transform( 553.45, 0, 0, 0, 77.8289, 0, 0, 0, 10, 0, 311.316, 10 )
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 4 )
+
+[node name="fastener_2" type="MeshInstance" parent="stationary_part"]
+transform = Transform( 553.45, 0, 0, 0, 77.8289, 0, 0, 0, 10, 0, -311.316, 10 )
+mesh = ExtResource( 5 )
+material/0 = null

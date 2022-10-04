@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://components_lib/a12_1450/a12_1450.tscn" type="PackedScene" id=1]
+[ext_resource path="res://components_lib/grab/grab.tscn" type="PackedScene" id=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="a12_1450" parent="." instance=ExtResource( 1 )]
+emulation_state = false
+robot_dir = "res://robots/a12"
+restart_robot = null
+read_from_tool_config = null
+save_to_tool_config = null
+add_tool = null
+tool_1/clear_trail = null
+read_from_frame_config = null
+save_to_frame_config = null
+add_frame = null
+
+[node name="grab" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.679, 0, 409.779 )
+width_tip_of_arms_mm = 10.0
+width_of_arms_mm = 54.0
+lenght_of_arms_mm = 64.0
+radius_of_flange_mm = 42.0
+hight_of_flange_mm = 23.0

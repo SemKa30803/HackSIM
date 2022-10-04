@@ -1,0 +1,11 @@
+﻿<MessageDictionary>
+	<Name>RawPathGenerator</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Ограничение сервоприводов</Header>
+		<TooFastJoint>Движение слишком быстрое, замедление до максимальной скорости робота. Ось {0} , время выполнение {1} наносекунд, время выполнения увеличено до {2} наносекунд.</TooFastJoint>
+		<ReachedLimit>Ось {0} достигла граничных значений</ReachedLimit>
+		<ConfigurationError>Произошла внутренняя ошибка. Конфигурация ServoInfo неверна, либо контроллер сервоприводов отправляет неверные данные.</ConfigurationError>
+		<SafetyConfigError>Конфликт с конфигурацией безопасности, отвечающей за ограничение скорости в Teach режиме. Число сервоприводов не совпадает.</SafetyConfigError>
+	</Messages>
+</MessageDictionary>

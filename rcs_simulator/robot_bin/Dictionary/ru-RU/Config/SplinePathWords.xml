@@ -1,0 +1,19 @@
+﻿<MessageDictionary>
+	<Name>SplinePathWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<intervTime>Период фрейма</intervTime>
+		<smoothLineLen>Стандартная длина сглаживания, мм</smoothLineLen>
+		<smooth_angle_len>Стандартная угловая длина сглаживания, град.</smooth_angle_len>
+		<angleSpeed>Стандартная угловая скорость, град./с</angleSpeed>
+		<allowRecMode>Возможно ли восстанавливающее движение</allowRecMode>
+		<minX>Минимальная позиция по оси x, мм</minX>
+		<minY>Минимальная позиция по оси y, мм</minY>
+		<minZ>Минимальная позиция по оси z, мм</minZ>
+		<maxX>Максимальная позиция по оси x, мм</maxX>
+		<maxY>Максимальная позиция по оси y, мм</maxY>
+		<maxZ>Максимальная позиция по оси z, мм</maxZ>
+		<epsilon_s>Точность декартового движения, расстояние, мм</epsilon_s>
+		<epsilon_r>Точность декартового движения, угол, град.</epsilon_r>
+	</Messages>
+</MessageDictionary>

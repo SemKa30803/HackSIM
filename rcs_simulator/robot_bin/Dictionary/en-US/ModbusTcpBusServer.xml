@@ -1,0 +1,17 @@
+<MessageDictionary>
+	<Name>ModbusTcpBusServer</Name>
+	<Language>English</Language>
+	<Messages>
+		<bind_address>Server address</bind_address>
+		<bind_port>Server port</bind_port>
+		<holding_register_count>Count of holding(analog) registers</holding_register_count>
+        <holding_register_count>Count of protected registers(Writable only via modbus)</holding_register_count>
+	
+		<StandartHeader>Modbus server error</StandartHeader>
+		<CantCreateSocket>Can not bind socket, error - {0}</CantCreateSocket>
+		<ErrorWhileAwnser>Ошибка обработки сообщения, текст ошибки - {0}</ErrorWhileAwnser>
+		<IncorrectModbusData>Recived incorrect modbus message</IncorrectModbusData>
+		<ConnectionRefused>Client disconnected</ConnectionRefused>
+		<protected_register_count>Protected registers</protected_register_count>
+	</Messages>
+</MessageDictionary>

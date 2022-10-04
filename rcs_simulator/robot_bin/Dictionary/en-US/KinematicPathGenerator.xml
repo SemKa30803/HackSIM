@@ -1,0 +1,9 @@
+<MessageDictionary>
+	<Name>KinematicPathGenerator</Name>
+	<Language>Eanglish</Language>
+	<Messages>
+		<Header>Kinematic limitations</Header>
+		<BadKinValue>Can not move further. Axis {0} limitation.</BadKinValue>
+		<ComputeInverseFailed>Can not move further. Can not compute inverse kinematics.</ComputeInverseFailed>
+	</Messages>
+</MessageDictionary>

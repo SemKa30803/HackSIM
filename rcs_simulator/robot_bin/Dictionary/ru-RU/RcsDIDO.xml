@@ -1,0 +1,23 @@
+<MessageDictionary>
+<Name>RcsDIDO</Name>
+<Language>Russian</Language>
+<Messages>
+	<ReciveFailed>Невозможно получить ответ.</ReciveFailed>
+	<SendFailed>Невозможно отправить данные.</SendFailed>
+	<CanNotBind>Невозможно создать сокет. Возможно данный адрес и порт занят.</CanNotBind>
+	<NotInited>Плата DIDO не инициализирована.</NotInited>
+	<TimedOut>Превышено время ожидания ответа.</TimedOut>
+	
+	<BindAddress>Адрес Rcs компьютера</BindAddress>
+	<BindPort>Порт Rcs компьютера</BindPort>
+	<DeviceAddress>Адрес платы DIDO</DeviceAddress>
+	<DevicePort>Порт платы DIDO</DevicePort>
+	<AskPeriod>Период опроса</AskPeriod>
+	
+	<ContainError>Модуль дидо ответил ошибкой {0}</ContainError>
+	
+	<DICount>Число входных цифровых сигналов</DICount>
+	<DOCount>Число выходных цифровых сигналов</DOCount>
+	<AnalogSupport>Задействовать модуль аналоговых сигналов</AnalogSupport>
+</Messages>
+</MessageDictionary>

@@ -1,0 +1,51 @@
+﻿<MessageDictionary>
+	<Name>SafetyStateV2</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>Safety module</Header>
+		<Emergency>Alarm button is active.</Emergency>
+		<Wicket>Robot workspace is not isolated.</Wicket>
+		<WrongIP>Invalid IP address or port in configuration file.</WrongIP>
+		
+		<Software>Error emitted by Rcs.</Software>
+		<Internal>Internal error in safety module.</Internal>
+		<Crit>Critical error. Restart of system required.</Crit>
+		<MSel>Error while changing operating mode.</MSel>
+		<WatchDog>Network error. Reply from Rcs timed out.</WatchDog>
+		<NS>Unknown error.</NS>
+		<Saf>Safety error.</Saf>
+		<ReplaceData>Reconfigure board in case of conflict</ReplaceData>
+		<SettingsConflict>Safety board settings and configuration are different.</SettingsConflict>
+		<TimeoutReached>Reply timeout. Safety board not responding.</TimeoutReached>
+		
+		<IdleState>Safety module  is not initialized. Please flip the key and choose mode.</IdleState>
+		
+		<MultName>Teach speed multiplier</MultName>
+		<AskPeriod>Period of watchdog package</AskPeriod>
+		<DevAddr>IP address of safety module</DevAddr>
+		<device_port>port of safety module</device_port>
+		<MyAddr>IP address of Rcs computer</MyAddr>
+		<MyPort>port of Rcs computer</MyPort>
+		<channels>channels</channels>
+		<channel>channel</channel>
+		<cSource>type of channel</cSource>
+		<AckType>method to acknowledge channel</AckType>
+		
+		<Additional1IsEmergence>Additional1 is emergence</Additional1IsEmergence>
+		
+		<AckNotKvitated>Operator safety acknowledge button have not been pressed.</AckNotKvitated>
+		<WicketNotClosed>Doors are not closed.</WicketNotClosed>
+		
+		<IncorrectConfig>Configuration in safety board is incorrect</IncorrectConfig>
+		<IncorrectSizeResponse>Recived package with unexpected size</IncorrectSizeResponse>
+		
+		<timings>Timings</timings>
+		<started_pausing_program>System response on program pausing timeout</started_pausing_program>
+		<enable_drives_pause>Enable drives pause</enable_drives_pause>
+		<cat_2_error_response_timeout>Category 2 response timeout</cat_2_error_response_timeout>
+		<cat_1_error_response_timeout>Category 1 response timeout</cat_1_error_response_timeout>
+		<cat_1_wait_to_brake>Brake pause</cat_1_wait_to_brake>
+		<cat_2_pausing_timeout>Category 2 pausing timeout</cat_2_pausing_timeout>
+		<cat_1_pausing_timeout>Category 1 pausing timeout</cat_1_pausing_timeout>
+	</Messages>
+</MessageDictionary>

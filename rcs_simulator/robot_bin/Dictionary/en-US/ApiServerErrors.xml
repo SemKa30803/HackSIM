@@ -1,0 +1,119 @@
+﻿<MessageDictionary>
+	<Name>ApiServerErrors</Name>
+	<Language>English</Language>
+	<Messages>
+		<InvalHeader>RcsApi error : header parse failed.</InvalHeader>
+		<InvalXML>RcsApi error: request content parse failed.</InvalXML>
+		<InvalData>RcsApi error: invalid data.</InvalData>		
+		<WDLost>Connection with HMI is unstable, experience data loss or delay</WDLost>
+		<Err104>request have been denied</Err104>
+		<Err105>access denied</Err105>
+		<Err106>last backup file manipulation request is incorrect</Err106>
+		
+		<FileNotFound>File not found</FileNotFound>
+		<LastFileManipulationIsBad>Unknown error while working with files.</LastFileManipulationIsBad>
+		<NoFactorySettings>Factory settings file is missing.</NoFactorySettings>
+		<HardwCntrlInErro>Drives controller in error state.</HardwCntrlInErro>
+		<AlreadyCalibr>Internal error, buffer have been reseted.</AlreadyCalibr>
+		
+		<InternalError>Internal error.</InternalError>
+		
+		<RestrictedAccess>Restricted access. Multiple clients connected to robot and this client is not primary.</RestrictedAccess>
+		
+		<DeniedNeedOperator>Access denied, required role: Operator.</DeniedNeedOperator>
+		<DeniedNeedProgrammer>Access denied, required role: Programmer.</DeniedNeedProgrammer>
+		<DeniedNeedServiceEngineer>Access denied, required role: Service engineer.</DeniedNeedServiceEngineer>
+		
+		<FileErrorNoDisk>Disk does not exist</FileErrorNoDisk>
+		<FileErrorCantCopy>Can not copy, maybe file or folder with that name already exist or access denied</FileErrorCantCopy>
+		<FileErrorCantCopyDueName>Can not copy, one of the file or folder does not fullfill requirement, names must contain [ a-z 0-9 _ ] symbols only, first symbol can only be [ a-z _ ]</FileErrorCantCopyDueName>
+		<FileErrorCantMove>Can not move, maybe file or folder with that name already exist or access denied</FileErrorCantMove>
+		<FileErrorCantMoveDueName>Can not move, one of the file or folder does not fullfill requirement, names must contain [ a-z 0-9 _ ] symbols only, first symbol can only be [ a-z _ ]</FileErrorCantMoveDueName>
+		<FileErrorCantDelete>Can not delete, maybe file does not exist</FileErrorCantDelete>
+		<FileErrorCantDeleteDisk>Deleting disk or root folder is not allowed</FileErrorCantDeleteDisk>
+		<FileErrorDiskRemoved>Internal error, disk have been removed</FileErrorDiskRemoved>
+		<FileErrorCanNotMove>Can not move, maybe file already exist or access denied</FileErrorCanNotMove>
+		<FileErrorCantCreateFolder>Can not create folder, maybe access denied or folder already exist</FileErrorCantCreateFolder>
+		<FileErrorCantCreateFolderDueName>Can not create folder, name of the folder must contain [ a-z 0-9 _ ] symbols only, first symbol can only be [ a-z _ ]</FileErrorCantCreateFolderDueName>
+		<FileErrorCantRenameDueName>Can not rename, name must contain [ a-z 0-9 _ ] symbols only, first symbol can only be [ a-z _ ]</FileErrorCantRenameDueName>
+		<FileErrorCantCreateFolderDueNoName>Can not create folder, name is empty.</FileErrorCantCreateFolderDueNoName>
+		<FileErrorCantRenameDueNoName>Can not rename, new name is empty.</FileErrorCantRenameDueNoName>
+		
+		<AddonErrorNoAddon>Internal error, can not find addon</AddonErrorNoAddon>
+		<AddonErrorNoDescriptor>Internal error, can not get description, maybe addon is invalid</AddonErrorNoDescriptor>
+		<AddonErrorNoWidget>Internal error, can not find widget</AddonErrorNoWidget>
+		
+		<MultipleNoFile>Internal error, file not found</MultipleNoFile>
+		<MultipleNoStructure>Internal error, structure not found</MultipleNoStructure>
+		<MultipleCanNotCreate>Can not create structure</MultipleCanNotCreate>
+		<MultipleEmptyBuffer>Buffer is empty</MultipleEmptyBuffer>
+		<MultipleNoType>Internal error, type not found</MultipleNoType>
+		<MultipleCantRename>Can not rename</MultipleCantRename>
+		<MultipleInternal>Internal error, unknown error</MultipleInternal>
+		<MultipleFailedSet>Error while changing values, one of the changed values does not fit requirements</MultipleFailedSet>
+				
+		<PointHeader>Error while creating point</PointHeader>
+		<PointHardwareInError>Robot in error state, enable drives to remove error.</PointHardwareInError>
+		
+		<EventLogFileExist>Can not save log, file already exist.</EventLogFileExist>
+		<EventDeletingInProgress>Process in progress, deleting messages</EventDeletingInProgress>
+		
+		<TeachModeOnly>Command require Teach mode</TeachModeOnly>		
+		
+		<CanNotChangeTime>Error occurred while changing time.</CanNotChangeTime>
+		<CanNotRetreatTimezones>Can not get list of supported timezones.</CanNotRetreatTimezones>
+		
+		<GVNameAlreadyExist>Global variable with a given name already exist.</GVNameAlreadyExist>
+		<GVCanNotResetValue>Can not reset value.</GVCanNotResetValue>
+		<GVCanNotGetBytearray>Can not get data from bytearray</GVCanNotGetBytearray>
+		<GVCanNotRename>Can not rename variable.</GVCanNotRename>
+		<GVCanNotChangeType>Can not change type.</GVCanNotChangeType>
+		<GVCanNotChangeDefaultValue>Can not change default value.</GVCanNotChangeDefaultValue>
+		<GVCanNotCreateSnapFile>Can not create file, maybe file name is incorrect or access denied.</GVCanNotCreateSnapFile>		
+		<GVCanNotSnapFileAlreadyExist>Can not create file, file with that name already exist.</GVCanNotSnapFileAlreadyExist>
+		
+		<PlayButtonHeader>Program execution</PlayButtonHeader>
+		<PlayButtonCanNotRunInAuto>External play button is forbidden for use in Auto mode</PlayButtonCanNotRunInAuto>
+		<PlayButtonCanNotStartProgram>Error starting program</PlayButtonCanNotStartProgram>
+		<PlayButtonNoProgram>Missing program</PlayButtonNoProgram>
+		<PlayButtonErrorProgram>Program is in error state</PlayButtonErrorProgram>
+		
+		<AfterFactoryDoReboot>Factory settings have been applyed, configuration changes is forbidden.</AfterFactoryDoReboot>
+		
+		<FolderFileInUse>Can not remove file(s), file(s) in use by task(s)</FolderFileInUse>
+		
+		<BaseNotFound>Can not change base system, original system does not exist.</BaseNotFound>
+		
+		<RcProgramCantEditWhileRunning>Editing of files is not allowed while there are programs running or paused</RcProgramCantEditWhileRunning>
+		
+		<NotAllowedInGuided>Command is not allowed in guided mode.</NotAllowedInGuided>
+		
+		<MoveToPointHeader>Move to point</MoveToPointHeader>
+		<MoveToPointHaveErrors>Can not move to point, robot in a error state</MoveToPointHaveErrors>
+		<MoveToPointDrivesDisable>Can not move to point, drives are disabled</MoveToPointDrivesDisable>
+		<MoveToPointTeachRequired>Can not move to point, Teach mode required</MoveToPointTeachRequired>
+		
+		<RcsNotLicensed>Without license this command is not allowed.</RcsNotLicensed>
+		
+		<CanNotSetPointer>Could not change execution flow</CanNotSetPointer>
+		<CanNotSetPointerIncorrectState>Can not change execution flow with current pause state. Only pause by single step mode or breakpoint are guaranteed to work with this command.</CanNotSetPointerIncorrectState>
+		
+		<RobotDoesNotHaveSerial>Can not restore from back up, current serial number is missing, restoring from back up file can not fix serial number</RobotDoesNotHaveSerial>
+		<SerialNumberMismatch>Mismatch between current serial number and serial number of backup file</SerialNumberMismatch>
+		
+		<BackupInvalidFile>Backup file is corrupted or was modified by external program</BackupInvalidFile>
+		
+		<SignalWithNameAlreadyExist>Signal with that name already exist</SignalWithNameAlreadyExist>
+		
+		<PointWithThatNameExist>Point with that name already exist</PointWithThatNameExist>
+		
+		<MainProgramAlreadySelected>Main program is already selected</MainProgramAlreadySelected>
+		
+		<AddCalibrationAxisMoved>Aborted calibration, unexpected additional axis has been moved</AddCalibrationAxisMoved>
+		
+		<SignalIncorrectFloatSize>Incorrect signal size, supported sizes for type "Real" : 16,32,64.</SignalIncorrectFloatSize>
+		
+		<NotificationErrorHeader>Error while sending messages</NotificationErrorHeader>
+		<NotificationSendError>Too many notifications. Some messages will not be sent.</NotificationSendError>
+	</Messages>
+</MessageDictionary>

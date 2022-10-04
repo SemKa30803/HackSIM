@@ -1,0 +1,51 @@
+﻿<MessageDictionary>
+	<Name>DrivesControllWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Base>Общие данные</Base>
+		<ReplyTimeout>Ожидание ответа команд</ReplyTimeout>
+	
+		<BindAddr>IP адрес Rcs компьютера</BindAddr>
+		<BindPort>Сетевой порт Rcs компьютера</BindPort>
+		<ServoNetAddr>IP адрес сети сервоприводов</ServoNetAddr>
+		<ServoPort>Сетевой порт сервоприводов</ServoPort>
+		<AxesCount>Число сервоприводов</AxesCount>
+		
+		<DefaultTimeout>Стандартное время ожидания, мс</DefaultTimeout>
+		<CheckConnection>Время ожидания соединения, мс</CheckConnection>
+		<SetReady>Время ожидания команды SetReady, мс</SetReady>
+		<Move>Время ожидания отправки команды, мс</Move>
+		<GetState>Время ожидания команды GetState, мс</GetState>
+		<Wakeup>Время ожидания ответа на команду Wakeup, мс</Wakeup>
+		
+		<ReachTargetTimeout>Время ожидания достижения цели, мс</ReachTargetTimeout>
+		<IdleTimeout>Время до завершения простоя, IdleTimeout</IdleTimeout>
+		<FreeMotionRadius>Минимальный радиус, не используется<!--enc values--></FreeMotionRadius>
+		<NormalEncDiff>Минимальная разница для различия энкодеров</NormalEncDiff>
+		<FineMoveRadius>Минимальный радиус, не используется</FineMoveRadius>
+		
+		
+		<ExchangeDelay>ExchangeDelay,не используется</ExchangeDelay>
+		<ServoStartDelay>ExchangeDelay,не используется</ServoStartDelay>
+		
+		<MaxStepPeriod>Максимальный период для фрейма</MaxStepPeriod>
+		<MinStepPeriod>Минимальный период для фрейма</MinStepPeriod>
+		<MaxStepsPerFrame>Максимальное число энкодеров для фрейма<!-- 0 means max size --></MaxStepsPerFrame>
+		
+		<DefaultAnswerWaitMs>Стандартное время ожидания ответа для команд критичных к времени обработки, мс</DefaultAnswerWaitMs>
+		<GetProgressAnswerWaitMs>Время ожидания ответа на команду обновления статуса движения, мс</GetProgressAnswerWaitMs>
+		<GetProgressPeriodMs>Периодичность запроса статуса движения, мс</GetProgressPeriodMs>
+		<MaxTimeDifferenceUs>Максимально допустимое расхождение времени двух контроллеров, мкс</MaxTimeDifferenceUs>
+		<HardwareBufferMaxSize>Максимальное количество команд отправляемых в буфер контроллера</HardwareBufferMaxSize>
+		<HardwareBufferTimeMs>Максимальная суммарная продолжительность команд отправляемых в буфер контроллера, мс</HardwareBufferTimeMs>
+		<CmdResendMaxAttempts>Количество попыток переотправки команд при отсутствии ответа</CmdResendMaxAttempts>
+		<CmdTimeGainUs>Уставка по времени для синхронных команд, мкс</CmdTimeGainUs>
+		<StopTimeMs>Время остановки с максимальной скорости, мс</StopTimeMs>
+		<ServoControllers>Контроллеры приводов</ServoControllers>
+		<ServoController>Контроллер приводов</ServoController>
+		<MinStopTimeMs>Минимальное время остановки для команды пауза, мс</MinStopTimeMs>
+		<MaxPauseTimeMs>Максимальное время выполнения паузы. Ошибка при превышении. мс</MaxPauseTimeMs>
+		<MaxCancelTimeMs>Максимальное время выполнения отмены. Ошибка при превышении. мс</MaxCancelTimeMs>
+		<EnableServiceNotifications>Включить сервисные уведомления</EnableServiceNotifications>
+	</Messages>
+</MessageDictionary>

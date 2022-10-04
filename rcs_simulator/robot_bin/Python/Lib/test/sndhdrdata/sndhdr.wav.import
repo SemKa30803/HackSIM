@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sndhdr.wav-725f3bec3e754890e34cd0af286aec3b.sample"
+
+[deps]
+
+source_file="res://robots/rcs_robot_bin/Python/Lib/test/sndhdrdata/sndhdr.wav"
+dest_files=[ "res://.import/sndhdr.wav-725f3bec3e754890e34cd0af286aec3b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

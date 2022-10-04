@@ -1,0 +1,43 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://components_lib/case_video_camera/mesh/D1.mesh" type="ArrayMesh" id=3]
+[ext_resource path="res://components_lib/case_video_camera/mesh/D6.mesh" type="ArrayMesh" id=4]
+[ext_resource path="res://components_lib/case_video_camera/mesh/D2.mesh" type="ArrayMesh" id=5]
+[ext_resource path="res://components_lib/case_video_camera/mesh/D3.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://components_lib/case_video_camera/mesh/D5.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://components_lib/case_video_camera/materials/Black_1.material" type="Material" id=8]
+[ext_resource path="res://components_lib/case_video_camera/materials/Glass_1.material" type="Material" id=9]
+
+[sub_resource type="SpatialMaterial" id=1]
+resource_name = "Black"
+params_cull_mode = 2
+albedo_color = Color( 0.279992, 0.279992, 0.279992, 1 )
+metallic = 0.713636
+roughness = 0.372727
+
+[node name="Case_video_camera" type="Spatial"]
+
+[node name="D1" type="MeshInstance" parent="."]
+mesh = ExtResource( 3 )
+material/0 = SubResource( 1 )
+
+[node name="D3" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00319313, 48.1008, -183.819 )
+mesh = ExtResource( 6 )
+material/0 = ExtResource( 8 )
+
+[node name="D2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.993751, 0.111619, 0, -0.111619, 0.993751, -0.0250489, 32.4255, -189.953 )
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 8 )
+
+[node name="D5" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.506849, 129.142, -209.751 )
+mesh = ExtResource( 7 )
+material/0 = ExtResource( 9 )
+material/1 = ExtResource( 8 )
+
+[node name="D6" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.415617, 160.287, -175.439 )
+mesh = ExtResource( 4 )
+material/0 = ExtResource( 8 )

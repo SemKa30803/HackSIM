@@ -1,0 +1,30 @@
+﻿<MessageDictionary>
+	<Name>UserAlarms</Name>
+	<Language>English</Language>
+	<Messages>
+		<EmergencyButtonAlarmHeader>Emergency stop.</EmergencyButtonAlarmHeader>
+		<EmergencyButtonAlarmText>The emergency stop button was pressed.</EmergencyButtonAlarmText>
+		<GatesAlarmHeader>The gate is open.</GatesAlarmHeader>
+		<GatesAlarmText>The gate is open until the line stops.</GatesAlarmText>
+		<CriticalSoftwareAlarmHeader>Critical failure.</CriticalSoftwareAlarmHeader>
+		<CriticalSoftwareAlarmText>Critical software failure.</CriticalSoftwareAlarmText>
+		<LowWorkAirAlarmHeader>Insufficient pressure in the pneumatic system of the working air.</LowWorkAirAlarmHeader>
+		<LowWorkAirAlarmText>Insufficient pressure in the pneumatic system of working air.</LowWorkAirAlarmText>
+		<LowControlAirAlarmHeader>Insufficient pressure in the control air system.</LowControlAirAlarmHeader>
+		<LowControlAirAlarmText>Insufficient pressure in the control air system.</LowControlAirAlarmText>
+		<TimeoutForNormalStopExceededHeader>Timeout for normal stop exceeded</TimeoutForNormalStopExceededHeader>
+		<TimeoutForNormalStopExceededText>Timeout for normal stop exceeded</TimeoutForNormalStopExceededText>
+		<HeartbeatAlarmHeader>Heartbeat alarm.</HeartbeatAlarmHeader>
+		<HeartbeatAlarmText>Heartbeat alarm timeout exceeded</HeartbeatAlarmText>
+		<SafetySwitchHeader>One of the safety switches has failed.</SafetySwitchHeader>
+		<SafetySwitchText>One of the safety switches has failed.</SafetySwitchText>
+		<CantCompleteCommandHeader>Unable to execute commands.</CantCompleteCommandHeader>
+		<CantCompleteCommandText>Unable to execute commands with the current state of the security loop.</CantCompleteCommandText>
+		<UnknownCommandHeader>Unknown command.</UnknownCommandHeader>
+		<UnknownCommandText>Unknown command.</UnknownCommandText>
+		<LowShieldingGasPressureHeader>Insufficient pressure in the shielding gas system.</LowShieldingGasPressureHeader>
+		<LowShieldingGasPressureText>Insufficient pressure in the shielding gas system for lyophilized beads.</LowShieldingGasPressureText>
+		<RollerShutterTimeoutHeader>Timeout for normal stop exceeded.</RollerShutterTimeoutHeader>
+		<RollerShutterTimeoutText>Timeout for normal stop exceeded.</RollerShutterTimeoutText>
+	</Messages>
+</MessageDictionary>

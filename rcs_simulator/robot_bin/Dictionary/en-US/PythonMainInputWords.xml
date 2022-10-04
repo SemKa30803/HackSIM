@@ -1,0 +1,126 @@
+﻿<MessageDictionary>
+	<Name>PythonMainInputWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<Token>Token</Token>
+		<DIOValue>Signal value</DIOValue>
+		<PulseTime>Pulse duration, milli sec.</PulseTime>	
+
+		<Point>Target point</Point>
+		<RefPoint>Additional point</RefPoint>
+		<Joint>Joint's position</Joint>
+		<SpeedMm>Speed, mm/sec</SpeedMm>
+		<SpeedDeg>Speed, %</SpeedDeg>
+		<AccelerationMm>Acceleration, mm/sec^2</AccelerationMm>
+		<AccelerationDeg>Acceleration, %/sec^2</AccelerationDeg>
+
+		<SmoothRadiusMm>Smooth length, mm</SmoothRadiusMm>
+		<SmoothRadiusDeg>Smooth length, deg</SmoothRadiusDeg>
+		<Tool>Tool</Tool>
+		<IsToolFrame>Is tool reference movement</IsToolFrame>
+
+		<InvalidSizeCont>Signal width must be in range from 2 to 64, received signal width is </InvalidSizeCont>
+		<InvalidSizeInt>Signal width must be one of predefined values [8,16,32,64], received signal width is </InvalidSizeInt>
+		<InvalidSizeReal>Signal width must be one of predefined values  [16,32,64], received signal width is </InvalidSizeReal>
+		<SignalTypeMismatch>Signal type is not supported by command.</SignalTypeMismatch>
+		<OverflowError>Overflow error. Signal width is not big enough.</OverflowError>
+		<SetSignalOnInputNotAllowed>Input signal can not be used with output function</SetSignalOnInputNotAllowed>
+		<CanNotSetSignal>Error, can not apply signal</CanNotSetSignal>
+		<InvalidSizeContBCD>Signal width must be in range from 4 to 64 and remainder by 4 must be 0, received signal width is  </InvalidSizeContBCD>		
+		<CanNotGetSignal>Error, can not retrieve signal value.</CanNotGetSignal>
+
+		<ArcRefPos>Position of additional point</ArcRefPos>
+		<TargPos>Target position</TargPos>
+		<TargAng>Target angle</TargAng>
+
+		<waitTime>Pause time</waitTime>
+
+		<outputLine>Output string</outputLine>
+		<stringLine>Message headline</stringLine>
+
+		<ReqDelay>Required signal duration</ReqDelay>
+		<SignalWaitTimeout>Signal appearance timeout</SignalWaitTimeout>
+
+		<NonBinarToken>Signal width must be 1 bit</NonBinarToken>
+		<NotFoundToken>Token not found</NotFoundToken>
+		<NegativeTime>Time can not be negative</NegativeTime>
+		<HaltNoParams>Function halt does not accept parameters</HaltNoParams>
+
+		<TooMuchParams>Too many input params</TooMuchParams>
+		<TooFewParams>Not enough input params</TooFewParams>
+		<TypeMismatch>Input type does not match</TypeMismatch>
+		<ErrorLoadingParam>Can not parse input param</ErrorLoadingParam>
+		<IsRelToPath>Movement is relative to path</IsRelToPath>
+
+		<StartIndex>Start index</StartIndex>
+		<GlobalParamName>Global variable name</GlobalParamName>
+		<Value>Value</Value>
+		<Size>Size</Size>
+		<Index>Index</Index>
+
+		<FileName>File name</FileName>
+		<PointNr>Point number</PointNr>
+		<is_scientific>Scientific notation</is_scientific>
+		<precision>Precision</precision>
+		<RadiansOutput>Radian angle output</RadiansOutput>
+		<OutputLine>Output string</OutputLine>
+
+		<JointName>Joint point</JointName>
+		<PointName>Cartesian point</PointName>		
+
+		<BaseSystem>Coordinate system</BaseSystem>
+		<BaseSystemNotFound>Coordinate system not found</BaseSystemNotFound>
+
+		<LoadCartUseBase>Apply base system</LoadCartUseBase>
+
+		<mus_joint_num>Joint number</mus_joint_num>
+		<mus_encoder_value>New encoder value</mus_encoder_value>
+		<mus_walk_value>Max walk path</mus_walk_value>
+		<mus_walk_speed>Speed, %</mus_walk_speed>
+		<mus_walk_accel>Acceleration, %</mus_walk_accel>
+		<mus_signal_id>Signal</mus_signal_id>
+		<mus_signal_value>Expected value</mus_signal_value>
+        
+        <is_positive_switch>Home sensor connected to positive limit switch input</is_positive_switch>
+        <inverse_signal>Inverse signal</inverse_signal>
+
+		<JointNumber>Joint number</JointNumber>
+		<Movement>Joint path</Movement>
+		<SpeedAbs>Absolute speed</SpeedAbs>
+
+		<AccelerationPercent>Acceleration, %</AccelerationPercent>
+		<AngularSpeed>Angular speed, °/sec</AngularSpeed>
+
+		<incorrect_input>Incorrect input values</incorrect_input>
+
+		<AdditionalMove>Additional axis movement</AdditionalMove>
+		<JointMustBeAllowedToBeDeustated>Can not change value of encoder. Joint must be allowed to work in uncalibrated state</JointMustBeAllowedToBeDeustated>
+
+		<TcpValue>Tool matrix</TcpValue>
+		<Mask>Mask</Mask>
+
+		<!-- Tasks -->
+		<TaskPayloadInputMissmatch>Incorrect input for task payload parameter. Only bytearrays with lenth less than 200 allowed</TaskPayloadInputMissmatch>
+		<IntermachineTasksControllerNotFound>Intermachine tasks controller not found</IntermachineTasksControllerNotFound>
+		<performerTag>Performer tag</performerTag>
+		<taskTag>Task tag</taskTag>
+		<taskData>Task data</taskData>
+		<taskResultData>Result data</taskResultData>
+		<taskNr>Task number</taskNr>
+		<task>Task</task>
+		<NotAllowedOnOutgoindTask>The command is not allowed on outgoing task</NotAllowedOnOutgoindTask>
+		<NotAllowedOnIncomingTask>The command is not allowed on incoming task</NotAllowedOnIncomingTask>
+		<!-- Tasks finished -->
+		
+		<SetDoDelayMs>Delay before changing signal, ms</SetDoDelayMs>
+		<SetDoNegativeTime>Negative time could not be used as delay</SetDoNegativeTime>
+		<SetDoTooBigTime>Invalid argument error, maximum delay time - 5000 ms</SetDoTooBigTime>
+		
+		<PatternType>Motion Pattern number(0, 1, 2)</PatternType>
+		<Amplitude>Amplitude, mm</Amplitude>
+		<Step>Step, mm</Step>
+		<ToolAxis>Tool axis number(0, 1, 2)</ToolAxis>
+		<joint_info_code>Joint data type</joint_info_code>
+		<TaskID>Process ID</TaskID>
+	</Messages>
+</MessageDictionary>

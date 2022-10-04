@@ -1,0 +1,51 @@
+<MessageDictionary>
+	<Name>UserConfigurationManagerWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<UserConfigurations>User Configurations</UserConfigurations>
+		<UserConfiguration>User Configuration</UserConfiguration>		
+			<ConfigurationName>Configuration Name</ConfigurationName>
+			<ConfigurationParameters>Configuration Parameters</ConfigurationParameters>
+			<ConfigurationParameter>Configuration Parameter</ConfigurationParameter>
+			<ParamType>Parameter Type</ParamType>
+			<ParamTag>Parameter Tag</ParamTag>
+			<ParamName>Parameter Name</ParamName>
+			<DefaultValue>Default Value</DefaultValue>
+			<NumericalMinimum>Min Value</NumericalMinimum>
+			<NumericalMaximum>Max Value</NumericalMaximum>
+			<EnumOptions>Enum Options</EnumOptions>
+			<EnumOption>Enum Option</EnumOption>
+			<SubParameters>Sub Parameters</SubParameters>
+			<SubParameter>Sub Parameter</SubParameter>
+			<InvalidArgumentHeader>Failed to load "User Configuration": Invalid Argument</InvalidArgumentHeader>
+			<InvalidArgument>In user configuration "{0}":
+Parameter Path: {1}
+Tag Path: {2}</InvalidArgument>
+			<IncorrectCfgHeader>Default "User Configuration" has been loaded.</IncorrectCfgHeader>
+			<IncorrectCfg>Incorrect config {1}. Config has been reverted to default state.</IncorrectCfg>
+			<ConfigName>User Configuration Name:</ConfigName>
+			<ParamPath>Value Path:</ParamPath>
+			<ArrayPath>Array Path:</ArrayPath>
+			<RelativeNodeID>Relative Node ID:</RelativeNodeID>
+			<Index>Array Index:</Index>
+			<UserConfigurationManagerNotFound>User configuration manager is not found.</UserConfigurationManagerNotFound>
+			<UserConfigurationNotFound>User configuration is not found.</UserConfigurationNotFound>
+			<UserConfigurationParamPathNotFound>Parameter path is not found.</UserConfigurationParamPathNotFound>
+			<UserConfigurationArrayPathNotFound>Array path is not found.</UserConfigurationArrayPathNotFound>
+			<UserConfigurationNotSimpleArray>Array is not simple. Array is simple if it contains only 1 element with float or int type only.</UserConfigurationNotSimpleArray>
+			<IncorrectParameterHeader>User configuration contains incorrect value in "UserConfigurationManager".</IncorrectParameterHeader>	
+			<IncorrectParameter>User configuration "{0}" contains incorrect default value in "UserConfigurationManager". 
+Parameter Path: {1}
+Tag Path: {2}
+User configuration won't be loaded.</IncorrectParameter>
+			<RangeParameterIsOutOfRange>User configuration "{0}" contains incorrect maximum/minimum value in "UserConfigurationManager".
+Parameter Path: {1}
+Tag Path: {2}
+User configuration won't be loaded.</RangeParameterIsOutOfRange>
+			<NotUniqueTags>Not unique tags detected for user configuration '{0}':
+
+{1}
+
+User configuration won't be loaded.</NotUniqueTags>
+	</Messages>
+</MessageDictionary>

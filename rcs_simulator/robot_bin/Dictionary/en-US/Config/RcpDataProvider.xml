@@ -1,0 +1,9 @@
+<MessageDictionary>
+	<Name>RcpDataProvider</Name>
+	<Language>English</Language>
+	<Messages>
+		<PathToGlobalDataTools>Path to file with tools</PathToGlobalDataTools>
+		<PathToGlobalDataFrames>Path to file with system coordinates</PathToGlobalDataFrames>
+		<GlobalParametersPath>Path to folder with global variables</GlobalParametersPath>
+	</Messages>
+</MessageDictionary>

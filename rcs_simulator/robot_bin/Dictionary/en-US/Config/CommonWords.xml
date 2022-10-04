@@ -1,0 +1,21 @@
+<MessageDictionary>
+	<Name>CommonWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<!-- common -->
+		<IPAddress>IP address</IPAddress>
+		<port>Port</port>
+		<name>Name</name>
+		
+		<!-- one time use -->
+		<PasswordFilePath>Path to password file</PasswordFilePath>
+		<PathToDictionaryFolder>Path to dictionary folder</PathToDictionaryFolder>
+		<PathToRareData>Path to rare data file</PathToRareData>
+		<PathToPythonLibFolder>Path to python library folder</PathToPythonLibFolder>
+		<PathToProgramFolder>Path to python programs</PathToProgramFolder>
+		
+		<ProcessOutrunning>Maximum functions at one time</ProcessOutrunning>
+		
+		<ChangeTime>Time before panic connection.</CommonTime>
+	</Messages>
+</MessageDictionary>

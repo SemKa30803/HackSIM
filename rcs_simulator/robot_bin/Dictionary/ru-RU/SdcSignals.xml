@@ -1,0 +1,17 @@
+<MessageDictionary>
+<Name>SdcSignals</Name>
+<Language>Russian</Language>
+<Messages>
+	<ReceiveFailed>Невозможно получить ответ.</ReceiveFailed>
+	<SendFailed>Невозможно отправить данные.</SendFailed>
+	<CanNotBind>Невозможно создать сокет. Возможно данный адрес и порт занят.</CanNotBind>
+	<TimedOut>Превышено время ожидания ответа.</TimedOut>
+	
+	<BindAddress>Адрес Rcs компьютера</BindAddress>
+	<BindPort>Порт Rcs компьютера</BindPort>
+	<DeviceAddress>Адрес платы SDC</DeviceAddress>
+	<DevicePort>Порт платы SDC</DevicePort>
+	<AskPeriod>Период опроса, мс</AskPeriod>
+	<WaitTimeoutMs>Максимальное время ожидания ответа устройства, мс</WaitTimeoutMs>
+</Messages>
+</MessageDictionary>

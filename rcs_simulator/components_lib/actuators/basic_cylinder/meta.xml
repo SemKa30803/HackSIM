@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component_meta>
+<name>basic_cylinder</name>
+<developer>eidos</developer>
+<version>1</version>
+<description>Adjustable cylinder. Prepared for connection to SignalHolder as device and sensor (Shaft out and shaft in limit switches). Length, diameter, shaft diameter and reach can be configured in properties.</description>
+</component_meta>

@@ -1,0 +1,29 @@
+<MessageDictionary>
+	<Name>SplinePathGenerator</Name>
+	<Language>Russian</Language>
+	<Messages>
+		
+		<SmoothHeader>Ограничение сглаживания траекторий</SmoothHeader>
+		<SmoothingFailed>Не удалось построить траекторию сглаживания движения. </SmoothingFailed>
+		
+		<SingularHeader>Движение через сингулярность</SingularHeader>
+		<SingularWarning>Траектория движения проходит через сингулярность. Скорость движения будет существенно снижена вблизи сингулярного положения.</SingularWarning>
+		
+		<KinHeader>Ограничение кинематики</KinHeader>
+		<ClampedOnCartesian>Движение ограничено. Ограничение кинематики по оси {0}.</ClampedOnCartesian>
+		<ArcComputingFaild>Не удалось построить дугу окружности по заданным точкам.</ArcComputingFaild>
+		<CartesianLimitViolation>Движение не будет выполнено. Обнаружено нарушение ограничений кинематики по оси {0} на траектории движения.</CartesianLimitViolation>
+		<ComputeInverseFailed>Дальнейшее движение невозможно. Ошибка нахождения обратной кинематики.</ComputeInverseFailed>
+		<ComputeTrajectoryFailed>Не удалось рассчитать траекторию. </ComputeTrajectoryFailed>
+		
+		<JointsHeader>Ограничение осей</JointsHeader>
+		<ClampedOnJointLimit>Движение ограничено. Ось {0} достигла граничных значений.</ClampedOnJointLimit>
+		<JointLimitViolation>Движение не будет выполнено. Обнаружено нарушение граничных положений оси {0} на траектории движения.</JointLimitViolation>
+		<TooFastJoint>Движение будет замедлено из-за нарушения допустимой скорости или ускорения оси {0}.</TooFastJoint>
+		
+		<ConfigHeader>Внутренняя ошибка генератора пути.</ConfigHeader>
+		<ConfigurationError>Произошла внутренняя ошибка. Конфигурация SplinePathPathGenerator неверна, либо контроллер сервоприводов отправляет неверные данные.</ConfigurationError>
+		<SafetyConfigError>Конфликт с конфигурацией безопасности, отвечающей за ограничение скорости в Teach режиме. Число сервоприводов не совпадает.</SafetyConfigError>
+		
+	</Messages>
+</MessageDictionary>

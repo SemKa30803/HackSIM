@@ -1,0 +1,26 @@
+﻿<MessageDictionary>
+	<Name>DatagramTransceiver</Name>
+	<Language>English</Language>
+	<Messages>
+		<AlarmHeader>Datagram Transceiver error</AlarmHeader>
+		<NoRepy>Datagram reply await timeout</NoRepy>
+		<SendTimeout>Datagram send await timeout</SendTimeout>
+		<NoReceiverWithGivenUuid>There are no receiver for module UUID of the incoming datagram</NoReceiverWithGivenUuid>
+		<IncorrectAgent>An attempt was made to send to an agent with unknown tag</IncorrectAgent>
+		<AnswerPayloadTooBig>An datagram was received with too big payload</AnswerPayloadTooBig>
+		<TransceiverDisabled>An attempt was made to send a datagram when transceiver disabled</TransceiverDisabled>
+		<TooShortDatagramm>An datagram was received which length is less than default datagram header size</TooShortDatagramm>
+		<IncorrectDatagramm>An datagram was received with incorrect header data</IncorrectDatagramm>
+		<DatagrammFromUnknownAgent>An datagram was received from unconfigured agent</DatagrammFromUnknownAgent>
+		<FailedToSendDatagramm>Datagram send await timeout</FailedToSendDatagramm>
+		<LocalConnectionData>Local connection data</LocalConnectionData>
+		<Tag>Tag</Tag> 
+		<CommunicationAgents>Communication agents</CommunicationAgents>
+		<CommunicationAgent>Agent</CommunicationAgent>
+		<Enabled>Enable communication</Enabled>
+		<DefaultAnswerWaitMs>Default answer await time, ms</DefaultAnswerWaitMs>
+		<DefaultSendWaitMs>Default sending await time, ms</DefaultSendWaitMs>
+		<CmdResendMaxAttempts>Maximum attempts to resend datagram when there in no reply</CmdResendMaxAttempts>
+        <CantBindSocket>Failed to bind socket. Check local connection properties in the module configuration.</CantBindSocket>
+	</Messages>
+</MessageDictionary>

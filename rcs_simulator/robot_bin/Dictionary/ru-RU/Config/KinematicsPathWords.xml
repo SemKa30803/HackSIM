@@ -1,0 +1,28 @@
+﻿<MessageDictionary>
+	<Name>KinematicsPathWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<intervTime>Период фрейма</intervTime>
+		<smoothLineLen>Стандартная длина сглаживания, мм</smoothLineLen>
+		<smooth_angle_len>Стандартная угловая длина сглаживания, град.</smooth_angle_len>
+		<angleSpeed>Стандартная угловая скорость, град./с</angleSpeed>
+		<allowRecMode>Возможно ли восстанавливающее движение</allowRecMode>
+		<minX>Минимальная позиция по оси x, мм</minX>
+		<minY>Минимальная позиция по оси y, мм</minY>
+		<minZ>Минимальная позиция по оси z, мм</minZ>
+		<maxX>Максимальная позиция по оси x, мм</maxX>
+		<maxY>Максимальная позиция по оси y, мм</maxY>
+		<maxZ>Максимальная позиция по оси z, мм</maxZ>
+		<epsilon_s>Точность декартового движения, расстояние, мм</epsilon_s>
+		<epsilon_r>Точность декартового движения, угол, град.</epsilon_r>
+		
+		<lawIterationStep>Шаг прохода по траектории при построении сплайна, мм</lawIterationStep>
+		<splineIterationStep>Шаг прохода по сплайну при генерации фреймов движения, мс</splineIterationStep>
+		<smoothAccelerationMmSec2>Ускорение при расчете сглаживания, мм/с^2</smoothAccelerationMmSec2>
+		<smoothTimeRate>Максимально допустимое отношение времени сглаженного движения ко времени движения с точным остановом.</smoothTimeRate>
+		<smoothSafeMisrate>Допустимое понижение доли скорости на сплайне безопасной скорости при сглаживании</smoothSafeMisrate>
+		<DefaultAccelerationMmSec2>Ускорение по умолчанию, мм/с^2</DefaultAccelerationMmSec2>
+		<velocityComputingEpsilon>Доля от шага прохода по траектории, используемая для расчета скорости в точке</velocityComputingEpsilon>
+		<WristMaxReorintationSpeed>Максимальная скорость фланца или кисти робота при выполнении переориентации на CP движениях, мм/с</WristMaxReorintationSpeed>
+	</Messages>
+</MessageDictionary>

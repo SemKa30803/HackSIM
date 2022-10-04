@@ -1,0 +1,11 @@
+<MessageDictionary>
+<Name>RobotSelector</Name>
+<Language>English</Language>
+<Messages>
+	<source_uuid>Kinematics</source_uuid>
+	<safety_type>Safety board</safety_type>
+	<robot_tag>Robot tag</robot_tag>
+	<use_drives_controller>Activate drives controller</use_drives_controller>
+	<check_serial_number>Enable machine serial number checking</check_serial_number>
+</Messages>
+</MessageDictionary>

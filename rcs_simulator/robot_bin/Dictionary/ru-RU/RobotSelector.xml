@@ -1,0 +1,11 @@
+<MessageDictionary>
+<Name>RobotSelector</Name>
+<Language>Russian</Language>
+<Messages>
+	<source_uuid>Вариант кинематики</source_uuid>
+	<safety_type>Вариант платы безопасности</safety_type>
+	<robot_tag>Имя робота</robot_tag>
+	<use_drives_controller>Активировать контроллер приводов</use_drives_controller>
+	<check_serial_number>Активировать проверку серийного номера машины</check_serial_number>
+</Messages>
+</MessageDictionary>

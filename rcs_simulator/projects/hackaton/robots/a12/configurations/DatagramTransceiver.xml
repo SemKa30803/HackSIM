@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DatagramTransceiver>
+	<LocalConnectionData>
+		<Ip>127.0.0.1</Ip>
+		<Port>30003</Port>
+		<Tag>rob_feeder_1</Tag>
+	</LocalConnectionData>
+	<CommunicationAgents>
+		<CommunicationAgent id="0">
+			<Ip>127.0.0.1</Ip>
+			<Port>30001</Port>
+			<Tag>carousel_1</Tag>
+		</CommunicationAgent>
+		<CommunicationAgent id="1">
+			<Ip>127.0.0.1</Ip>
+			<Port>30013</Port>
+			<Tag>carousel_0</Tag>
+		</CommunicationAgent>
+	</CommunicationAgents>
+	<Enabled>false</Enabled>
+	<DefaultAnswerWaitMs>10</DefaultAnswerWaitMs>
+	<DefaultSendWaitMs>20</DefaultSendWaitMs>
+	<CmdResendMaxAttempts>3</CmdResendMaxAttempts>
+</DatagramTransceiver>

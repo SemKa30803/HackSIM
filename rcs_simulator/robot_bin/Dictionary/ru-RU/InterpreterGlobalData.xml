@@ -1,0 +1,18 @@
+﻿<MessageDictionary>
+	<Name>InterpreterGlobalData</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<GDDoesNotExist>Глобальная переменная не существует. Имя переменной: </GDDoesNotExist>
+		<GDFunctionAndTypeMissmatch>Тип указанный в функции и тип глобальной переменной не совпадает</GDFunctionAndTypeMissmatch>
+		<GDUIntSetNegative>Беззнаковой переменной присваивается отрицательное значение</GDUIntSetNegative>
+		<GDArrayOutOfRange>Индекс выходит за пределы массива</GDArrayOutOfRange>
+		<GDInputTypeMissmatch>Входной тип не соответствует типу глобальной переменной</GDInputTypeMissmatch>
+		<GDArraySizeMismatch>Размер входного массива и массива глобальной переменной не совпадают</GDArraySizeMismatch>
+		
+		<GDJointSizeMismatch>Число элементов не совпадает с числом осей, число элементов - </GDJointSizeMismatch>
+		
+		<CriticalSectonDontExist>Критической секции с таким именем не существует или была неудачная попытка захвата</CriticalSectonDontExist>
+		<CriticalSectonReleasedFromDifferentThread>Данная секция захвачена другим процессом</CriticalSectonReleasedFromDifferentThread>
+		
+	</Messages>
+</MessageDictionary>

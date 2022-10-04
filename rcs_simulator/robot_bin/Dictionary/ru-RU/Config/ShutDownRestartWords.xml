@@ -1,0 +1,33 @@
+﻿<MessageDictionary>
+	<Name>ShutDownRestartWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<serialName>Имя COM-порта</serialName>
+		<boudRate>Скорость в бод</boudRate>
+		<modbusId>ID ModBus блока</modbusId>
+		
+		<ModbusInUse>Использовать Modbus RTU</ModbusInUse>
+		<PerepInUse>Использовать модуль DIDO</PerepInUse>
+		<BindAddr>Адрес компьютера</BindAddr>
+		<BindPort>Порт компьютера</BindPort>
+		<DeviceAddr>Адрес устройства</DeviceAddr>
+		<DevicePort>Порт устройства</DevicePort>
+		<PowerChannel>Канал датчика питания</PowerChannel>
+		<PlayChannel>Канал кнопки запуска</PlayChannel>
+		<BatteryChannel>Канал состояния ИБП</BatteryChannel>
+		<SendStateChannel>Канал лампы состояния ошибок</SendStateChannel>
+		<SendHMIData>HMI находится на другом компьютере</SendHMIData>
+		
+		<DisableBySignalType>Отключение по сигналу</DisableBySignalType>
+		<DisableBySignal>Использовать</DisableBySignal>
+		<DisableOnZero>Отключатся на ноль</DisableOnZero>
+		<SignalAddress>Адрес сигнала</SignalAddress>
+		<WaitSignalTime>Необходимая длительность сигнала</WaitSignalTime>
+		<EnableOnStart>Включаемые сигналы при старте</EnableOnStart>
+		<EnOnStart>Сигнал</EnOnStart>
+		<DisableOnEnd>Выключаемые сигналы при выключении</DisableOnEnd>
+		<DisOnEnd>Сигнал</DisOnEnd>
+		<Signal>Сигнал</Signal>
+		<ShutdownDisabled>Запретить RCS выполнять выключение и перезагрузку компьютера</ShutdownDisabled>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,24 @@
+<MessageDictionary>
+<Name>AutorunController</Name>
+<Language>Russian</Language>
+<Messages>
+	<Enabled>Включен автозапуск</Enabled>
+	<ContinueOnDisconnect>Возобновить после отключения HMI</ContinueOnDisconnect>
+	<ErrorResponse>Если программа в ошибке</ErrorResponse>
+	<PauseResponse>Если программа в паузе</PauseResponse>
+	<UseMainProgram>Выбирать основную программу</UseMainProgram>
+	<MainProgram>Основная программа</MainProgram>
+	<AdditionalPrograms>Дополнительные программы</AdditionalPrograms>
+	<AdditionalProgram>Программа</AdditionalProgram>
+	<ProgramName>Путь к программе</ProgramName>
+	<IsBackground>Фоновая</IsBackground>
+	
+	<MsgHeader>Автозапуск программ</MsgHeader>
+	<ProgramNotFoundMain>Основная программа не найдена</ProgramNotFoundMain>
+	<ProgramNotFoundExtra>Программа с индексом {0} не найдена</ProgramNotFoundExtra>
+	
+	<AllowFirstRun>Первый запуск игнорирует HMI</AllowFirstRun>
+	
+	<StartSpeed>Скорость робота</StartSpeed>
+</Messages>
+</MessageDictionary>

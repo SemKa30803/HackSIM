@@ -1,0 +1,22 @@
+﻿<MessageDictionary>
+	<Name>VirtualBus</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<InputCheckPeriod>Период опроса ввода</InputCheckPeriod>
+		<InputSignals>Входные сигналы</InputSignals>
+		<InputSignal>Сигнал</InputSignal>
+		<InputUnionType>Тип объединения</InputUnionType>
+		<InverseIn>Инвертировать сигнал</InverseIn>
+		<UsingInputSignals>Используемые входные сигналы</UsingInputSignals>
+		<UsingInputSignal>Входной сигнал</UsingInputSignal>
+		<InpSignalAddress>Адрес</InpSignalAddress>
+		<InverseSignalRead>Инвертировать чтение</InverseSignalRead>
+		<OutputSignals>Выходные сигналы</OutputSignals>
+		<OutputSignal>Сигнал</OutputSignal>
+		<InverseOut>Инвертировать сигнал</InverseOut>
+		<UsingOutputSignals>Зависимые выходные сигналы</UsingOutputSignals>
+		<UsingOutputSignal>Выходной сигнал</UsingOutputSignal>
+		<OutSignalAddress>Адрес</OutSignalAddress>
+		<InverseSignalWrite>Инвертировать запись</InverseSignalWrite>
+	</Messages>
+</MessageDictionary>

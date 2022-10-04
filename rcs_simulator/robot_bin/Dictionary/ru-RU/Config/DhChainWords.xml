@@ -1,0 +1,9 @@
+<MessageDictionary>
+	<Name>DhChainWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<DhType>Тип оси</DhType>
+		<joints>Оси</joints>
+		<joint>Ось</joint>
+	</Messages>
+</MessageDictionary>

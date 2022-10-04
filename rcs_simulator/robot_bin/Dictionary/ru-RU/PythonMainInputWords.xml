@@ -1,0 +1,124 @@
+﻿<MessageDictionary>
+	<Name>PythonMainInputWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Token>Токен</Token>
+		<DIOValue>Значение сигнала</DIOValue>
+		<PulseTime>Длительность импульса, милли сек.</PulseTime>	
+
+		<Point>Точка цели</Point>
+		<RefPoint>Дополнительная точка</RefPoint>
+		<Joint>Позиция осей</Joint>
+		<SpeedMm>Скорость, мм/сек</SpeedMm>
+		<SpeedDeg>Скорость, %</SpeedDeg>
+		<AccelerationMm>Ускорение, мм/сек^2</AccelerationMm>
+		<AccelerationDeg>Ускорение, %/сек^2</AccelerationDeg>
+		<SmoothRadiusMm>Длина сглаживания, мм</SmoothRadiusMm>
+		<SmoothRadiusDeg>Длина сглаживания, град.</SmoothRadiusDeg>
+		<Tool>Инструмент</Tool>
+		<IsToolFrame>Движение в системе инструмента</IsToolFrame>
+		
+		<InvalidSizeCont>Размер сигнала должен находится в пределах от 2 до 64, размер полученного сигнала </InvalidSizeCont>
+		<InvalidSizeInt>Размер сигнала должен быть одним из следующих [8,16,32,64], размер полученного сигнала </InvalidSizeInt>
+		<InvalidSizeReal>Размер сигнала должен быть одним из следующих [16,32,64], размер полученного сигнала </InvalidSizeReal>
+		<SignalTypeMismatch>Тип сигнала не подходит для данной команды</SignalTypeMismatch>
+		<OverflowError>Слишком малая ширина сигнала для данного значения</OverflowError>
+		<SetSignalOnInputNotAllowed>Нельзя использовать входной сигнал в функции вывода</SetSignalOnInputNotAllowed>
+		<CanNotSetSignal>Ошибка, невозможно установить сигнал</CanNotSetSignal>
+		<InvalidSizeContBCD>Размер сигнала должен находится в пределах от 4 до 64 и кратен 4, размер полученного сигнала </InvalidSizeContBCD>		
+		<CanNotGetSignal>Ошибка, не удалось получить значение сигнала.</CanNotGetSignal>
+		
+		<ArcRefPos>Позиция дополнительной точки</ArcRefPos>
+		<TargPos>Позиция цели</TargPos>
+		<TargAng>Ориентация цели</TargAng>
+		
+		<waitTime>Длительность паузы</waitTime>
+		
+		<outputLine>Выводимая строка</outputLine>
+		<stringLine>Заголовок сообщения</stringLine>
+		
+		<ReqDelay>Необходимая длительность сигнала</ReqDelay>
+		<SignalWaitTimeout>Время ожидание появления сигнала</SignalWaitTimeout>
+		
+		<NonBinarToken>Для данной функции можно использовать сигнал только с шириной 1</NonBinarToken>
+		<NotFoundToken>Токен с таким именем не найден</NotFoundToken>
+		<NegativeTime>Время не может быть отрицательным</NegativeTime>
+		<HaltNoParams>Функция halt не принимает параметры</HaltNoParams>		
+		
+		<TooMuchParams>Слишком много входных параметров</TooMuchParams>
+		<TooFewParams>Не хватает входных параметров</TooFewParams>
+		<TypeMismatch>Тип параметра не совпадает</TypeMismatch>
+		<ErrorLoadingParam>Функция halt не принимает параметры</ErrorLoadingParam>
+		<IsRelToPath>Движение относительно пути</IsRelToPath>
+		
+		<StartIndex>Начальный индекс</StartIndex>
+		<GlobalParamName>Имя глобальной переменной</GlobalParamName>
+		<Value>Значение</Value>
+		<Size>Размер</Size>
+		<Index>Индекс</Index>
+		
+		<FileName>Имя файла</FileName>
+		<PointNr>Номер точки</PointNr>
+		<is_scientific>Научный вид</is_scientific>
+		<precision>Точность</precision>
+		<RadiansOutput>Вывод в радианах</RadiansOutput>
+		<OutputLine>Выводимая строка</OutputLine>
+		
+		<JointName>Угловая точка</JointName>
+		<PointName>Декартовая точка</PointName>
+		
+		<BaseSystem>Система координат</BaseSystem>
+		<BaseSystemNotFound>Система координат не найдена</BaseSystemNotFound>
+		
+		<LoadCartUseBase>Применение базы</LoadCartUseBase>
+		
+		<mus_joint_num>Номер оси</mus_joint_num>
+		<mus_encoder_value>Новое значение энкодера</mus_encoder_value>
+		<mus_walk_value>Максимальный путь</mus_walk_value>
+		<mus_walk_speed>Скорость, %</mus_walk_speed>
+		<mus_walk_accel>Ускорение, %</mus_walk_accel>
+		<mus_signal_id>Ожидаемый сигнал</mus_signal_id>
+		<mus_signal_value>Ожидаемое значение сигнала</mus_signal_value>
+        <is_positive_switch>Концевик в положительном направлении</is_positive_switch>
+        <inverse_signal>Инверсия сигнала датчика</inverse_signal>
+		
+		<JointNumber>Номер оси</JointNumber>
+		<Movement>Путь оси</Movement>
+		<SpeedAbs>Абсолютная скорость</SpeedAbs>
+		
+		<AccelerationPercent>Ускорение, %</AccelerationPercent>
+		<AngularSpeed>Угловая скорость, °/с</AngularSpeed>
+		
+		<incorrect_input>Некорректные значения входных параметров</incorrect_input>
+		
+		<AdditionalMove>Движение доп. осей</AdditionalMove>
+		
+		<JointMustBeAllowedToBeDeustated>Нельзя сменить энкодеры оси, так как в конфигурации она не может работать если деюстирована</JointMustBeAllowedToBeDeustated>
+		<TcpValue>Матрица инструмента</TcpValue>
+		<Mask>Маска</Mask>
+		
+				<!-- Tasks -->
+		<TaskPayloadInputMissmatch>Некорректное значение для параметра с данными задаче. Допустимы только массивы байт с длиной менее 200.</TaskPayloadInputMissmatch>
+		<IntermachineTasksControllerNotFound>Не найден контроллер обмена задачами между машинами</IntermachineTasksControllerNotFound>
+		<performerTag>Тэг исполнителя</performerTag>
+		<taskTag>Тэг задачи</taskTag>
+		<taskData>Данные задачи</taskData>
+		<taskResultData>Данные результата выполнения задачи</taskResultData>
+		<taskNr>Номер задачи</taskNr>
+		<task>Задача</task>
+		<NotAllowedOnOutgoindTask>Команда недопустима для исходящих задач</NotAllowedOnOutgoindTask>
+		<NotAllowedOnIncomingTask>Команда недопустима для входящих задач</NotAllowedOnIncomingTask>
+		<!-- Tasks finished -->
+		
+		<SetDoDelayMs>Задержка перед установкой сигнала, мс</SetDoDelayMs>
+		<SetDoNegativeTime>Указано отрицательное значение времени</SetDoNegativeTime>
+		<SetDoTooBigTime>Ошибка пределов, максимально значение задержки - 5000 мс</SetDoTooBigTime>
+		
+		<PatternType>Номер паттерна движения(0, 1, 2)</PatternType>
+		<Amplitude>Амплитуда, мм</Amplitude>
+		<Step>Шаг, мм</Step>
+		<ToolAxis>Ось подачи инструмента(0, 1, 2)</ToolAxis>
+		<joint_info_code>Вид информации об оси</joint_info_code>
+		<TaskID>ID процесса</TaskID>
+	</Messages>
+</MessageDictionary>

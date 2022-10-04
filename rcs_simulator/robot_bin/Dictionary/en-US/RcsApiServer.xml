@@ -1,0 +1,11 @@
+<MessageDictionary>
+	<Name>RcsApiServer</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>server error</Header>
+		<BadHeader>Invalid message header.</BadHeader>
+		<BadXMLContent>Can not parse message content.</BadXMLContent>
+		<BadContentValues>Content of the message is incorrect.</BadContentValues>
+		<LostConnection>Connection have been lost.</LostConnection>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,45 @@
+﻿<MessageDictionary>
+	<Name>ModbusTCPBus</Name>
+	<Language>Russian</Language>
+	<Messages>
+		
+		<Description>ModbusTCPBus это звено между Rcs и Modbus устройством</Description>
+		
+		<BindAddress>IP адрес компьютера</BindAddress>
+		<BindPort>Порт компьютера</BindPort>
+		<ReadPeriod>Период запросов, мс</ReadPeriod>
+		<EmitError>Отсуствие соединения вызывает ошибку</EmitError>
+		<ModbusObjects>Modbus устройства</ModbusObjects>
+		<ModbusObject>устройство</ModbusObject>
+		<ModbusAddress>IP адрес</ModbusAddress>
+		<ModbusPort>порт</ModbusPort>
+		<DeviceId>id устройства</DeviceId>
+		<ModbusObjectName>Имя modbus объекта</ModbusObjectName>
+		<DISettings>Настройки входных цифровых сигналов</DISettings>
+		<DOSettings>Настройки выходных цифровых сигналов</DOSettings>
+		<AISettings>Настройки входных аналоговых сигналов</AISettings>
+		<AOSettings>Настройки выходных аналоговых сигналов</AOSettings>
+		<Spans>Регистры</Spans>
+		<SpanObject>Регистр</SpanObject>
+		<SpanStart>Начало адреса</SpanStart>
+		<RegisterCount>Количество регистров</RegisterCount>
+		<MemReserve>Зарезервировано памяти, байт</MemReserve>
+		
+		<InternalError>Внутреняя ошибка, требуется перезагрузка</InternalError>
+		<NotConnectedError>Отсутствует подключение с устройством {0}(ID: {1})</NotConnectedError>
+		<ModbusErr>Устройство {0}(ID: {1}) ответило ошибкой на запрос. Код ошибки: {2}</ModbusErr>
+		
+		<MemSizeMismatch>Регистры не влезают в зарезервированную память. Id устройства - </MemSizeMismatch>
+		
+		<InverseBytes>Обратный порядок байт</InverseBytes>
+		
+		<DisableModule>Отключить модуль</DisableModule>
+		<ResMemInput>Память под входные данные, байт</ResMemInput>
+		<ResMemOutput>Память под выходные данные, байт</ResMemOutput>
+		<InputRegisters>Входные регистры</InputRegisters>
+		<OutputRegisters>Выходные регистры</OutputRegisters>
+		<Register>Регистры</Register>
+		<RegisterReadType>Тип входного регистра</RegisterReadType>
+		<RegisterWriteType>Тип выходного регистра</RegisterWriteType>
+	</Messages>
+</MessageDictionary>

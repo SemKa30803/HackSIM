@@ -1,0 +1,52 @@
+<MessageDictionary>
+	<Name>DrivesControllWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<Base>Common</Base>
+		<ReplyTimeout>Reply timeouts</ReplyTimeout>
+	
+		<BindAddr>RCS computer address</BindAddr>
+		<BindPort>RCS computer port</BindPort>
+		<ServoNetAddr>Servo network ip address</ServoNetAddr>
+		<ServoPort>Port of servo drives</ServoPort>
+		<AxesCount>Number of servo drives</AxesCount>
+		
+		<DefaultTimeout>Default timeout</DefaultTimeout>
+		<CheckConnection>Check connection timeout</CheckConnection>
+		<SetReady>Set ready timeout</SetReady>
+		<Move>Move frame in net timeout</Move>
+		<GetState>GetState command timeout</GetState>
+		<Wakeup>Wakeup timeout</Wakeup>
+		
+		<ReachTargetTimeout>Reach target timeout</ReachTargetTimeout>
+		<IdleTimeout>idle timeout</IdleTimeout>
+		<FreeMotionRadius>10000<!--enc values--></FreeMotionRadius>
+		<NormalEncDiff>Minimal difference to count as same</NormalEncDiff>
+		<FineMoveRadius>Minimum encoder radius</FineMoveRadius>
+		
+		
+		<ExchangeDelay>ExchangeDelay,not in use</ExchangeDelay>
+		<ServoStartDelay>ExchangeDelay, not in use</ServoStartDelay>
+		
+		<MaxStepPeriod>Maximum frame period</MaxStepPeriod>
+		<MinStepPeriod>Minimum frame period</MinStepPeriod>
+		<MaxStepsPerFrame>maximum steps per frame <!-- 0 means max size --></MaxStepsPerFrame>
+		
+		<DefaultAnswerWaitMs>Default answer wait for time critical commands, ms</DefaultAnswerWaitMs>
+		<GetProgressAnswerWaitMs>Answer wait for execution status update commands, ms</GetProgressAnswerWaitMs>
+		<GetProgressPeriodMs>Execution status update requests period, ms</GetProgressPeriodMs>
+		<MaxTimeDifferenceUs>Maximum allowed time difference for two controllers, µs</MaxTimeDifferenceUs>
+		<HardwareBufferMaxSize>Maximum commands count in hardware buffer</HardwareBufferMaxSize>
+		<HardwareBufferTimeMs>Maximum overall commands duration in hardware buffer, ms</HardwareBufferTimeMs>
+		<CmdResendMaxAttempts>Allowed count of command resend attempts</CmdResendMaxAttempts>
+		<CmdTimeGainUs>Time gain for synchronous commands, µs</CmdTimeGainUs>
+		<StopTimeMs>Nominal deceleration time, ms</StopTimeMs>
+		<ServoControllers>Drives controllers</ServoControllers>
+		<ServoController>Drives controller</ServoController>
+		
+		<MinStopTimeMs>Minimum stop time for pause commands, ms</MinStopTimeMs>
+		<MaxPauseTimeMs>Maximum pausing await time, ms</MaxPauseTimeMs>
+		<MaxCancelTimeMs>Maximum cancelling await time, ms</MaxCancelTimeMs>
+		<EnableServiceNotifications>Enable service notifications</EnableServiceNotifications>
+	</Messages>
+</MessageDictionary>

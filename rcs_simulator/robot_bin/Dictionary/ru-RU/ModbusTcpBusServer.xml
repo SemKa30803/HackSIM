@@ -1,0 +1,17 @@
+<MessageDictionary>
+	<Name>ModbusTcpBusServer</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<bind_address>Адрес сервера</bind_address>
+		<bind_port>Порт сервера</bind_port>
+		<holding_register_count>Кол-во аналоговых регистров</holding_register_count>
+        <holding_register_count>Кол-во защищенных регистров(Перезапись только через Modbus)</holding_register_count>
+	
+		<StandartHeader>Ошибка сервера модбас</StandartHeader>
+		<CantCreateSocket>Невозможно создать сокет, ошибка - {0}</CantCreateSocket>
+		<ErrorWhileAwnser>Ошибка обработки сообщения, текст ошибки - {0}</ErrorWhileAwnser>
+		<IncorrectModbusData>Принят некоректный модбас запрос</IncorrectModbusData>
+		<ConnectionRefused>Клиент отключился</ConnectionRefused>
+		<protected_register_count>Защищенные регистры</protected_register_count>
+	</Messages>
+</MessageDictionary>

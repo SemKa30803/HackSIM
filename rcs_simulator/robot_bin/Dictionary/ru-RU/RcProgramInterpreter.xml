@@ -1,0 +1,82 @@
+<MessageDictionary>
+<Name>RcProgramInterpreter</Name>
+<Language>Russian</Language>
+<Messages>
+	<Header>Интерпретатор программ</Header>
+    <RecoveryPathGenFaild>Невозможно восстановиться из текущего положения. Необходимо приблизить фланец(инструмент) вручную.</RecoveryPathGenFaild>
+    <RecoveryInWrongMode>Восстановление возможно только из режима Teach.</RecoveryInWrongMode>
+	<BackgoundCantExecuteThisFunction>Фоновая или дополнительная программа пыталась вызвать функцию, которая доступна только для основной программы. Имя программы: {0}. Имя функции: {1}. Файл: {2}. Строка: {3}.</BackgoundCantExecuteThisFunction>
+	
+	<JoinedTaskInError>Невозможно запустить программу, одна из сопровождающих задач в ошибке.</JoinedTaskInError>
+	<BackgroundTaskInError>Невозможно запустить программу, одна из фоновых задач в ошибке.</BackgroundTaskInError>
+	
+	<MainProcessDepingponged>Превышено  время ожидание ответа от основного процесса. Id процесса {0}. Имя программы {1}.</MainProcessDepingponged>
+	<JoinedTaskDepingponged>Превышено  время ожидание ответа от сопровождающего процесса. Id процесса {0}. Имя программы {1}.</JoinedTaskDepingponged>
+	<BackgroundTastDepingponged>Превышено  время ожидание ответа от фонового процесса. Id процесса {0}. Имя программы {1}.</BackgroundTastDepingponged>
+	
+	<SwitchedPointerIsIncorrect>Режим по шагам: следующий шаг будет отображаться неверно, некоторые строки уже были выполнены.</SwitchedPointerIsIncorrect>
+	
+	<InterpreterMessageContainer>{3}</InterpreterMessageContainer>
+	<ExceptionInfo>Сообщение: {0} Файл: {1}. Строка: {2}.</ExceptionInfo>
+	<ExceptionMessage>Сообщение: {0}.</ExceptionMessage>
+	<CrossLibraryError>Некорректное завершение процесса {0}. Возможно процесс взаимодействовал с другими, и работа всех процессов считается неверной. 
+Пример некорректного завершения: процесс захватил критическую секцию но не освободил её.</CrossLibraryError>
+	<RcsBufferOverflovC>Переполнение буфера стека, для передачи больших данных нужно использовать bytearray. Файл: {1}. Строка: {2}.</RcsBufferOverflovC>
+	<InvalidExecutionControllerCmd>Функция Rcs завершилась с ошибкой или отменена. Возможно другие сообщение ошибки или предупреждения сообщат причину.</InvalidExecutionControllerCmd>
+	<CantConvertTypeToC>Получен параметр с неизвестным типом ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</CantConvertTypeToC>
+	<CanNotConvertTypeX>Номер параметра с неизвестным типом </CanNotConvertTypeX>
+	<RcsSideEmittedError>Возникла ошибка при вызове встроенной функции Rcs. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</RcsSideEmittedError>
+	<PyException>Exception. Необработанное исключение возникло в Python программе. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyException>
+	<PyAssertionError>AssertionError.  Конструкция "assert" сгенерировала исключение.    ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyAssertionError>
+	<PyAttributeError>AttributeError. Возникла ошибка при попытке обратится к атрибуту объекта. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyAttributeError>
+	<PyBlockingIOError>BlockingIOError. Некая операция заблокировала поток ввода/вывода. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyBlockingIOError>
+	<PyBrokenPipeError>BrokenPipeError. Была предпринята попытка записи в программный канал, в то время, как второй конец канала был закрыт.  Или была предпринята попытка записи в сокет, который был закрыт для записи. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyBrokenPipeError>
+	<PyBufferError>BufferError. Операция связанная с буффером вызвала исключение ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyBufferError>
+	<PyChildProcessError>ChildProcessError. Операция связанная с дочерним процессом выполнена с ошибкой. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyChildProcessError>
+	<PyConnectionAbortedError>ConnectionAbortedError. Подключение было прервано на ответном узле. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyConnectionAbortedError>
+	<PyConnectionError>ConnectionError. Возникла ошибка в операциях связанных с подключениям. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyConnectionError>
+	<PyConnectionRefusedError>ConnectionRefusedError. Попытка подключения была отклонена на ответном узле. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyConnectionRefusedError>
+	<PyConnectionResetError>ConnectionResetError. Подключение было перезапущено ответным узлом. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyConnectionResetError>
+	<PyEOFError>EOFError. Функция input() была вызвана на файле находящемся в состоянии "конец файла"(EOF). ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyEOFError>
+	<PyFileExistsError>FileExistsError. Была предпринята попытка создать файл или директорию, которая уже существует. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyFileExistsError>
+	<PyFileNotFoundError>FileNotFoundError. Обращение к несуществующему файлу или директории. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyFileNotFoundError>
+	<PyGeneratorExit>GeneratorExit. Был вызван метод close() объекта генератор.</PyGeneratorExit>
+	<PyImportError>ImportError.  Конструкция "import" не смогла найти требуемый модуль или импортируемое из модуля имя. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyImportError>
+	<PyIndentationError>IndentationError. Обнаружена ошибка синтаксиса Python, связанная с некорректными отступами в тексте программы. ~&lt;RcProgramInterpreter::ExceptionMessage&gt;~</PyIndentationError>
+	<PyIndexError>IndexError. Была предпринята попытка доступа к элементу по индексу, выходящему за пределы допустимого диапазона. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyIndexError>
+	<PyInterruptedError>InterruptedError. Системный вызов был прерван входящим сигналом. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyInterruptedError>
+	<PyIsADirectoryError>IsADirectoryError. Была предпринята попытка выполнить на директорией операцию, предназначенную для файла.  ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyIsADirectoryError>
+	<PyKeyError>KeyError. Обращение к коллекции по несуществующему ключу.. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyKeyError>
+	<PyLookupError>LookupError. Некорректный ключ или индекс был использован при обращении к контейнеру. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyLookupError>
+	<PyMemoryError>MemoryError. Для выполнения операции недостаточно памяти. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyMemoryError>
+	<PyModuleNotFoundError>ModuleNotFoundError. Конструкции "import" не удалось найти требуемый модуль. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyModuleNotFoundError>
+	<PyNameError>NameError.  Не удалось найти локальную или глобальную переменную с заданным именем. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyNameError>
+	<PyNotADirectoryError>NotADirectoryError. Попытка выполнить операцию предназначенную для директории, на объекте, который не является директорией. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyNotADirectoryError>
+	<PyVacant>!Vacant!</PyVacant>
+	<PyNotImplementedError>NotImplementedError. Унаследованный класс должен переопределить абстрактный метод базового класса, но описание для данного метода не найдено в унаследованном классе. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyNotImplementedError>
+	<PyOSError>OSError. Возникла ошибка связанная с операционной системой. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyOSError>
+	<PyOverflowError>OverflowError. В результате  арифметической операции был получено слишком большое значение. Переполнение типа. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyOverflowError>
+	<PyPermissionError>PermissionError. Попытка выполнить операцию, без необходимых прав доступа. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyPermissionError>
+	<PyProcessLookupError>ProcessLookupError. Обращение к несуществующему процессу. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyProcessLookupError>
+	<PyRecursionError>RecursionError. Превышена максимальная глубина рекурсии. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyRecursionError>
+	<PyReferenceError>ReferenceError.  Попытка доступа к атрибуту через слабую ссылку после того, как объект ссылки был удален сборщиком мусора. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyReferenceError>
+	<PyRuntimeError>RuntimeError. Произошла ошибка во время выполнения программы. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyRuntimeError>
+	<PyStopAsyncIteration>StopAsyncIteration. Сгенерировано исключение методом асинхронного итератора "__anext__()", сигнализирующее о небходимость остановить итерации.</PyStopAsyncIteration>
+	<PyStopIteration>StopIteration. Итератор не может сгенерировать следующий элемент. Необходимо остановить итерации. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyStopIteration>
+	<PySyntaxError>SyntaxError. Парсер интерпретатора столкнулся с синтаксической ошибкой в коде программы. ~&lt;RcProgramInterpreter::ExceptionMessage&gt;~</PySyntaxError>
+	<PySystemError>SystemError. Внутренняя ошибка интерпретатора Python. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PySystemError>
+	<PySystemExit>SystemExit. Событие выхода из системы. Интерпретатор Python будет отключен и останется недоступен до перезапуска системы. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PySystemExit>
+	<PyTabError>TabError. В файле используется недопустимое сочетание пробелов и табуляции в качестве отступов. ~&lt;RcProgramInterpreter::ExceptionMessage&gt;~</PyTabError>
+	<PyTimeoutError>TimeoutError. Истекло допустимое для операции время ожидания. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyTimeoutError>
+	<PyTypeError>TypeError. Функция или оператор применены к объекту неподходящего типа. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyTypeError>
+	<PyUnboundLocalError>UnboundLocalError. Попытка использовать локальную переменную, для которой не было определено значение. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnboundLocalError>
+	<PyUnicodeDecodeError>UnicodeDecodeError. Ошибка связанная Юникод кодировки возникла при декодировании. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnicodeDecodeError>
+	<PyUnicodeEncodeError>UnicodeEncodeError. Ошибка связанная Юникод кодировки возникла при кодировании. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnicodeEncodeError>
+	<PyUnicodeError>UnicodeError. Возникла ошибка связанная с обработкой Юникод кодировки. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnicodeError>
+	<PyUnicodeTranslateError>UnicodeTranslateError. Ошибка Юникод кодировки возникла при трансляции. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnicodeTranslateError>
+	<PyValueError>ValueError.  Встроенная функция или операция Python получила на вход параметр подходящего типа, но с недопустимым значением. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyValueError>
+	<PyZeroDivisionError>ZeroDivisionError. Нулевое значение использовано в качестве делителя в операциях деления или вычисления остатка от деления. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyZeroDivisionError>
+	<PyArithmeticError>ArithmeticError. Возникла ошибка связанная с арифметическими операциями. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyArithmeticError>
+	<PyBaseException>BaseException. Возникло необработанное исключение в ходе выполнения Python программы. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyBaseException>
+</Messages>
+</MessageDictionary>

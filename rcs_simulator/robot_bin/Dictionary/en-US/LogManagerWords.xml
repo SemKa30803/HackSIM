@@ -1,0 +1,128 @@
+﻿<MessageDictionary>
+	<Name>LogManagerWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<header>Log module</header>
+		<CantLoad>Log file is incorrect or can not create file</CantLoad>
+		<LogDisabled>Log module disabled</LogDisabled>
+		
+		<TooFilled>Log file filled up to 97%, records could be lost</TooFilled>
+		<VeryFat>Log file filled up to {0}%</VeryFat>
+		
+		<file_path>Path to log file</file_path>
+		<max_file_size>Maximum file size, MB</max_file_size>
+		<enable_autoremove>Remove old records</enable_autoremove>
+		<days_to_remove>Record`s lifespan</days_to_remove>
+		
+		<UserAccessControlHeader>User changes</UserAccessControlHeader>
+		<UserObserver>Observer</UserObserver>
+		<UserOperator>Operator</UserOperator>
+		<UserProgrammer>Programmer</UserProgrammer>
+		<UserServiceEngineer>Service engineer</UserServiceEngineer>
+		<UserChange>Role change from "{0}" to "{1}"</UserChange>
+		<UserFileCreated>Created file "{0}"</UserFileCreated>
+		<UserFolderCreated>Created folder "{0}"</UserFolderCreated>
+		<UserFileDeleted>Deleted file "{0}"</UserFileDeleted>
+		<UserFolderDeleted>Deleted folder "{0}"</UserFolderDeleted>
+		<UserChangedSpeed>Speed change from {0}% to {1}%</UserChangedSpeed>
+		
+		<AddonsHeader>Addon changes</AddonsHeader>
+		<LoadsAddonInstalled>Installed addon "{0}"</LoadsAddonInstalled>
+		<LoadsAddonRemoved>Removed addon "{0}"</LoadsAddonRemoved>
+		
+		<ProcessHeader>Robot state changes</ProcessHeader>
+		<ProcessDrivesEnabled>Drives enabled</ProcessDrivesEnabled>
+		<ProcessDrivesDisabled>Drives disabled</ProcessDrivesDisabled>
+		<ProcessMovedInJog>Robot has been moved in JOG mode</ProcessMovedInJog>
+		
+		<PowerStatusHeader>Power changes</PowerStatusHeader>
+		<PowerStatusStartRcs>Started RCS computer</PowerStatusStartRcs>
+		<PowerStatusShutdownRcs>RCS computer shuted down</PowerStatusShutdownRcs>
+		
+		<BackupHeader>Reserve copy</BackupHeader>
+		<BackupCreatedConfigs>Created reserve copy of configuration</BackupCreatedConfigs>
+		<BackupCreatedPrograms>Created reserve copy of program</BackupCreatedPrograms>
+		<BackupCreatedProgramsAndConfigs>Created reserve copy of program and configuration</BackupCreatedProgramsAndConfigs>
+		<BackupDeleted>Reserve copy {0} deleted</BackupDeleted>
+		
+		<TaskChange>Processes</TaskChange>
+		<AddedMainTask>Selected main task {0}</AddedMainTask>
+		<AddedJoinTask>Added joined task {0}</AddedJoinTask>
+		<AddedBackgroundTask>Added  background tasl {0}</AddedBackgroundTask>		
+		<MainTaskFinished>Unloaded main task {0}</MainTaskFinished>
+		<JoinTaskFinished>Unloaded joined task {0}</JoinTaskFinished>
+		<BackgroundTaskFinished>Finished background task {0}</BackgroundTaskFinished>
+		<ResetedMainTask>Reseted main task</ResetedMainTask>
+		
+		<ConfigChangeHeader>Configuration changes</ConfigChangeHeader>
+		<ChangedRobotConfig>Robot configuration has been changed</ChangedRobotConfig>
+		<ChangedCommunicationConfig>Network configuration has been changed</ChangedCommunicationConfig>
+		<ChangedSafetyConfig>Security configuration has been changed</ChangedSafetyConfig>
+		<ChangedAddonConfig>Addon configuration has been changed</ChangedAddonConfig>
+		
+		<ConfigChangeProgram>Program modification</ConfigChangeProgram>
+		<ProgramFileChanged>File {0} has been changed</ProgramFileChanged>		
+		<ProgramChangesApplyed>Changes of file {0} have been applied</ProgramChangesApplyed>
+		<ProgramChangesReverted>Changes of file {0} have been denied</ProgramChangesReverted>
+		<ProgramDecPointRetrained>Cartesian point {0} of program {1} has been retrained</ProgramDecPointRetrained>
+		<ProgramJointPointRetrained>Joint point {0} of program {1} has been retrained</ProgramJointPointRetrained>
+		<ProgramDecPointRedacted>Cartesian point {0} of program {1} has been modified by user</ProgramDecPointRedacted>
+		<ProgramJointPointRedacted>Joint point {0} of program {1} has been modified by user</ProgramJointPointRedacted>
+		<ProgramDPointCreated>Cartesian point {0} of program {1} has been created</ProgramDPointCreated>
+		<ProgramJPointCreated>Joint point {0} of program {1} has been created</ProgramJPointCreated>
+		<ProgramDPointRenamed>Cartesian point {0} of program {1} has been renamed. New name is {2}.</ProgramDPointRenamed>
+		<ProgramJPointRenamed>Joint point {0} of program {1} has been renamed. New name is {2}.</ProgramJPointRenamed>
+		<ProgramDPointCopyed>Cartesian point {0} of program {1} has been copied. Name of copyed point is {2}.</ProgramDPointCopyed>
+		<ProgramJPointCopyed>Joint point {0} of program {1} has been copyed. Name of copied point is {2}.</ProgramJPointCopyed>
+		<ProgramDPointDeleted>Cartesian point {0} of program {1} has been deleted</ProgramDPointDeleted>
+		<ProgramJPointDeleted>Joint point {0} of program {1} has been deleted</ProgramJPointDeleted>
+		<ProgramChangedPointInstrument>Tool of cartesian point {0} of program {1} has been changed. Previous tool is {2}.</ProgramChangedPointInstrument>
+		
+		<UserChangeMode>Operating mode has been changed from {0} to {1}</UserChangeMode>
+		<UserModeTeach>Teach</UserModeTeach>
+		<UserModeManual>Manual</UserModeManual>
+		<UserModeAuto>Auto</UserModeAuto>
+		<UserModeGuided>Guided</UserModeGuided>
+		
+		<GlobalDataChange>Global data has been changed</GlobalDataChange>
+		<GlobalSetSKPos>Data of base system {0} has been modified by user</GlobalSetSKPos>
+		<GlobalSetSKName>Base system {0} has been renamed. New name is {1}.</GlobalSetSKName>
+		<GlobalSetToolPos>Data of tool {0} has been modified by user</GlobalSetToolPos>
+		<GlobalSetToolName>Name of tool {0} has been changed. New name is {1}.</GlobalSetToolName>
+		<GlobalDeleteTool>Tool {0} has been deleted</GlobalDeleteTool>
+		<GlobalCreateTool>Tool {0} has been created</GlobalCreateTool>
+		<GlobalDeleteSK>Base system {0} has been deleted</GlobalDeleteSK>
+		<GlobalCreateSK>Base system {0} has been created</GlobalCreateSK>
+		
+		<!-- header TaskChange -->
+		<MainTaskExecute>Main task has been started</MainTaskExecute>
+		<MainTaskStopped>Main task has been stopped</MainTaskStopped>
+		<MainTaskReset>Main task has been reseted</MainTaskReset>
+		<ServiceTaskReset>Service task has been reseted {0}</ServiceTaskReset>
+		
+		<ProcessesChangedState>Execution state of program {0} changed from {1} to {2}</ProcessesChangedState>
+		<Running>Running</Running>
+		<Finished>Finished</Finished>
+		<Invalid>Invalid</Invalid>
+		<NoSelected>Not selected</NoSelected>
+		<Selected>Selected</Selected>
+		<Stopped>Paused</Stopped>
+		
+		<HMIStateHeader>HMI status</HMIStateHeader>
+		<HMIConnected>HMI is connected</HMIConnected>
+		<HMIDisconnected>HMI is shutting down</HMIDisconnected>
+		
+		<!-- header BackupHeader -->
+		<BackupCopyed>Backup file {0} has been copied to folder {1}</BackupCopyed>
+		<BackupMoved>Backup file {0} has been moved to folder {1}</BackupMoved>
+		<BackupApply>Resetting from backup file {0}</BackupApply>
+		
+		<UstateHeader>Calibration</UstateHeader>
+		<UstateDeustRobot>Calibration on every axis of robot has been discarded</UstateDeustRobot>
+		<UstateDeustAxis>Calibration of {0} has been discarded</UstateDeustAxis>
+		<UstateUstatedAxis>Axis {0} has been calibrated</UstateUstatedAxis>		
+		
+		<ExceptionHeader>Internal error</ExceptionHeader>
+		<ExceptionData>Exception: {0}</ExceptionData>
+	</Messages>
+</MessageDictionary>

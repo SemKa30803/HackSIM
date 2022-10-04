@@ -1,0 +1,23 @@
+<MessageDictionary>
+<Name>RcsDIDO</Name>
+<Language>English</Language>
+<Messages>
+	<ReciveFailed>Could not receive data.</ReciveFailed>
+	<SendFailed>Can not send data.</SendFailed>
+	<CanNotBind>Can not create socket. Maybe ip address and port is busy.</CanNotBind>
+	<NotInited>Rcs DIDO device is no initialized.</NotInited>
+	<TimedOut>Answer from device timed out.</TimedOut>
+	
+	<BindAddress>Rcs computer address</BindAddress>
+	<BindPort>Rcs computer port</BindPort>
+	<DeviceAddress>Device address</DeviceAddress>
+	<DevicePort>Device port</DevicePort>
+	<AskPeriod>Monitor period</AskPeriod>
+	
+	<ContainError>Received error id {0} from DIDO module</ContainError>
+	
+	<DICount>Number of digital input signals</DICount>
+	<DOCount>Number of digital output signals</DOCount>
+	<AnalogSupport>Enable analog signal support</AnalogSupport>
+</Messages>
+</MessageDictionary>

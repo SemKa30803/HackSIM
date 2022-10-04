@@ -1,0 +1,8 @@
+<MessageDictionary>
+	<Name>ApiServerWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<AllowSharedUse>All connected HMI can control robot</AllowSharedUse>
+		<EmitErrorOnDisconnect>Connection loss from HMI emits error</EmitErrorOnDisconnect>
+	</Messages>
+</MessageDictionary>

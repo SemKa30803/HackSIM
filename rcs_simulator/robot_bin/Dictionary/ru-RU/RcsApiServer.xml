@@ -1,0 +1,11 @@
+﻿<MessageDictionary>
+	<Name>RcsApiServer</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Ошибка соединения</Header>
+		<BadHeader>Неверный заголовок сообщения.</BadHeader>
+		<BadXMLContent>Неверная структура сообщения.</BadXMLContent>
+		<BadContentValues>Неверные данные сообщения.</BadContentValues>
+		<LostConnection>Соединение было потеряно.</LostConnection>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,8 @@
+﻿<MessageDictionary>
+	<Name>ConfigHandler</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Требуется перезагрузка</Header>
+		<RebootIt>Были применены изменения в конфигурациях. Для вступления их в силу необходима перезагрузка.</RebootIt>
+	</Messages>
+</MessageDictionary>

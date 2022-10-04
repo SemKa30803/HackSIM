@@ -1,0 +1,11 @@
+<MessageDictionary>
+	<Name>RawPathGenerator</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>PathBuilder warning</Header>
+		<TooFastJoint>Joint {0} can not move faster, speed have been limited to it's max point. Previous period {1} nanoseconds, assigned period {2} nanoseconds. </TooFastJoint>
+		<ReachedLimit>joint {0} reached it's maximum(minimum) point</ReachedLimit>		
+		<ConfigurationError>Internal error. Configuration ServoInfo is incorrect.</ConfigurationError>
+		<SafetyConfigError>Configuration is incorrect. Safety configures expect different count of joints.</SafetyConfigError>
+	</Messages>
+</MessageDictionary>

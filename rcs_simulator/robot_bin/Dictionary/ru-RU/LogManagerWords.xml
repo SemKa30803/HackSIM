@@ -1,0 +1,128 @@
+﻿<MessageDictionary>
+	<Name>LogManagerWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<header>Модуль журналирования</header>
+		<CantLoad>Файл журнала некорректен или его невозможно создать</CantLoad>
+		<LogDisabled>Журналирование выключено</LogDisabled>
+		
+		<TooFilled>Журнал заполнен выше чем на 97%, возможна потеря записей</TooFilled>
+		<VeryFat>Журнал заполнен на {0}%</VeryFat>
+		
+		<file_path>Путь к файлу журнала</file_path>
+		<max_file_size>Максимальный размер журнала, Мбайт</max_file_size>
+		<enable_autoremove>Включить очистку старых записей</enable_autoremove>
+		<days_to_remove>Время жизни записи</days_to_remove>
+				
+		<UserAccessControlHeader>Изменения пользователя</UserAccessControlHeader>
+		<UserObserver>Наблюдатель</UserObserver>
+		<UserOperator>Оператор</UserOperator>
+		<UserProgrammer>Программист</UserProgrammer>
+		<UserServiceEngineer>Сервисный инженер</UserServiceEngineer>
+		<UserChange>Смена пользователя с "{0}" в "{1}"</UserChange>
+		<UserFileCreated>Создан файл с именем "{0}"</UserFileCreated>
+		<UserFolderCreated>Создана папка с именем "{0}"</UserFolderCreated>
+		<UserFileDeleted>Удален файл "{0}"</UserFileDeleted>
+		<UserFolderDeleted>Удалена папка "{0}"</UserFolderDeleted>
+		<UserChangedSpeed>Смена скорости с {0}% на {1}%</UserChangedSpeed>
+		
+		<AddonsHeader>Изменения аддонов</AddonsHeader>
+		<LoadsAddonInstalled>Установлен аддон "{0}"</LoadsAddonInstalled>
+		<LoadsAddonRemoved>Удален аддон "{0}"</LoadsAddonRemoved>
+		
+		<ProcessHeader>Изменения состояния робота</ProcessHeader>
+		<ProcessDrivesEnabled>Включение приводов</ProcessDrivesEnabled>
+		<ProcessDrivesDisabled>Выключение приводов</ProcessDrivesDisabled>
+		<ProcessMovedInJog>Роботом управляли в JOG режиме</ProcessMovedInJog>
+		
+		<PowerStatusHeader>Изменения питания</PowerStatusHeader>
+		<PowerStatusStartRcs>Начало работы RCS компьютера</PowerStatusStartRcs>
+		<PowerStatusShutdownRcs>Завершение работы RCS компьютера</PowerStatusShutdownRcs>
+		
+		<BackupHeader>Резервное копирование</BackupHeader>
+		<BackupCreatedConfigs>Создана резервная копия конфигурации</BackupCreatedConfigs>
+		<BackupCreatedPrograms>Создана резервная копия программ</BackupCreatedPrograms>
+		<BackupCreatedProgramsAndConfigs>Создана резервная копия конфигураций и программ</BackupCreatedProgramsAndConfigs>
+		<BackupDeleted>Резервная копия {0} удалена</BackupDeleted>
+		
+		<TaskChange>Процессы</TaskChange>
+		<AddedMainTask>Выбрана основная программа {0}</AddedMainTask>
+		<AddedJoinTask>Добавлена сопровождающая программа {0}</AddedJoinTask>
+		<AddedBackgroundTask>Добавлена фоновая программа {0}</AddedBackgroundTask>		
+		<MainTaskFinished>Выгружена основная программа {0}</MainTaskFinished>
+		<JoinTaskFinished>Выгружена сопровождающая задача {0}</JoinTaskFinished>
+		<BackgroundTaskFinished>Завершена фоновая задача {0}</BackgroundTaskFinished>
+		<ResetedMainTask>Сброшена основная задача</ResetedMainTask>
+		
+		<ConfigChangeHeader>Изменения конфигурации</ConfigChangeHeader>
+		<ChangedRobotConfig>Изменена основная конфигурация робота</ChangedRobotConfig>
+		<ChangedCommunicationConfig>Изменена конфигурация сети робота</ChangedCommunicationConfig>
+		<ChangedSafetyConfig>Изменена конфигурация системы безопасности робота</ChangedSafetyConfig>
+		<ChangedAddonConfig>Изменена конфигурация аддона</ChangedAddonConfig>
+		
+		<ConfigChangeProgram>Редактирование программы</ConfigChangeProgram>
+		<ProgramFileChanged>Файл {0} был изменен</ProgramFileChanged>
+		<ProgramChangesApplyed>Изменения файла {0} были приняты</ProgramChangesApplyed>
+		<ProgramChangesReverted>Изменения файла {0} были отменены</ProgramChangesReverted>
+		<ProgramDecPointRetrained>Переобучена декартовая точка {0} программы {1}</ProgramDecPointRetrained>
+		<ProgramJointPointRetrained>Переобучена угловая точка {0} программы {1}</ProgramJointPointRetrained>
+		<ProgramDecPointRedacted>Декартовая точка {0} отредактирована вручную в программе {1}</ProgramDecPointRedacted>
+		<ProgramJointPointRedacted>Угловая точка {0} отредактирована вручную в программе {1}</ProgramJointPointRedacted>
+		<ProgramDPointCreated>Создана декартовая точка {0} в программе {1}</ProgramDPointCreated>
+		<ProgramJPointCreated>Создана угловая точка {0} в программе {1}</ProgramJPointCreated>
+		<ProgramDPointRenamed>Переименована декартовая точка {0} в программе {1}. Новое имя {2}.</ProgramDPointRenamed>
+		<ProgramJPointRenamed>Переименована угловая точка {0} в программе {1}. Новое имя {2}.</ProgramJPointRenamed>
+		<ProgramDPointCopyed>Скопирована декартовая точка {0} в программе {1}. Имя созданной точки {2}.</ProgramDPointCopyed>
+		<ProgramJPointCopyed>Скопирована угловая точка {0} в программе {1}. Имя созданной точки {2}.</ProgramJPointCopyed>
+		<ProgramDPointDeleted>Удалена декартовая точка {0} в программе {1}</ProgramDPointDeleted>
+		<ProgramJPointDeleted>Удалена угловая точка {0} в программе {1}</ProgramJPointDeleted>
+		<ProgramChangedPointInstrument>Изменен инструмент декартовой точки {0} программы {1}. Старый инструмент {2}.</ProgramChangedPointInstrument>
+		
+		<UserChangeMode>Изменение режима с {0} в {1}</UserChangeMode>
+		<UserModeTeach>Teach</UserModeTeach>
+		<UserModeManual>Manual</UserModeManual>
+		<UserModeAuto>Auto</UserModeAuto>
+		<UserModeGuided>Guided</UserModeGuided>
+		
+		<GlobalDataChange>Изменение глобальных данных</GlobalDataChange>
+		<GlobalSetSKPos>Вручную изменена позиция системы координат {0}</GlobalSetSKPos>
+		<GlobalSetSKName>Изменено имя системы координат {0}. Новое имя {1}.</GlobalSetSKName>
+		<GlobalSetToolPos>Вручную изменена позиция инструмента {0}</GlobalSetToolPos>
+		<GlobalSetToolName>Изменено имя инструмента {0}. Новое имя {1}.</GlobalSetToolName>
+		<GlobalDeleteTool>Удален инструмент {0}</GlobalDeleteTool>
+		<GlobalCreateTool>Создан инструмент {0}</GlobalCreateTool>
+		<GlobalDeleteSK>Удалена система координат {0}</GlobalDeleteSK>
+		<GlobalCreateSK>Создана система координат {0}</GlobalCreateSK>
+		
+		<!-- header TaskChange -->
+		<MainTaskExecute>Запущенна основная программа</MainTaskExecute>
+		<MainTaskStopped>Остановлена основная программа</MainTaskStopped>
+		<MainTaskReset>Основная программа сброшена</MainTaskReset>
+		<ServiceTaskReset>Сброшена дополнительная программа {0}</ServiceTaskReset>
+		
+		<ProcessesChangedState>Изменение состояния программы {0} с {1} на {2}</ProcessesChangedState>
+		<Running>Выполняется</Running>
+		<Finished>Завершена</Finished>
+		<Invalid>Ошибка</Invalid>
+		<NoSelected>Не выбрана</NoSelected>
+		<Selected>Выбрана</Selected>
+		<Stopped>Пауза</Stopped>
+		
+		<HMIStateHeader>Состояние подключения HMI</HMIStateHeader>
+		<HMIConnected>Подключена HMI</HMIConnected>
+		<HMIDisconnected>Отключение HMI</HMIDisconnected>
+		
+		<!-- header BackupHeader -->
+		<BackupCopyed>Резервная копия {0} скопирована в папку {1}</BackupCopyed>
+		<BackupMoved>Резервная копия {0} перемещена в папку {1}</BackupMoved>
+		<BackupApply>Восстановление из резервной копии {0}</BackupApply>
+		
+		<UstateHeader>Юстировка</UstateHeader>
+		<UstateDeustRobot>Все оси робота деюстированы</UstateDeustRobot>
+		<UstateDeustAxis>Ось {0} деюстирована</UstateDeustAxis>
+		<UstateUstatedAxis>Ось {0} съюстирована</UstateUstatedAxis>		
+		
+		<ExceptionHeader>Внутренняя ошибка</ExceptionHeader>
+		<ExceptionData>Исключение: {0}</ExceptionData>
+	</Messages>
+</MessageDictionary>

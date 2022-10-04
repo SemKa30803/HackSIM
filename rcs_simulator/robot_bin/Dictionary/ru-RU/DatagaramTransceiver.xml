@@ -1,0 +1,26 @@
+﻿<MessageDictionary>
+	<Name>DatagramTransceiver</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<AlarmHeader>Ошибка модуля приемопередачи датаграмм</AlarmHeader>
+		<NoRepy>Превышено время ожидания ответа на датаграмму</NoRepy>
+		<SendTimeout>Превышено время ожидания отправки датаграммы</SendTimeout>
+		<NoReceiverWithGivenUuid>Не найдено получателя для датаграммы с совпадающим UUID</NoReceiverWithGivenUuid>
+		<IncorrectAgent>Попытка отправки сообщения агенту, тэг которого не найден в конфигурации</IncorrectAgent>
+		<AnswerPayloadTooBig>Получена датаграмма, полузная нагрузка которой превышает допустимый размер</AnswerPayloadTooBig>
+		<TransceiverDisabled>Попытка отправки датаграммы в то время, когда модуль отключен</TransceiverDisabled>
+		<TooShortDatagramm>Получена датаграмма, длина которой меньше, чем длина стандартного заголовка датаграмм</TooShortDatagramm>
+		<IncorrectDatagramm>Получена некорректная датаграмма</IncorrectDatagramm>
+		<DatagrammFromUnknownAgent>Получена датаграмма от агента, который не указан в конфигурации</DatagrammFromUnknownAgent>
+		<FailedToSendDatagramm>Превышено время ожидания отправки датаграммы</FailedToSendDatagramm>
+		<LocalConnectionData>Локальные данные подключения</LocalConnectionData>
+		<Tag>Тэг</Tag> 
+		<CommunicationAgents>Агенты</CommunicationAgents>
+		<CommunicationAgent>Агент</CommunicationAgent>
+		<Enabled>Активировать работу модуля</Enabled>
+		<DefaultAnswerWaitMs>Время ожидания ответа, мс</DefaultAnswerWaitMs>
+		<DefaultSendWaitMs>Время ожидания отправки, мс</DefaultSendWaitMs>
+		<CmdResendMaxAttempts>Максимальное количество попыток повторной отправки при отсутствии ответа</CmdResendMaxAttempts>
+        <CantBindSocket>Не удалось создать привязку к сокету. Проверьте локальные данные подключения в конфигурации модуля.</CantBindSocket>
+	</Messages>
+</MessageDictionary>

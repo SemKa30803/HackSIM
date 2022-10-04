@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Signals>
+	<tokens_path>RcsData/SignalTokens.xml</tokens_path>
+	<ask_period>10</ask_period>
+	<bus_list>
+
+	</bus_list>
+</Signals>

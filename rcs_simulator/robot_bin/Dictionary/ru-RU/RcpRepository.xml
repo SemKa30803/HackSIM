@@ -1,0 +1,9 @@
+﻿<MessageDictionary>
+	<Name>RcpRepository</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<LocalPointErrorHeader>Ошибка файла локальных данных.</LocalPointErrorHeader>
+		<InvalidXml>Файл {0} не соблюдает спецификацию XML. Ошибка: {1}.</InvalidXml>
+		<UnknownError>Файл {0} содержит неизвестную ошибку. Ошибка: {1}.</UnknownError>
+	</Messages>
+</MessageDictionary>

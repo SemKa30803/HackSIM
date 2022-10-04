@@ -1,0 +1,11 @@
+﻿<MessageDictionary>
+	<Name>SafetyState</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Блок безопасности</Header>
+		<LostConnection1>Пропала связь с модулем безопасности. Переподключения.</LostConnection1>
+		<LostConnection2>Нет связи с модулем безопасности. Невозможно подключится.</LostConnection2>
+		<EmergencyStop>Экстренная остановка.</EmergencyStop>
+		<SafetyLoop>Одно из условий безопасности не соблюдено.</SafetyLoop>
+	</Messages>
+</MessageDictionary>

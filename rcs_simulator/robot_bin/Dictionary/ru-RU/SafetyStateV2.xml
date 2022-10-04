@@ -1,0 +1,50 @@
+﻿<MessageDictionary>
+	<Name>SafetyStateV2</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Блок безопасности</Header>
+		<Emergency>Нажата кнопка аварийной остановки.</Emergency>
+		<Wicket>Нарушена целостность контура.</Wicket>
+		<WrongIP>Неверный IP адрес или порт конфигурации.</WrongIP>
+		
+		<Software>Ошибка вызванная через Rcs.</Software>
+		<Internal>Внутренняя ошибка платы безопасности.</Internal>
+		<Crit>Критическая ошибка. Требуется перезапуск всего оборудования.</Crit>
+		<MSel>Ошибка при смене режима работы.</MSel>
+		<WatchDog>Был сбой в сети при работе с платой безопасности.</WatchDog>
+		<NS>Никто не знает что это за ошибка.</NS>
+		<Saf>Нарушение безопасности</Saf>
+		<SettingsConflict>Настройки платы безопасности и конфига не совпадают.</SettingsConflict>
+		<TimeoutReached>Превышено время ожидания ответа от платы безопасности.</TimeoutReached>
+		<ReplaceData>Заменять конфигурацию платы при конфликте</ReplaceData>
+		<IdleState>Модуль безопасности не запущен. Для запуска необходимо повернуть ключ и выбрать режим.</IdleState>
+		
+		<MultName>Множитель скорости Teach режима</MultName>
+		<AskPeriod>Период запросов состояния платы безопасности</AskPeriod>
+		<DevAddr>IP адрес платы безопасности</DevAddr>
+		<device_port>порт адреса платы безопасности</device_port>
+		<MyAddr>IP адрес Rcs компьютера</MyAddr>
+		<MyPort>порт адреса Rcs компьютера</MyPort>
+		<channels>каналы</channels>
+		<channel>канал</channel>
+		<cSource>тип канала</cSource>
+		<AckType>тип квитирования канала</AckType>
+		
+		<Additional1IsEmergence>Additional1 используется как emergence</Additional1IsEmergence>
+		
+		<AckNotKvitated>Кнопка квитирование оператором не была нажата.</AckNotKvitated>
+		<WicketNotClosed>Калитка не закрыта.</WicketNotClosed>
+		
+		<IncorrectConfig>Конфигурация полученная от платы неверна</IncorrectConfig>
+		<IncorrectSizeResponse>Получен ответ некорректной длины</IncorrectSizeResponse>
+		
+		<timings>Временные параметры</timings>
+		<started_pausing_program>Максимальное время ответа системы на начало паузы программы</started_pausing_program>
+		<enable_drives_pause>При включении приводов пауза между снятии тормозов и сигнал запуска</enable_drives_pause>
+		<cat_2_error_response_timeout>Максимальное время ответа на ошибку для остановки второй категории</cat_2_error_response_timeout>
+		<cat_1_error_response_timeout>Максимальное время ответа на ошибку для остановки первой категории</cat_1_error_response_timeout>
+		<cat_1_wait_to_brake>Пауза до постановки на тормаза</cat_1_wait_to_brake>
+		<cat_2_pausing_timeout>Ожидаемое время постановки на паузу первой категории</cat_2_pausing_timeout>
+		<cat_1_pausing_timeout>Ожидаемое время постановки на паузу второй категории</cat_1_pausing_timeout>
+	</Messages>
+</MessageDictionary>

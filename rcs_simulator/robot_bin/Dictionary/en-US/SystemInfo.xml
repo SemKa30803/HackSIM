@@ -1,0 +1,38 @@
+﻿<MessageDictionary>
+	<Name>SystemInfo</Name>
+	<Language>English</Language>
+	<Messages>
+		<CompanyNameHeader>Company:</CompanyNameHeader>
+		<CompanyNameContent>"Eidos-Robotics"
+Copyright "Eidos-Robotics" 2016-2022</CompanyNameContent>
+		<ContactInformationHeader>Contact information:</ContactInformationHeader>
+		<ContactInformationContent>Russian Federation
+Tatar Republic, 420107, Kazan, Petersburg street, 50
+Phone: +7(843) 227-40-62
+Site: www.eidos-robotics.ru
+E-mail: mail@eidos-robotics.com</ContactInformationContent>
+		
+		<ModelHeader>Model:</ModelHeader>
+		<ModelContent>A12-1450</ModelContent>
+		<SerialNumberHeader>Serial number:</SerialNumberHeader>
+		<SerialNumberNotFound>Serial number is missing</SerialNumberNotFound>
+		<HoursDrivesWorkedHeader>Servos hours work:</HoursDrivesWorkedHeader>
+		<HoursSystemWorkedHeader>System hours work:</HoursSystemWorkedHeader>
+		<AxisCountHeader>Axis count:</AxisCountHeader>
+		<ExtraAxisHeader>Additional axises:</ExtraAxisHeader>
+		<ExtraAxisNO>Not found</ExtraAxisNO>
+		<SoftwareVersionHeader>Software version:</SoftwareVersionHeader>
+		<LicenseHeader>License:</LicenseHeader>
+		<DiskSpaceHeader>Memory:</DiskSpaceHeader>
+		<DiskLeftSpaceBegin>Available</DiskLeftSpaceBegin>
+		<DiskLeftSpaceOf>out of</DiskLeftSpaceOf>
+		
+		<SizeByte>Byte</SizeByte>
+		<SizeKiloByte>KB</SizeKiloByte>
+		<SizeMegaByte>MB</SizeMegaByte>
+		<SizeGigaByte>GB</SizeGigaByte>
+		<SizeTerraByte>TB</SizeTerraByte>
+		<SizePetaByte>PB</SizePetaByte>
+		<SizeExoByte>EB</SizeExoByte>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,9 @@
+<MessageDictionary>
+	<Name>ExtensionProviderWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<PathToModules>Путь к папке с модулями</PathToModules>
+		<interfaces>Интерфейсы</interfaces>
+		<extensibleInterface>Данные интерфейса</extensibleInterface>
+	</Messages>
+</MessageDictionary>

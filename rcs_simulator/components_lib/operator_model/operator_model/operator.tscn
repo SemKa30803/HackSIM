@@ -1,0 +1,263 @@
+[gd_scene load_steps=34 format=2]
+
+[ext_resource path="res://components_lib/operator_model/script/operator.gd" type="Script" id=1]
+[ext_resource path="res://components_lib/operator_model/material/leather.tres" type="Material" id=2]
+[ext_resource path="res://components_lib/operator_model/material/black.tres" type="Material" id=3]
+[ext_resource path="res://components_lib/operator_model/material/blue.tres" type="Material" id=4]
+[ext_resource path="res://components_lib/operator_model/material/red.tres" type="Material" id=5]
+[ext_resource path="res://components_lib/operator_model/material/brown.tres" type="Material" id=6]
+[ext_resource path="res://components_lib/operator_model/mesh/mouth.tres" type="PrismMesh" id=7]
+[ext_resource path="res://components_lib/operator_model/mesh/foot2.tres" type="CapsuleMesh" id=8]
+[ext_resource path="res://components_lib/operator_model/mesh/shin2.tres" type="CylinderMesh" id=9]
+[ext_resource path="res://components_lib/operator_model/mesh/torso.tres" type="CubeMesh" id=10]
+[ext_resource path="res://components_lib/operator_model/mesh/head.tres" type="CapsuleMesh" id=11]
+[ext_resource path="res://components_lib/operator_model/mesh/foot1.tres" type="CapsuleMesh" id=12]
+[ext_resource path="res://components_lib/operator_model/mesh/shin1.tres" type="CylinderMesh" id=13]
+[ext_resource path="res://components_lib/operator_model/mesh/elbow1.tres" type="SphereMesh" id=14]
+[ext_resource path="res://components_lib/operator_model/mesh/knee2.tres" type="SphereMesh" id=15]
+[ext_resource path="res://components_lib/operator_model/mesh/upper_arm1.tres" type="CylinderMesh" id=16]
+[ext_resource path="res://components_lib/operator_model/mesh/shoulder1.tres" type="SphereMesh" id=17]
+[ext_resource path="res://components_lib/operator_model/mesh/lower_arm1.tres" type="CylinderMesh" id=18]
+[ext_resource path="res://components_lib/operator_model/mesh/wrist1.tres" type="SphereMesh" id=19]
+[ext_resource path="res://components_lib/operator_model/mesh/eyes2.tres" type="SphereMesh" id=20]
+[ext_resource path="res://components_lib/operator_model/mesh/hair.tres" type="SphereMesh" id=21]
+[ext_resource path="res://components_lib/operator_model/mesh/wrist2.tres" type="SphereMesh" id=22]
+[ext_resource path="res://components_lib/operator_model/mesh/elbow2.tres" type="SphereMesh" id=23]
+[ext_resource path="res://components_lib/operator_model/mesh/nose.tres" type="SphereMesh" id=24]
+[ext_resource path="res://components_lib/operator_model/mesh/hip_joint.tres" type="CylinderMesh" id=25]
+[ext_resource path="res://components_lib/operator_model/mesh/hip1.tres" type="CylinderMesh" id=26]
+[ext_resource path="res://components_lib/operator_model/mesh/hip2.tres" type="CylinderMesh" id=27]
+[ext_resource path="res://components_lib/operator_model/mesh/eyes1.tres" type="SphereMesh" id=28]
+[ext_resource path="res://components_lib/operator_model/mesh/shoulder2.tres" type="SphereMesh" id=29]
+[ext_resource path="res://components_lib/operator_model/mesh/upper_arm2.tres" type="CylinderMesh" id=30]
+[ext_resource path="res://components_lib/operator_model/mesh/nesk.tres" type="CylinderMesh" id=31]
+[ext_resource path="res://components_lib/operator_model/mesh/lower_arm2.tres" type="CylinderMesh" id=32]
+[ext_resource path="res://components_lib/operator_model/mesh/knee1.tres" type="SphereMesh" id=33]
+
+[node name="Operator" type="Spatial"]
+script = ExtResource( 1 )
+sit = true
+bend = true
+
+[node name="foot1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0 )
+mesh = ExtResource( 12 )
+material/0 = ExtResource( 3 )
+
+[node name="foot2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 196, 0, 0 )
+mesh = ExtResource( 8 )
+material/0 = ExtResource( 3 )
+
+[node name="shin1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 220, 70 )
+redirect_selection = true
+mesh = ExtResource( 13 )
+material/0 = ExtResource( 4 )
+
+[node name="shin2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 196, 220, 70 )
+redirect_selection = true
+mesh = ExtResource( 9 )
+material/0 = ExtResource( 4 )
+
+[node name="tors" type="RcsToggleJoint" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -357.5, 555 )
+JointValue = 15.0
+rotation_axis = Vector3( 0, 0, 0 )
+translation_axis = Vector3( 0, -32.5, 27 )
+base_translation = Vector3( 0, 130, 150 )
+ToggleEnabled = true
+MaxBorder = 15.0
+MinBorder = 0.0
+MaxBorderThreshold = 150.0
+Throttle = 15000.0
+
+[node name="torso" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 1130, -80 )
+redirect_selection = true
+mesh = ExtResource( 10 )
+material/0 = ExtResource( 5 )
+
+[node name="head" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, -1.62921e-07, -1, 0, 1, -1.62921e-07, 100, 1575, -80 )
+redirect_selection = true
+mesh = ExtResource( 11 )
+material/0 = ExtResource( 2 )
+
+[node name="neck" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 1452, -80 )
+redirect_selection = true
+mesh = ExtResource( 31 )
+material/0 = ExtResource( 2 )
+
+[node name="arms" type="RcsToggleJoint" parent="tors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -37.5, 0 )
+translation_axis = Vector3( 360, -999, 0 )
+base_translation = Vector3( 0, -37.5, 0 )
+ToggleEnabled = true
+TogglePositive = false
+MaxBorder = -2.57
+MinBorder = 0.0
+MaxBorderThreshold = 150.0
+Throttle = 15000.0
+
+[node name="upper_arm1" type="MeshInstance" parent="tors/arms"]
+transform = Transform( 0.996195, 0.0871557, 0, -0.0871557, 0.996195, 0, 0, 0, 1, -104.25, 1197, -80 )
+redirect_selection = true
+mesh = ExtResource( 16 )
+material/0 = ExtResource( 5 )
+
+[node name="elbow1" type="MeshInstance" parent="tors/arms"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -123.25, 980, -80 )
+redirect_selection = true
+mesh = ExtResource( 14 )
+material/0 = ExtResource( 5 )
+
+[node name="bend" type="RcsToggleJoint" parent="tors/arms"]
+transform = Transform( 1, 0, 0, 0, 0.0107962, -0.999942, 0, 0.999942, 0.0107962, 0, 887.64, -1060.8 )
+JointValue = 1.56
+rotation_axis = Vector3( 1, 0, 0 )
+translation_axis = Vector3( 0, 569, -680 )
+ToggleEnabled = true
+MaxBorder = 1.56
+MinBorder = 0.0
+MaxBorderThreshold = 150.0
+Throttle = 15000.0
+
+[node name="lower_arm1" type="MeshInstance" parent="tors/arms/bend"]
+transform = Transform( 0.996195, 0.0871557, 0, -0.0871557, 0.996195, 0, 0, 0, 1, -138.75, 803.5, -80 )
+redirect_selection = true
+mesh = ExtResource( 18 )
+material/0 = ExtResource( 5 )
+
+[node name="wrist1" type="MeshInstance" parent="tors/arms/bend"]
+transform = Transform( 0.996195, 0.0871557, 0, -0.0871557, 0.996195, 0, 0, 0, 1, -153.9, 630, -80 )
+redirect_selection = true
+mesh = ExtResource( 19 )
+material/0 = ExtResource( 2 )
+
+[node name="eyes1" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 70, 1600, -150 )
+redirect_selection = true
+mesh = ExtResource( 28 )
+material/0 = ExtResource( 3 )
+
+[node name="eyes2" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 130, 1600, -150 )
+redirect_selection = true
+mesh = ExtResource( 20 )
+material/0 = ExtResource( 3 )
+
+[node name="mouth" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, -1, 3.25841e-07, 0, -3.25841e-07, -1, 100, 1525, -150 )
+redirect_selection = true
+mesh = ExtResource( 7 )
+material/0 = ExtResource( 5 )
+
+[node name="nose" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 1560, -150 )
+redirect_selection = true
+mesh = ExtResource( 24 )
+material/0 = ExtResource( 3 )
+
+[node name="hair" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 1600, -60 )
+redirect_selection = true
+mesh = ExtResource( 21 )
+material/0 = ExtResource( 6 )
+
+[node name="shoulder1" type="MeshInstance" parent="tors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -85, 1380, -80 )
+redirect_selection = true
+mesh = ExtResource( 17 )
+material/0 = ExtResource( 5 )
+
+[node name="shoulder2" type="MeshInstance" parent="tors"]
+transform = Transform( 0.992082, -0.125593, 0, 0.125593, 0.992082, 0, 0, 0, 1, 283, 1380, -80 )
+redirect_selection = true
+mesh = ExtResource( 29 )
+material/0 = ExtResource( 5 )
+
+[node name="arms2" type="RcsToggleJoint" parent="tors"]
+translation_axis = Vector3( 494.5, 932, 0 )
+ToggleEnabled = true
+TogglePositive = false
+MaxBorder = 2.57
+MinBorder = 0.0
+MaxBorderThreshold = 15.0
+Throttle = 15000.0
+
+[node name="bend2" type="RcsToggleJoint" parent="tors/arms2"]
+transform = Transform( 1, 0, 0, 0, 0.0107962, -0.999942, 0, 0.999942, 0.0107962, 0, 850.98, -1021.8 )
+JointValue = 1.56
+rotation_axis = Vector3( 1, 0, 0 )
+translation_axis = Vector3( 0, 545.5, -655 )
+ToggleEnabled = true
+MaxBorder = 1.56
+MinBorder = 0.0
+MaxBorderThreshold = 150.0
+Throttle = 15000.0
+
+[node name="lower_arm2" type="MeshInstance" parent="tors/arms2/bend2"]
+transform = Transform( 0.996195, -0.0871557, 0, 0.0871557, 0.996195, 0, 0, 0, 1, 336.5, 768.5, -80 )
+redirect_selection = true
+mesh = ExtResource( 32 )
+material/0 = ExtResource( 5 )
+
+[node name="wrist2" type="MeshInstance" parent="tors/arms2/bend2"]
+transform = Transform( 0.996195, -0.0871557, 0, 0.0871557, 0.996195, 0, 0, 0, 1, 352.5, 585, -80 )
+redirect_selection = true
+mesh = ExtResource( 22 )
+material/0 = ExtResource( 2 )
+
+[node name="upper_arm2" type="MeshInstance" parent="tors/arms2"]
+transform = Transform( 0.996195, -0.0871557, 0, 0.0871557, 0.996195, 0, 0, 0, 1, 302, 1162, -80 )
+redirect_selection = true
+mesh = ExtResource( 30 )
+material/0 = ExtResource( 5 )
+
+[node name="elbow2" type="MeshInstance" parent="tors/arms2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 321.25, 943, -80 )
+redirect_selection = true
+mesh = ExtResource( 23 )
+material/0 = ExtResource( 5 )
+
+[node name="hip_joint" type="MeshInstance" parent="tors"]
+transform = Transform( -1.62921e-07, -1, 0, 1, -1.62921e-07, 0, 0, 0, 1, 100, 824, -80 )
+redirect_selection = true
+mesh = ExtResource( 25 )
+material/0 = ExtResource( 4 )
+
+[node name="hips" type="RcsToggleJoint" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.000796274, -1, 0, 1, 0.000796274, 0, 497.708, -392.5 )
+JointValue = 1.57
+rotation_axis = Vector3( 1, 0, 0 )
+translation_axis = Vector3( 0, 329.75, -250 )
+base_translation = Vector3( 0, -20, 0 )
+ToggleEnabled = true
+MaxBorder = 1.57
+MinBorder = 0.0
+Throttle = 15000.0
+
+[node name="hip1" type="MeshInstance" parent="hips"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 674, 70 )
+redirect_selection = true
+mesh = ExtResource( 26 )
+material/0 = ExtResource( 4 )
+
+[node name="hip2" type="MeshInstance" parent="hips"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 196, 674, 70 )
+redirect_selection = true
+mesh = ExtResource( 27 )
+material/0 = ExtResource( 4 )
+
+[node name="knee1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 423, 70 )
+mesh = ExtResource( 33 )
+material/0 = ExtResource( 4 )
+
+[node name="knee2" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 196, 423, 70 )
+mesh = ExtResource( 15 )
+material/0 = ExtResource( 4 )

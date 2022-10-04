@@ -1,0 +1,130 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://components_lib/carousel/scripts/carousel.gd" type="Script" id=1]
+[ext_resource path="res://components_lib/carousel/scenes/carousel_cabinet.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components_lib/carousel/scenes/carousel_table_with_base.tscn" type="PackedScene" id=3]
+
+[node name="carousel" type="RobotEmulation"]
+jog = false
+start_emulation = null
+stop_emulation = null
+restart_robot = null
+generate_new_id = null
+reset_configuration = null
+reconfigure_ports_by_id = null
+api_server_ip = "0.0.0.0"
+api_server_port = 8003
+read_server_config = null
+update_server_config = null
+reset_rcs_data = null
+read_safety_config = null
+update_safety_config = null
+robot_type = 4
+reset_kinematics_config = null
+read_joints_config = null
+update_joints_config = null
+drives_controller_ip = "192.168.9.3"
+drives_controller_port = 8888
+joints_count = 4
+joints_with_positioners = 4
+set_current_pos_as_home = null
+reset_to_home = null
+joints_data/joint_1_/joint_path = NodePath("")
+joints_data/joint_1_/home_position = 0.0
+joints_data/joint_1_/is_linear = false
+joints_data/joint_1_/reduction_rate = 100.0
+joints_data/joint_1_/speed_rpm = 3000.0
+joints_data/joint_1_/steps_per_revolution = 1000
+joints_data/joint_1_/joint_min_deg_or_mm = -180.0
+joints_data/joint_1_/joint_max_deg_or_mm = 180.0
+joints_data/joint_1_/allow_deustation = true
+joints_data/joint_1_/ignore_z_mark = true
+joints_data/joint_1_/acceleration_time_ms = 400.0
+joints_data/joint_2_/joint_path = NodePath("")
+joints_data/joint_2_/home_position = 0.0
+joints_data/joint_2_/is_linear = false
+joints_data/joint_2_/reduction_rate = 100.0
+joints_data/joint_2_/speed_rpm = 3000.0
+joints_data/joint_2_/steps_per_revolution = 1000
+joints_data/joint_2_/joint_min_deg_or_mm = -180.0
+joints_data/joint_2_/joint_max_deg_or_mm = 180.0
+joints_data/joint_2_/allow_deustation = true
+joints_data/joint_2_/ignore_z_mark = true
+joints_data/joint_2_/acceleration_time_ms = 400.0
+joints_data/joint_3_/joint_path = NodePath("")
+joints_data/joint_3_/home_position = 0.0
+joints_data/joint_3_/is_linear = true
+joints_data/joint_3_/reduction_rate = 121.0
+joints_data/joint_3_/speed_rpm = 4000.0
+joints_data/joint_3_/steps_per_revolution = 2000
+joints_data/joint_3_/joint_min_deg_or_mm = 0.0
+joints_data/joint_3_/joint_max_deg_or_mm = 0.0
+joints_data/joint_3_/allow_deustation = false
+joints_data/joint_3_/ignore_z_mark = false
+joints_data/joint_3_/acceleration_time_ms = 600.0
+joints_data/joint_4_/joint_path = NodePath("")
+joints_data/joint_4_/home_position = 0.0
+joints_data/joint_4_/is_linear = false
+joints_data/joint_4_/reduction_rate = 100.0
+joints_data/joint_4_/speed_rpm = 3000.0
+joints_data/joint_4_/steps_per_revolution = 1000
+joints_data/joint_4_/joint_min_deg_or_mm = -180.0
+joints_data/joint_4_/joint_max_deg_or_mm = 180.0
+joints_data/joint_4_/allow_deustation = true
+joints_data/joint_4_/ignore_z_mark = true
+joints_data/joint_4_/acceleration_time_ms = 400.0
+add_positioner = null
+read_signals_config = null
+update_signals_config = null
+add_bus = null
+read_from_tool_config = null
+save_to_tool_config = null
+add_tool = null
+tool_1/tool_name = "Flange"
+tool_1/trail = false
+tool_1/points_limit = 500
+tool_1/minimum_step = 30.0
+tool_1/trail_color = Color( 0.41, 0, 0.1, 1 )
+tool_1/clear_trail = null
+tool_1/position = Vector3( 0, 0, 0 )
+tool_1/orientation = Vector3( 0, 0, 0 )
+read_from_frame_config = null
+save_to_frame_config = null
+add_frame = null
+frame_1/frame_name = "World"
+frame_1/position = Vector3( 0, 0, 0 )
+frame_1/orientation = Vector3( 0, 0, 0 )
+script = ExtResource( 1 )
+
+[node name="carousel_cabinet" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -166, 0, 200 )
+visible = false
+
+[node name="table" parent="." instance=ExtResource( 3 )]
+transform = Transform( -1, -3.89414e-07, 0, 3.89414e-07, -1, 0, 0, 0, 1, 0, 0, 0 )
+
+[node name="joint" parent="table" index="0"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
+
+[node name="table_with_drive" parent="table/joint" index="0"]
+transform = Transform( 1, 1.94734e-35, -7.10543e-15, 0, 1, 2.74063e-21, 7.10543e-15, -2.74063e-21, 1, 0, 0, 0 )
+redirect_selection = true
+
+[node name="table" parent="table/joint/table_with_drive" index="0"]
+transform = Transform( 1, -1.42109e-14, -6.21176e-22, 0, -4.37114e-08, 1, -1.42109e-14, -1, -4.37114e-08, 4.42481e-05, -760, 3.86829e-12 )
+
+[node name="drive_1" parent="table/joint/table_with_drive" index="1"]
+transform = Transform( -4.37114e-08, -1, -8.74228e-08, 1, -4.37114e-08, -2.48471e-21, -3.82136e-15, -8.74228e-08, 1, -1.14349e-06, -747.936, -9.99759e-14 )
+
+[node name="drive_2" parent="table/joint/table_with_drive" index="2"]
+transform = Transform( 1, -1.50996e-07, 1.50996e-07, -1.50996e-07, -1, -3.01544e-19, 1.50996e-07, -2.27994e-14, -1, -3.8931e-06, -630.997, -3.40347e-13 )
+
+[node name="carousel_base" parent="table" index="1"]
+transform = Transform( -1, -3.89414e-07, 1.70218e-14, 0, -4.37114e-08, -1, -3.89414e-07, 1, -4.37114e-08, 0, -678, 1 )
+
+[node name="base" parent="table/carousel_base" index="0"]
+transform = Transform( 1, 2.7417e-29, 7.7172e-15, 0, 1, -3.55271e-15, -7.7172e-15, 3.55271e-15, 1, 0, 0, 0 )
+
+[editable path="table"]
+
+[editable path="table/carousel_base"]

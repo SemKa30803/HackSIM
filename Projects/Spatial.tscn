@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://components_lib/a12_1450/a12_1450.tscn" type="PackedScene" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="a12_1450" parent="." instance=ExtResource( 1 )]
+emulation_state = false
+robot_dir = "res://robots/test_a12"
+restart_robot = null
+read_from_tool_config = null
+save_to_tool_config = null
+add_tool = null
+tool_1/tool_name = "Flange"
+tool_1/trail = false
+tool_1/points_limit = 500
+tool_1/minimum_step = 30.0
+tool_1/trail_color = Color( 0.41, 0, 0.1, 1 )
+tool_1/clear_trail = null
+tool_1/position = Vector3( 0, 0, 0 )
+tool_1/orientation = Vector3( 0, 0, 0 )
+read_from_frame_config = null
+save_to_frame_config = null
+add_frame = null
+frame_1/frame_name = "World"
+frame_1/position = Vector3( 0, 0, 0 )
+frame_1/orientation = Vector3( 0, 0, 0 )

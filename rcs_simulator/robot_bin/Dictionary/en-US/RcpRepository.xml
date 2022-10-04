@@ -1,0 +1,9 @@
+﻿<MessageDictionary>
+	<Name>RcpRepository</Name>
+	<Language>English</Language>
+	<Messages>
+		<LocalPointErrorHeader>Local data file error.</LocalPointErrorHeader>
+		<InvalidXml>File {0} does not follow XML specification. Error: {1}.</InvalidXml>
+		<UnknownError>Unknown error while loading file {0}. Error: {1}.</UnknownError>
+	</Messages>
+</MessageDictionary>

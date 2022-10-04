@@ -1,0 +1,19 @@
+﻿<MessageDictionary>
+	<Name>RcpGlobalData</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<FramesErrorHeader>Ошибка чтения файла систем координат</FramesErrorHeader>
+		<FramesFileNotFound>Файл систем координат не найден</FramesFileNotFound>
+		<FramesIncorrectXML>Файл систем координат не является XML</FramesIncorrectXML>
+		<FramesTwoSameId>В файле систем координат есть повторяющиеся id, значение {0}</FramesTwoSameId>
+		<FramesTwoSameName>В файле систем координат есть повторяющиеся имена, имя {0}</FramesTwoSameName>
+		<FramesException>Неизвестная ошибка чтения файла системы координат. Имя фрейма: {0}. Ошибка: {1}.</FramesException>
+		
+		<ToolsErrorHeader>Ошибка чтения файла инструментов</ToolsErrorHeader>
+		<ToolsFileNotFound>Файл инструментов не найден</ToolsFileNotFound>
+		<ToolsIncorrectXML>Файл инструментов не является XML</ToolsIncorrectXML>
+		<ToolsTwoSameId>В файле инструментов есть повторяющиеся id, значение {0}</ToolsTwoSameId>
+		<ToolsTwoSameName>В файле инструментов есть повторяющиеся имена, имя {0}</ToolsTwoSameName>
+		<ToolsException>Неизвестная ошибка чтения файла инструментов. Имя инструмента: {0}. Ошибка: {1}.</ToolsException>
+	</Messages>
+</MessageDictionary>

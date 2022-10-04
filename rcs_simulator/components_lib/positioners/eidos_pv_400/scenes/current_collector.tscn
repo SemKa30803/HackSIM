@@ -1,0 +1,50 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://components_lib/eidos_pv_400/meshes/NAUO51.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://components_lib/eidos_pv_400/meshes/NAUO50.mesh" type="ArrayMesh" id=2]
+[ext_resource path="res://components_lib/eidos_pv_400/meshes/NAUO52.mesh" type="ArrayMesh" id=3]
+[ext_resource path="res://components_lib/eidos_pv_400/meshes/NAUO53.mesh" type="ArrayMesh" id=4]
+[ext_resource path="res://components_lib/eidos_pv_400/meshes/NAUO49.mesh" type="ArrayMesh" id=5]
+[ext_resource path="res://components_lib/eidos_pv_400/meshes/NAUO40.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://components_lib/eidos_pv_400/meshes/NAUO48.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://components_lib/eidos_pv_400/materials/mat_3.material" type="Material" id=8]
+[ext_resource path="res://components_lib/eidos_pv_400/materials/mat_7.material" type="Material" id=9]
+
+[node name="current_collector" type="Spatial"]
+transform = Transform( 0, 0, 1, 0, 1, 0, -1, 0, 0, 50, 104, 0 )
+
+[node name="NAUO39" type="Spatial" parent="."]
+
+[node name="NAUO48" type="MeshInstance" parent="NAUO39"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3 )
+mesh = ExtResource( 7 )
+material/0 = ExtResource( 8 )
+
+[node name="NAUO49" type="MeshInstance" parent="NAUO39"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 35, -20.5 )
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 8 )
+
+[node name="NAUO50" type="MeshInstance" parent="NAUO39"]
+transform = Transform( 0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 35, 1 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 8 )
+
+[node name="NAUO51" type="MeshInstance" parent="NAUO39"]
+transform = Transform( 0, 1, 0, -1, 0, 0, 0, 0, 1, 25, 55, -18.5 )
+mesh = ExtResource( 1 )
+material/0 = ExtResource( 8 )
+
+[node name="NAUO52" type="MeshInstance" parent="NAUO39"]
+mesh = ExtResource( 3 )
+material/0 = ExtResource( 8 )
+
+[node name="NAUO53" type="MeshInstance" parent="NAUO39"]
+transform = Transform( 0, -1, 0, 1, 0, 0, 0, 0, 1, -25, 55, -18.5 )
+mesh = ExtResource( 4 )
+material/0 = ExtResource( 8 )
+
+[node name="NAUO40" type="MeshInstance" parent="."]
+transform = Transform( 0, -1, 0, 0, 0, -1, 1, 0, 0, 0, 88, -14.5 )
+mesh = ExtResource( 6 )
+material/0 = ExtResource( 9 )

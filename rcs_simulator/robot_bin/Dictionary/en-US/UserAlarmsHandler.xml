@@ -1,0 +1,24 @@
+﻿<MessageDictionary>
+	<Name>UserAlarmsHandler</Name>
+	<Language>English</Language>
+	<Messages>
+		<AlarmHeader>User alarms handler error</AlarmHeader>
+		<AlarmCodeAlreadyExist>More than one user alarm with the same code encountered in the configuration. Alarm group: {0}, in group index: {1}</AlarmCodeAlreadyExist>
+		<AlarmTagAlreadyExist>More than one user alarm with the same tag encountered in the configuration. Tag: {0}</AlarmTagAlreadyExist>
+		<UnknownCode>Attempt to access user alarm by code not described in module configuration.</UnknownCode>
+		<AlarmNumberOutOfRange>Attempt to access user alarm by index which is out of range</AlarmNumberOutOfRange>
+		<Alarms>User alarms list</Alarms>
+		<Alarm>Alarm</Alarm>
+		<GroupCode>Alarm group code</GroupCode>
+		<LocalCode>Alarm in group index</LocalCode>
+		<Tag>Tag</Tag>
+		<IsWarning>Handle this alarm as warning</IsWarning>
+		<UseDictionary>Use dictionary tags for the alarm header and message</UseDictionary>
+		<Header>Alarm header</Header>
+		<Message>Alarm message</Message>
+		<UserAlarmsHandlerNotFound>User alarms handler is not included in the robot build</UserAlarmsHandlerNotFound>
+		<AlarmNr>Alarm number</AlarmNr>
+		<AlarmCode>Alarm code</AlarmCode>
+		<AlarmTag>Alarm tag</AlarmTag>				
+	</Messages>
+</MessageDictionary>

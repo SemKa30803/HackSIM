@@ -1,0 +1,19 @@
+<MessageDictionary>
+	<Name>MultiprocessLibrary</Name>
+	<Language>English</Language>
+	<Messages>
+		<FileNotFound>File not found</FileNotFound>
+		<incorrectXML>File is not XML</incorrectXML>
+		
+		<GroupErrorHeader>Error while loading global variable groups file</GroupErrorHeader>
+		<GroupTwoSameName>Multiple groups with same name occured. Name {0}.</GroupTwoSameName>
+		<GroupTwoSameId>Multiple groups with same id occured. Value {0}.</GroupTwoSameId>
+		<GroupUnknownError>Unknown error. Group name {0}. Error: {1}.</GroupUnknownError>
+		
+		<VarMetaErrorHeader>Error while loading global variable metadata file</VarMetaErrorHeader>
+		<VarValueErrorHeader>Error while loading global variable value file</VarValueErrorHeader>
+		<VarTwoSameName>Multiple variables with same name occured. Name {0}.</VarTwoSameName>
+		<VarTwoSameId>Multiple variables with same id occured. Value {0}.</VarTwoSameId>
+		<VarUnknownError>Unknown error. Variable name {0}. Error: {1}.</VarUnknownError>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,33 @@
+<MessageDictionary>
+	<Name>ShutDownRestartWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<serialName>Serial port name</serialName>
+		<boudRate>Baud rate speed</boudRate>
+		<modbusId>Modbus block id</modbusId>
+		
+		<ModbusInUse>Use Modbus RTU</ModbusInUse>
+		<PerepInUse>Use external DIDO module</PerepInUse>
+		<BindAddr>Computer address</BindAddr>
+		<BindPort>Computer port</BindPort>
+		<DeviceAddr>Device address</DeviceAddr>
+		<DevicePort>Device port</DevicePort>
+		<PowerChannel>Channel to power supply sensor</PowerChannel>
+		<PlayChannel>Channel to play button</PlayChannel>	
+		<BatteryChannel>Channel to buttery state</BatteryChannel>	
+		<SendStateChannel>Channel to error state lamp</SendStateChannel>
+		<SendHMIData>HMI is on a different computer</SendHMIData>
+		
+		<DisableBySignalType>Shutdown by signal</DisableBySignalType>
+		<DisableBySignal>In use</DisableBySignal>
+		<DisableOnZero>Shutdown on zero</DisableOnZero>
+		<SignalAddress>Signal address</SignalAddress>
+		<WaitSignalTime>Expected signal duration</WaitSignalTime>
+		<EnableOnStart>Enable signals on start</EnableOnStart>
+		<EnOnStart>Signal</EnOnStart>
+		<DisableOnEnd>Disable signals on shutdown</DisableOnEnd>
+		<DisOnEnd>Signal</DisOnEnd>
+		<Signal>Signal</Signal>
+		<ShutdownDisabled>Forbid computer shutting down and restarting</ShutdownDisabled>
+	</Messages>
+</MessageDictionary>

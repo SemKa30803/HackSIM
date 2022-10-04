@@ -1,0 +1,51 @@
+<MessageDictionary>
+	<Name>UserConfigurationManagerWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<UserConfigurations>Пользовательские конфигурации</UserConfigurations>
+		<UserConfiguration>Пользовательская конфигурация</UserConfiguration>		
+			<ConfigurationName>Имя конфигурации</ConfigurationName>
+			<ConfigurationParameters>Параметры конфигурации</ConfigurationParameters>
+			<ConfigurationParameter>Параметр конфигурации</ConfigurationParameter>
+			<ParamType>Тип параметра</ParamType>
+			<ParamTag>Тэг параметра</ParamTag>
+			<ParamName>Имя параметра</ParamName>
+			<DefaultValue>Значение по умолчанию</DefaultValue>
+			<NumericalMinimum>Минимальное значение</NumericalMinimum>
+			<NumericalMaximum>Максимальное значение</NumericalMaximum>
+			<EnumOptions>Опции перечисления</EnumOptions>
+			<EnumOption>Опция перечисления</EnumOption>
+			<SubParameters>Подпараметры</SubParameters>
+			<SubParameter>Подпараметр</SubParameter>
+			<InvalidArgumentHeader>Неудалось загрузить пользовательскую конфигурацию: Неправильный аргумент</InvalidArgumentHeader>
+			<InvalidArgument>В пользовательской конфигурации "{0}":
+Имя параметра: {1}
+Имя тега: {2}</InvalidArgument>
+			<IncorrectCfgHeader>Пользовательская конфигурация по умолчанию была установлена.</IncorrectCfgHeader>
+			<IncorrectCfg>Некорректная конфигурация {1}. Пользовательская конфигурация по умолчанию была установлена.</IncorrectCfg>
+			<ConfigName>Имя пользовательской конфигурации:</ConfigName>
+			<ParamPath>Путь к значению:</ParamPath>
+			<ArrayPath>Путь к массиву:</ArrayPath>
+			<RelativeNodeID>ID ноды начала пути:</RelativeNodeID>
+			<Index>Индекс массива:</Index>
+			<UserConfigurationManagerNotFound>Менеджер пользовательских конфигураций не найден.</UserConfigurationManagerNotFound>
+			<UserConfigurationNotFound>Пользовательская конфигурация не найдена.</UserConfigurationNotFound>
+			<UserConfigurationParamPathNotFound>Путь к параметру не найден.</UserConfigurationParamPathNotFound>
+			<UserConfigurationArrayPathNotFound>Путь к массиву не найден.</UserConfigurationArrayPathNotFound>
+			<UserConfigurationNotSimpleArray>Массив не простой. Простой массив содержит один элемент с типом int или float только.</UserConfigurationNotSimpleArray>
+			<IncorrectParameterHeader>Пользовательская конфигурация содержит неверное значение в "UserConfigurationManager".</IncorrectParameterHeader>
+			<IncorrectParameter>Пользовательская конфигурация "{0}" содержит неверное значение по умолчанию в "UserConfigurationManager". 
+Имя параметра: {1}
+Имя тега: {2}
+Конфигурация не будет загружена.</IncorrectParameter>
+			<RangeParameterIsOutOfRange>Пользовательская конфигурация "{0}" содержит неверное максимальное/минимальное значение в "UserConfigurationManager". 
+Имя параметра: {1}
+Имя тега: {2}
+Конфигурация не будет загружена.</RangeParameterIsOutOfRange>
+			<NotUniqueTags>Обнаружены повторяющиеся теги для пользовательской конфигурации '{0}':
+
+{1}
+
+Конфигурация не будет загружена.</NotUniqueTags>
+	</Messages>
+</MessageDictionary>

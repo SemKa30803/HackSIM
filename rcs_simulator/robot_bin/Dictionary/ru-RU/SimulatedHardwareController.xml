@@ -1,0 +1,8 @@
+﻿<MessageDictionary>
+	<Name>SimulatedHardwareController</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Ошибка симулятора</Header>
+		<NoConnection>Невозможно подключиться к симулятору</NoConnection>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,8 @@
+<MessageDictionary>
+	<Name>ConfigHandler</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>Reboot required</Header>
+		<RebootIt>Changes have been made to robot configuration. To fully apply them reboot is required.</RebootIt>
+	</Messages>
+</MessageDictionary>

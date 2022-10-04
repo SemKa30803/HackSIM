@@ -1,0 +1,8 @@
+<MessageDictionary>
+<Name>Calibration</Name>
+<Language>Russian</Language>
+<Messages>
+	<CalibrationHeader>Ограничение движений</CalibrationHeader>
+	<Deustated>Робот деюстирован.</Deustated>
+</Messages>
+</MessageDictionary>

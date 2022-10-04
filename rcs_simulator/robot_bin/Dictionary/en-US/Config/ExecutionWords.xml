@@ -1,0 +1,8 @@
+<MessageDictionary>
+	<Name>ExecutionWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<maximum_allowed_angle>Allowed recover angle, deg.</maximum_allowed_angle>
+		<maximum_allowed_path_len>Allowed recover line, mm</maximum_allowed_path_len>
+	</Messages>
+</MessageDictionary>

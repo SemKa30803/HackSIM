@@ -1,0 +1,11 @@
+[gd_resource type="CylinderMesh" load_steps=2 format=2]
+
+[ext_resource path="res://components_lib/monitor/material/black_body.tres" type="Material" id=1]
+
+[resource]
+material = ExtResource( 1 )
+top_radius = 6.5
+bottom_radius = 7.0
+height = 1.0
+radial_segments = 100
+rings = 100

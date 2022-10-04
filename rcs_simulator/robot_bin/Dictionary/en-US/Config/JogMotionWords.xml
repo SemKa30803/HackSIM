@@ -1,0 +1,24 @@
+<MessageDictionary>
+	<Name>JogMotionWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<minLineS>Linear decart speed, mm/sec.</minLineS>
+		<minAngSpeed>Angle decart speed, deg./sec.</minAngSpeed>
+		<isJointSpeedProcent>Joint speed in procent</isJointSpeedProcent>
+		<minSlowLineAngSpeed>Joint speed</minSlowLineAngSpeed>
+		<JointDeustatedSpeed>Joint deustated speed, %</JointDeustatedSpeed>
+		<LineLen>Decart line step size, mm.</LineLen>
+		<LineJointLen>Decart angle step size, deg.</LineJointLen>
+		<JointLen>Joint step size, deg.</JointLen>
+		
+		<MoveToPoint>Movement to point</MoveToPoint>
+		<MoveToPointJointAccel>Joint movement acceleration, %</MoveToPointJointAccel>
+		<MoveToPointJointSpeed>Joint movement speed, %</MoveToPointJointSpeed>
+		<MoveToPointPointAccel>Linear movement acceleration, mm/sec^2</MoveToPointPointAccel>
+		<MoveToPointPointSpeed>Linear movement speed, mm/sec</MoveToPointPointSpeed>
+		
+		<SmoothRadius>Smooth radius, mm</SmoothRadius>
+		<JointAcceleration>Joint movement acceleration, %</JointAcceleration>
+		<LinAcceleration>Linear movement acceleration, mm/sec^2</LinAcceleration>
+	</Messages>
+</MessageDictionary>

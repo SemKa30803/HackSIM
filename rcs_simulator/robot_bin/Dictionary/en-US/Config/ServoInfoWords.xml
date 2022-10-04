@@ -1,0 +1,45 @@
+<MessageDictionary>
+	<Name>ServoInfoWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<defSmoothRadius>Default smooth radius</defSmoothRadius>
+		<maxEncPerFrame>Maximum encoder per frame</maxEncPerFrame>
+		<allowRecMode>Is recover mode allowed</allowRecMode>
+		
+		<JointsData>Joints information</JointsData>
+		<joint>joint</joint>
+		<zeroAngle>Angle offset, deg.</zeroAngle>
+		<gearMultipl>Gear reduction</gearMultipl>
+		<fullCiImpulse>Servo encoder for circle</fullCiImpulse>
+		<maxAngSpeed>Maximum angle speed</maxAngSpeed>
+		<maxAngAcceleration>Maximum angle acceleration</maxAngAcceleration>
+		<maxAng>Maximum joint angle</maxAng>
+		<minAng>Minimum joint angle</minAng>
+		<invMovement>Reverse movement</invMovement>
+		
+		<ChainedJ>Chained joints</ChainedJ>
+		<ChainedJoint>Chain</ChainedJoint>
+		<jointId>Movement of joint</jointId>
+		<affectInArr>Affected joints</affectInArr>
+		<affectedArr>joint</affectedArr>
+		<affectTimes>multiplier</affectTimes>
+		<affectOn>Affected joint id</affectOn>
+		
+		<AxisCount>Joints count</AxisCount>		
+		<isLinearType>Axis defines linear movement</isLinearType>
+		
+		<maxLine>Maximum linear position, mm</maxLine>
+		<minLine>Minimum linear position, mm</minLine>
+		<MaxLinearSpeedMmSec>Maximum linear speed, mm/s</MaxLinearSpeedMmSec>
+		<isIgnoreZMark>Ignore Z mark warnings</isIgnoreZMark>
+		<isAllowedDeustated>Allow to start programs with misaligned joint</isAllowedDeustated>
+		<CalibrationType>Calibration type</CalibrationType>
+		<CalibrationSpeedPercent>Calibration speed, percent of maximum</CalibrationSpeedPercent>
+		<CalibrationDirPositive>Search limit switch in positive direction(During Calibration)</CalibrationDirPositive>
+		<accelerationTime>Time of acceleration to joint maximum speed, ms</accelerationTime>
+		<singularCriteriaDeg>Singular criteria, degrees per frame</singularCriteriaDeg>
+		
+		<MaxEncoderDifference>Maximum allowed encoder difference on command resume</MaxEncoderDifference>
+		<CalibrationMoveBackSteps>Count of steps to move back from limit switch for Z mark searching</CalibrationMoveBackSteps>
+	</Messages>
+</MessageDictionary>

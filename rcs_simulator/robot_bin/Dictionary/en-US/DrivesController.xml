@@ -1,0 +1,64 @@
+﻿<MessageDictionary>
+<Name>DrivesController</Name>
+<Language>English</Language>
+<Messages>
+	<Header>HardwareController error</Header>
+	<REPLY_ERROR>Command completed with error<!-- 1:ERRCAT_UNKNOWN--></REPLY_ERROR>
+	<REPLY_INVALID_CMDID_OR_LENGHT>Invalid command id or length<!-- 2:ERRCAT_SOFTWARE--></REPLY_INVALID_CMDID_OR_LENGHT>
+	<REPLY_SERVO_OFF>Servo amplifier is in error state<!-- 3:ERRCAT_RETRY--></REPLY_SERVO_OFF>
+	<REPLY_ABNORMAL_ROWID>Frame sequence error: invalid frame id in command<!-- 4:ERRCAT_SOFTWARE--></REPLY_ABNORMAL_ROWID>
+	<REPLY_SERVOS_NOT_ANSWERED>No response from servo amplifier<!-- 5:ERRCAT_HARDWARE--></REPLY_SERVOS_NOT_ANSWERED>
+	<REPLY_SD_CARD_ERROR>SD card is damaged<!-- 6:ERRCAT_BREAKAGE--></REPLY_SD_CARD_ERROR>
+	<REPLY_HALL_SENSOR_CONNECTION_BREAK>Hall sensor wire breakage<!-- 7:ERRCAT_BREAKAGE--></REPLY_HALL_SENSOR_CONNECTION_BREAK>
+	<REPLY_EXCEEDED_POSITIONING_TIME>Positioning timeout exceeded<!-- 8:ERRCAT_RETRY--></REPLY_EXCEEDED_POSITIONING_TIME>
+	<REPLY_EXEC_CMD_BUFFER_FULL>Commands sequence violation: controller is busy<!-- 9:ERRCAT_SOFTWARE--></REPLY_EXEC_CMD_BUFFER_FULL>
+	<REPLY_ERROR_POSITION>The encoder position detected on the motor enabling has differed too much from the value saved on the last disabling<!-- 10:ERRCAT_UNKNOWN--></REPLY_ERROR_POSITION>
+	<REPLY_NOT_ENABLE>Can`t enable servo<!-- 11:ERRCAT_HARDWARE--></REPLY_NOT_ENABLE>
+	<REPLY_INCORRECT_MB_LEN>Modbus: Incorrect command length<!-- 12:ERRCAT_SOFTWARE--></REPLY_INCORRECT_MB_LEN>
+	<REPLY_MB_DEV_CRC_ERR>Modbus: Сrc error from slave<!-- 13:ERRCAT_HARDWARE--></REPLY_MB_DEV_CRC_ERR>
+	<REPLY_STEPS_PERIOD_LIMIT>Limits violation: Too much steps or period<!-- 14:ERRCAT_SOFTWARE--></REPLY_STEPS_PERIOD_LIMIT>
+	<REPLY_ADC_ERR>Adc peripheral doesn't work<!-- 15:ERRCAT_HARDWARE--></REPLY_ADC_ERR>
+	<REPLY_UART_ERR>UART peripheral doesn't work<!-- 16:ERRCAT_HARDWARE--></REPLY_UART_ERR>
+	<REPLY_MB_DEV_NOT_ANS>Modbus: No reply from slave<!-- 17:ERRCAT_HARDWARE--></REPLY_MB_DEV_NOT_ANS>	
+	<REPLY_BIG_ENC_DIF>There is a gap in encoder values, joint is misaligned.</REPLY_BIG_ENC_DIF>
+	<REPLY_ZMARK_ERROR>Z mark appeared in unexpected position, joint is misaligned.</REPLY_ZMARK_ERROR>
+	
+	<REPLY_RESET_ERROR_WHILE_MOVING>Error reset while moving.</REPLY_RESET_ERROR_WHILE_MOVING>
+	<REPLY_RESET_ROW_WHILE_MOVING>Reset row while moving.</REPLY_RESET_ROW_WHILE_MOVING>
+	<REPLY_EVENT_TIMESTAMP_IN_PAST>Synchronous event timestamp was already in past when received.</REPLY_EVENT_TIMESTAMP_IN_PAST>
+	<REPLY_INCORRECT_PARAMS>Incorrect command params.</REPLY_INCORRECT_PARAMS>
+	<REPLY_POSITION_LAG_TOO_BIG>Too big gap between target and actual positions was detected while moving.</REPLY_POSITION_LAG_TOO_BIG>
+	<REPLY_RESUME_WHILE_NOT_READY>Resume cmd was received while servo not in idle state or disabled.</REPLY_RESUME_WHILE_NOT_READY>
+	<REPLY_INCORRECT_AXIS_ID>Axis targeting command with incorrect axis id.</REPLY_INCORRECT_AXIS_ID>	
+
+	<REPLY_POS_CONTINUITY_VIOLATION>Position continuity violation on frame start encoders.</REPLY_POS_CONTINUITY_VIOLATION>	
+	<REPLY_ABRUPT_POS_CHANGE_ON_FRAME>Too abrupt position change was detected on frame. </REPLY_ABRUPT_POS_CHANGE_ON_FRAME>	
+	<REPLY_CANT_HANDLE_CMD_WHILE_MOVING>Command is allowed only in static state but was received while moving.</REPLY_CANT_HANDLE_CMD_WHILE_MOVING>	
+	<REPLY_VEL_CONTINUITY_VIOLATION>Velocity continuity violation on frame start velocity.</REPLY_VEL_CONTINUITY_VIOLATION>	
+		<REPLY_POSITIVE_LIMIT_SWITCH>Positive limit switch reached while moving. </REPLY_POSITIVE_LIMIT_SWITCH>	
+				<REPLY_NEGATIVE_LIMIT_SWITCH>Negative limit switch reached while moving.</REPLY_NEGATIVE_LIMIT_SWITCH>	
+	
+	<ERR_SOCK_BIND>Bind error: Cant open socket (port)<!-- 161:ERRCAT_SOFTWARE--></ERR_SOCK_BIND>
+	<ERR_SOCK_MOTORS_CONNECT>No connection with drive controllers<!-- 162:ERRCAT_HARDWARE--></ERR_SOCK_MOTORS_CONNECT>
+	<ERR_ENCDIFF_TOO_MUCH>Encoders difference is too much, cant resume track<!-- 163:ERRCAT_UNKNOWN--></ERR_ENCDIFF_TOO_MUCH>
+	<ERR_TARGET_WAIT_TIMEOUT>Cant reach target. Exceeded positioning time.<!-- 164:ERRCAT_UNKNOWN--></ERR_TARGET_WAIT_TIMEOUT>
+	<ERR_FRAME_RESTRICTIONS>Frame restrictions are violated: duration or steps count<!-- 165:ERRCAT_SOFTWARE--></ERR_FRAME_RESTRICTIONS>
+	<REPLY_ERROR_BAD_REPLY>Incorrect command reply<!-- 254ERRCAT_UNKNOWN--></REPLY_ERROR_BAD_REPLY>
+	<REPLY_ERROR_NO_REPLY>Reply timeout exceeded<!-- 255:ERRCAT_UNKNOWN--></REPLY_ERROR_NO_REPLY>
+	<ERR_SAFETY_PROTOCOL_VIOLATION>Motion has been interrupted. Safety protocol violation.</ERR_SAFETY_PROTOCOL_VIOLATION>
+	
+	<ERR_INCONSISTENT_AXIS_STATES>Unacceptable combination of axis states detected.</ERR_INCONSISTENT_AXIS_STATES>
+	<ERR_AXIS_TIME_SYNC>Time synchronization is violated. Timestamp of one or several axis controllers differs too much from  master controller time</ERR_AXIS_TIME_SYNC>
+	<ERR_IDLE_WITHOUT_PASSING_STOP_FRAME>Axis dropped to idle state without passing stop frame.</ERR_IDLE_WITHOUT_PASSING_STOP_FRAME>
+	<ERR_PAUSING_TIME_EXCEEDED>Pausing time exceeded.</ERR_PAUSING_TIME_EXCEEDED>
+	<ERR_CANCELLING_TIME_EXCEEDED>Cancelling time exceeded.</ERR_CANCELLING_TIME_EXCEEDED>
+	<ERR_SWITCHED_TO_CANCEL_WITHOUT_ERRORS>Axis controller switched to cancelling state without raising any error flag.</ERR_SWITCHED_TO_CANCEL_WITHOUT_ERRORS>
+	<ERR_SWITCHED_TO_PAUSE_WITHOUT_ERRORS>Axis controller switched to pausing or paused state without raising any error flag.</ERR_SWITCHED_TO_PAUSE_WITHOUT_ERRORS>
+	<ERR_JOINTS_MISMATCH>Internal error, joints count mismatch between DrivesController configuration and other modules.</ERR_JOINTS_MISMATCH>
+	
+	<REPLY_ABRUPT_CMD_QUEUE_END>Frames queue ended abruptly.</REPLY_ABRUPT_CMD_QUEUE_END>
+	<REPLY_COMMAND_INVALID_IN_CURRENT_STATE>Request is not allowed in current state.</REPLY_COMMAND_INVALID_IN_CURRENT_STATE>
+	
+	<JointsMismatch>Internal error, joints count mismatch between DrivesController configuration and other modules.</JointsMismatch>
+</Messages>
+</MessageDictionary>

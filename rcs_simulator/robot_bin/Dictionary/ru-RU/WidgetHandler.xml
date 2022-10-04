@@ -1,0 +1,9 @@
+﻿<MessageDictionary>
+	<Name>WidgetHandler</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Ошибка виджетов</Header>
+		<ProblemFile>Путь к файлу виджета некорректен или файл содержит неверные данные.</ProblemFile>
+		<WidgetData>Путь к файлу данных виджетов</WidgetData>
+	</Messages>
+</MessageDictionary>

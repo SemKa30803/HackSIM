@@ -1,0 +1,11 @@
+<MessageDictionary>
+	<Name>SafetyState</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>Safety error</Header>
+		<LostConnection1>Safety module not connected. Reconnecting.</LostConnection1>
+		<LostConnection2>Safety module not connected. Can not connect.</LostConnection2>
+		<EmergencyStop>Emergency stop.</EmergencyStop>
+		<SafetyLoop>One of the conditions for safety has not been achieved.</SafetyLoop>
+	</Messages>
+</MessageDictionary>

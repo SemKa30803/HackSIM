@@ -1,0 +1,17 @@
+﻿<MessageDictionary>
+	<Name>InterpreterGlobalData</Name>
+	<Language>English</Language>
+	<Messages>
+		<GDDoesNotExist>Global variable does not exist. Name of the variable: </GDDoesNotExist>
+		<GDFunctionAndTypeMissmatch>Type mismatch between function name and global variable</GDFunctionAndTypeMissmatch>
+		<GDUIntSetNegative>Negative value assignment for unsigned integer value</GDUIntSetNegative>
+		<GDArrayOutOfRange>Out of range index value</GDArrayOutOfRange>
+		<GDInputTypeMissmatch>Type mismatch between input value and global variable</GDInputTypeMissmatch>
+		<GDArraySizeMismatch>Array size mismatch between global variable and input variable</GDArraySizeMismatch>
+		
+		<GDJointSizeMismatch>Axis count mismatch, elements count - </GDJointSizeMismatch>
+		
+		<CriticalSectonDontExist>Critical section with a given name does not exist, or have been released</CriticalSectonDontExist>
+		<CriticalSectonReleasedFromDifferentThread>Can not release critical section from this process</CriticalSectonReleasedFromDifferentThread>
+	</Messages>
+</MessageDictionary>

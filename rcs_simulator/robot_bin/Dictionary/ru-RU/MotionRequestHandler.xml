@@ -1,0 +1,10 @@
+﻿<MessageDictionary>
+	<Name>MotionRequestHandler</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<NoHeartBeat>Внутренняя ошибка, отсутствует heartbeat сигнал.</NoHeartBeat>
+		<HaveError>На роботе присутствует ошибки.</HaveError>
+		<ProgramIsRunning>Работает основная программа.</ProgramIsRunning>
+		<RobotIsNotUstated>Робот деюстирован.</RobotIsNotUstated>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,19 @@
+<MessageDictionary>
+	<Name>SplinePathWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<intervTime>Time per frame</intervTime>
+		<smoothLineLen>Default smooth line length, mm</smoothLineLen>
+		<smooth_angle_len>Default smooth angle degree length, deg.</smooth_angle_len>
+		<angleSpeed>Default angle speed</angleSpeed>
+		<allowRecMode>Is recover mode allowed?</allowRecMode>
+		<minX>Minimum x position, mm</minX>
+		<minY>Minimum y position, mm</minY>
+		<minZ>Minimum z position, mm</minZ>
+		<maxX>Maximum x position, mm</maxX>
+		<maxY>Maximum y position, mm</maxY>
+		<maxZ>Maximum z position, mm</maxZ>
+		<epsilon_s>Accuracy of linear movement, length mm</epsilon_s>
+		<epsilon_r>Accuracy of linear movement, angle deg.</epsilon_r>
+	</Messages>
+</MessageDictionary>

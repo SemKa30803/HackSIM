@@ -1,0 +1,19 @@
+﻿<MessageDictionary>
+	<Name>IntermachineTasksController</Name>
+	<Language>Russian</Language>
+	<Messages>
+			<AlarmHeader> Ошибка модуля обмена задачами между машинами</AlarmHeader>
+			<ReceiveQueueOverflow> Переполнение очереди входящих задач</ReceiveQueueOverflow>
+			<SentQueueOverflow> Переполнение очереди исходящих задач </SentQueueOverflow>
+			<TooBigTaskTag> Слишком большая длина строки с тэгом задачи </TooBigTaskTag>
+			<TooBigPayloadOnSend> Попытка отправки команды со слишком большим блоком данных</TooBigPayloadOnSend>
+			<InvalidMesageCode> Получена датаграмма с некорректным кодом сообщения </InvalidMesageCode>
+			<NotInitialized> Модуль не инициализирован. Попытка отправить задачу отклонена.</NotInitialized>
+			<SendingFaild>  Не удалось отправить датаграмму </SendingFaild>
+			<SubscribeFaild> Не удалось выполнить подписку на датаграммы с заданным uuid </SubscribeFaild>
+			<PerformerReplyError> Исполнитель ответил на запрос ошибкой</PerformerReplyError>
+			<TooShortPayloadReceived> Длина полезной нагрузки в полученной датаграмме меньше, чем заголовок задачи. </TooShortPayloadReceived>
+			<MaxTasksQueueLength> Максимальное количество задач в очереди </MaxTasksQueueLength>
+		</Messages>
+	</MessageDictionary>
+	

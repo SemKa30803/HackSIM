@@ -1,0 +1,33 @@
+<MessageDictionary>
+	<Name>SignalsWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<tokens_path>Path to signal file</tokens_path>
+		<bus_list>Bus list</bus_list>
+		<bus>Bus</bus>
+		<bus_name>Bus name</bus_name>
+		<bus_uuid>Bus UUID</bus_uuid>
+		<input_map>Mapped input bus</input_map>
+		<output_map>Mapped output bus</output_map>
+		<bus_offset>Offset, byte</bus_offset>
+		<bus_width>Width, byte</bus_width>		
+		<ask_period>Bus monitor period, ms</ask_period>
+		
+		<Header>Signal controller error</Header>
+		<BadAddress>Address {0} is incorrect or positioned outside bus.</BadAddress>
+		<BadBusSettings1>Input buffer of bus {0} is smaller then expected. Please check configuration file. Bus width {1} bits.</BadBusSettings1>
+		<BadBusSettings2>Output buffer of bus {0} is smaller then expected. Please check configuration file. Bus width {1} bits.</BadBusSettings2>
+		<BadSpans>Invalid configuration. There are overlapping buses.</BadSpans>
+		<WrongBus>Bus source {0} is missing. Name of the bus {1}.</WrongBus>		
+		<IncorrectBusCfg>Incorrect bus config. Config has been reverted to default state.</IncorrectBusCfg>
+		
+		<TokenSameNames>Signal with name {0} occurred multiple times.</TokenSameNames>
+		<TokenSameIds>Signal with Id {0} occurred multiple times. One of them named {1}.</TokenSameIds>
+		<TokenNoField>Signal does not have field name.</TokenNoField>
+		<TokenNoField2>Signal with name {1} does not contain field {0} .</TokenNoField2>
+		<TokenWithException>Unknown error while reading signal tokens, {0} .</TokenWithException>
+		<TokenInvalidXml>File is not .xml .</TokenInvalidXml>
+		<TokenFileNotFound>File with signal tokens is not found.</TokenFileNotFound>
+		<TokenEnumError>One of the enumeration values is incorrect. Incorrect value {0}.</TokenEnumError>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,226 @@
+﻿<MessageDictionary>
+	<Name>RcsWeldAddon</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Модуль сварки</Header>
+		<HBError>Отсутствие сигнала HeartBeat.</HBError>
+		<ArcFailed>Невозможно зажечь дугу.</ArcFailed>
+		<GasFailed>Отсутствует подача газа.</GasFailed>
+		<ErrorEmitted>Сварочный аппарат в состоянии ошибки. Код ошибки {0}.</ErrorEmitted>
+		<ErrorWithNoCode>Сварочный аппарат в состоянии ошибки.</ErrorWithNoCode>
+		<CantStartGasStage>Невозможно зажечь дугу. Отсутствует подача газа.</CantStartGasStage>
+		<ArcStopedWorking>Произошел обрыв дуги.</ArcStopedWorking>
+		<GasStopedWorking>Неожиданно подача газа была прекращена.</GasStopedWorking>
+		<WorkingArcWithoutGas>Запрещена работа дуги без подачи газа.</WorkingArcWithoutGas>
+		<CantChangeState>Запрещено менять настройки сварки во время работы.</CantChangeState>
+		<NotReadyToWork>Сварочный аппарат не готов к работе.</NotReadyToWork>
+		<CanNotAckErrors>Превышено время ожидание квитирование ошибки сварочного аппарата</CanNotAckErrors>
+		<OutOfSignalRangeValue>Значение для сигнала выходит за установленные пределы. Имя параметра {0}.</OutOfSignalRangeValue>
+		
+		<InversePowerSourceCheck>Инвертировать сигнал источника питания</InversePowerSourceCheck>
+		<InverseAutoModeEnabled>Инвертировать сигнал состояния авто</InverseAutoModeEnabled>
+		<InverseUsingMachineState>Инвертировать сигнал готовности сварочного аппарата</InverseUsingMachineState>
+		<InverseWeldOutput>Инвертировать сигнал включения сварки</InverseWeldOutput>
+		
+		<TooManyNames>Встречены повторяющиеся имена в пользовательских параметрах, имя параметра: </TooManyNames>
+		
+		<InverseStartWelding>Инвертировать сигнал</InverseStartWelding>
+		<usingSingelBitError>Проверять наличие бита ошибки</usingSingelBitError>
+		<usingErrorCode>Проверять код ошибки</usingErrorCode>
+		
+		<EmergencyStopParams>Настройки аварийной остановки сварочного аппарата</EmergencyStopParams>
+		<UsingSetEmergency>Есть возможность аварийной остановки сварочного аппарата</UsingSetEmergency>
+		<AddEmergencyButton>Добавить кнопку аварийной остановки</AddEmergencyButton>
+		<EmergensySet>Адрес сигнала остановки</EmergensySet>
+		<InverseEmrgValue>Инвертировать сигнал</InverseEmrgValue>
+		<EmergSetDuration>Период импулса сигнала, мс</EmergSetDuration>
+		<EmergencyButtonUseTimer>Сигнал аварийной остановки ставиться по таймеру</EmergencyButtonUseTimer>
+		<InAuto>Адрес состояние режима авто</InAuto>
+		<EmergStop>Аварийная остановка</EmergStop>
+		
+		<PowerSourceCheck>Необходима проверка источника питания</PowerSourceCheck>
+		<PowerSourceSignalAddr>Адрес состояния источника питания</PowerSourceSignalAddr>
+		<PowerSourceNotReady>Источник питания не готов к работе</PowerSourceNotReady>
+		<AutoModeNotEnabled>Сварочный аппарат не переведен в автоматический режим</AutoModeNotEnabled>
+		<UsingMachineState>Проверка готовности сварочного аппарата включена</UsingMachineState>
+		<ReadyToWork>Адрес состояние готовности сварочного аппарата</ReadyToWork>
+		<AutoModeEnabled>Необходима проверка наличия состояния авто</AutoModeEnabled>
+		
+		<InptVoltSignalSetts>Настройка представления входного сигнала</InptVoltSignalSetts>
+		<OutpVoltSignalSetts>Настройка представления выходного сигнала</OutpVoltSignalSetts>
+		<minVoltageFrontValue>Минимальное значение представления сигнала</minVoltageFrontValue>
+		<maxVoltageFrontValue>Максимальное значение представления сигнала</maxVoltageFrontValue>
+		<minVoltageBackValue>Минимальное значение сигнала аппарата</minVoltageBackValue>
+		<maxVoltageBackValue>Максимальное значение сигнала аппарата</maxVoltageBackValue>
+		
+		<InptCurSignalSetts>Настройка представления входного сигнала</InptCurSignalSetts>
+		<OutpCurSignalSetts>Настройка представления выходного сигнала</OutpCurSignalSetts>
+		<minCurrentFrontValue>Минимальное значение представления сигнала</minCurrentFrontValue>
+		<maxCurrentFrontValue>Максимальное значение представления сигнала</maxCurrentFrontValue>
+		<minCurrentBackValue>Минимальное значение сигнала аппарата</minCurrentBackValue>
+		<maxCurrentBackValue>Максимальное значение сигнала аппарата</maxCurrentBackValue>
+		
+		<OutpWireSignalSetts>Настройка представления выходного сигнала</OutpWireSignalSetts>
+		<minWireSpeedFrontValue>Минимальное значение представления сигнала</minWireSpeedFrontValue>
+		<maxWireSpeedFrontValue>Максимальное значение представления сигнала</maxWireSpeedFrontValue>
+		<minWireSpeedBackValue>Минимальное значение сигнала аппарата</minWireSpeedBackValue>
+		<maxWireSpeedBackValue>Максимальное значение сигнала аппарата</maxWireSpeedBackValue>
+				
+		<UserFloatMinFrontValue>Минимальное значение представления сигнала</UserFloatMinFrontValue>
+		<UserFloatMaxFrontValue>Максимальное значение представления сигнала</UserFloatMaxFrontValue>
+		<UserFloatMinBackValue>Минимальное значение сигнала аппарата</UserFloatMinBackValue>
+		<UserFloatMaxBackValue>Максимальное значение сигнала аппарата</UserFloatMaxBackValue>
+				
+		<VoltageTooCloseFrontEndVals>Рамки представления сигнала для напряжения слишком мало.</VoltageTooCloseFrontEndVals>
+		<VoltageTooCloseBackEndVals>Рамки реального сигнала для напряжения слишком мало.</VoltageTooCloseBackEndVals>
+		<CurrentTooCloseFrontEndVals>Рамки представления сигнала для тока слишком мало.</CurrentTooCloseFrontEndVals>
+		<CurrentTooCloseBackEndVals>Рамки реального сигнала для тока слишком мало.</CurrentTooCloseBackEndVals>
+		
+		
+		<RangeValuesTooCloseVI>Неправильные настройки входного сигнала напряжения</RangeValuesTooCloseVI>
+		<RangeValuesTooCloseVO>Неправильные настройки выходного сигнала напряжения</RangeValuesTooCloseVO>
+		<RangeValuesTooCloseII>Неправильные настройки входного сигнала тока</RangeValuesTooCloseII>
+		<RangeValuesTooCloseIO>Неправильные настройки выходного сигнала тока</RangeValuesTooCloseIO>
+		<UserDefTooCloseFrontEndVals>Рамки представления сигнала слишком малы. Имя пользовательского параметра - </UserDefTooCloseFrontEndVals>
+		<UserDefTooCloseBackEndVals>Рамки реального значения слишком малы. Имя пользовательского параметра - </UserDefTooCloseBackEndVals>
+		
+		<ArcFailedInProgressWaitingOperator>Обрыв сварочной дуги в процессе сварки. Программа приостановлена.</ArcFailedInProgressWaitingOperator>
+		<ArcFailedAtStartWaitingOperator>Неудачная попытка поджига дуги. Программа приостановлена.</ArcFailedAtStartWaitingOperator>
+		<ArcFailedInProgressContinueWork>Обрыв сварочной дуги в процессе сварки. Программа:"{1}". Строка: {0}. Команда будет завершена без выполнения сварки.</ArcFailedInProgressContinueWork>
+		<ArcFailedAtStartContinueWork>Неудачная попытка поджига дуги. Программа:"{1}". Строка: {0}. Команда будет завершена без выполнения сварки.</ArcFailedAtStartContinueWork>
+		<ArcFailedInProgressAutomatic>Обрыв сварочной дуги в процессе сварки. Программа:"{1}". Строка: {0}. Будет предпринята попытка повторного поджига дуги.</ArcFailedInProgressAutomatic>
+		<ArcFailedAtStartAutomatic>Неудачная попытка поджига дуги. Программа:"{1}". Строка: {0}. Будет предпринята попытка повторного поджига дуги.</ArcFailedAtStartAutomatic>
+		<AutomaitcRestartTry>Неудачная попытка поджига дуги {0}</AutomaitcRestartTry>
+		<ArcFailedInProgressFailing>Обрыв сварочной дуги в процессе сварки. Программа:"{1}". Строка: {0}. Программа будет остановлена без возможности возобновления</ArcFailedInProgressFailing>
+		<ArcFailedAtStartFailing>Неудачная попытка поджига дуги. Программа:"{1}". Строка: {0}. Программа будет остановлена без возможности возобновления</ArcFailedAtStartFailing>
+		
+		<ArcDisableTimeoutError>Превышено время ожидание погашение дуги</ArcDisableTimeoutError>
+		
+		<ArcErrorPart>Реакция на отсутствие дуги</ArcErrorPart>
+		<ArcErrorAutoSettings>Параметры автоматического восстановления</ArcErrorAutoSettings>
+		<RevokeArcType>Тип восстановления </RevokeArcType>
+		<RevokeTryes>Число попыток восстановления дуги</RevokeTryes>
+		<AfterFailRevoke>Тип восстановления в случае провала всех попыток</AfterFailRevoke>
+		<IgniteArcPeriod>Период между попытками, сек.</IgniteArcPeriod>
+		<MoveHead>Включено оттягивание инструмента</MoveHead>
+		<MoveHeadLen>Расстояние оттягивания инструмента</MoveHeadLen>
+		<MoveHeadSpeed>Скорость оттягивания инструмента</MoveHeadSpeed>
+		<MoveHeadAcceleration>Ускорение оттягивания инструмента</MoveHeadAcceleration>
+		<ToolForwardAxis>Проволока горелки совпадает с осью</ToolForwardAxis>
+		
+		<WeldStructure>Режим сварки</WeldStructure>
+		<Kvitate>Квитировать ошибки сварочного аппарата</Kvitate>
+		<AckErrorButton>Добавить кнопку квитирования ошибки</AckErrorButton>
+			
+		<PreMoveGasTimeout>Время для пред подачи газа, сек</PreMoveGasTimeout>
+		<PostMoveGasTimeout>Время для пост подачи газа, сек</PostMoveGasTimeout>
+		<SetArcModeTimeout>Время для розжига дуги, сек</SetArcModeTimeout>
+		<ArcDisableTimeout>Время ожидание погашения дуги, сек</ArcDisableTimeout>
+		
+		<RadiusOnAngle>Радиус для угловых точек шаблонного движения</RadiusOnAngle>
+		<RcsWeldSpeed>Скорость, мм/с</RcsWeldSpeed>
+		<RcsWeldAccel>Ускорение, мм/с^2</RcsWeldAccel>
+		<PatternType>Фигура движения</PatternType>
+		<AmplitudeSizeWalk>Амплитуда фигуры, мм</AmplitudeSizeWalk>
+		<StepSizeWalk>Ширина периода фигуры, мм</StepSizeWalk>
+		<RcsWeldChannelAtStart>Сварочный режим для розжига</RcsWeldChannelAtStart>
+		<RcsWeldChannelAtWeld>Сварочный режим для сварки</RcsWeldChannelAtWeld>
+		<RcsWeldChannelAtFinish>Сварочный режим для заварки кратера</RcsWeldChannelAtFinish>
+		<RcsWeldVoltageAtStart>Напряжение сварочного аппарата для розжига</RcsWeldVoltageAtStart>
+		<RcsWeldVoltageAtWeld>Напряжение сварочного аппарата для сварки</RcsWeldVoltageAtWeld>
+		<RcsWeldVoltageAtFinish>Напряжение сварочного аппарата для заварки кратера</RcsWeldVoltageAtFinish>
+		<RcsWeldCurrentAtStart>Ток сварочного аппарата для розжига</RcsWeldCurrentAtStart>
+		<RcsWeldCurrentAtWeld>Ток сварочного аппарата для сварки</RcsWeldCurrentAtWeld>
+		<RcsWeldCurrentAtFinish>Ток сварочного аппарата для заварки кратера</RcsWeldCurrentAtFinish>
+		<WireSpeedAtStart>Скорость проволоки при розжиге</WireSpeedAtStart>
+		<WireSpeedAtWeld>Скорость проволоки при сварке</WireSpeedAtWeld>
+		<WireSpeedAtFinish>Скорость проволоки при заварки кратера</WireSpeedAtFinish>
+		<CratorTimeout>Время заливки кратера, сек</CratorTimeout>
+		
+		<pushWire>Вывести проволоку</pushWire>
+		<pullWire>Оттянуть проволоку</pullWire>
+		<weldControl>Выполнять сварку</weldControl>
+		<zigzag>Колебание электрода</zigzag>
+		<arcState>Дуга зажжена</arcState>
+		<SourceReady>Источник готов</SourceReady>
+		<weldVoltage>Сварочное напряжение</weldVoltage>
+		<weldCurrent>Сварочный ток</weldCurrent>
+		<gas>Подача газа</gas>
+		
+		<StartWeldingProcess>Сигнал начала работы сварки</StartWeldingProcess>
+		<UsingStartWeldingProcess>Необходим сигнал начала сварки</UsingStartWeldingProcess>
+		<StartWeldingProcessAddress>Адрес оповещания о сварке</StartWeldingProcessAddress>
+		
+		<WeldPathGenerator>Настройка колебательных движений</WeldPathGenerator>
+		<TimePerFrame>Длительность фрейма, сек.</TimePerFrame>
+		<UsingModeAssign>Используется сигнал присвоение канала</UsingModeAssign>
+		<addresses>Адреса сигналов</addresses>
+		<RobotEnabled>Адрес обратной связи о состоянии робота</RobotEnabled>
+		<MachineState>Готовность работы сварочного аппарата</MachineState>
+		<ArcState>Состояние дуги</ArcState>
+		<weldOn>Адрес для установки состояния дуги</weldOn>
+		<ArcEnabled>Адрес состояния дуги</ArcEnabled>
+		<ReadyToShine>Адрес состояния готовности розжига</ReadyToShine>
+		<AutoModeSettings>Режим автоматической сварки</AutoModeSettings>
+		<ErrorManagment>Управление ошибками</ErrorManagment>
+		<ErrorsEnabled>Аппарат создает ошибки</ErrorsEnabled>
+		<InError>Адрес наличия ошибки</InError>
+		<ErrorCode>Адрес кода ошибки</ErrorCode>
+		<CanAckError>Возможность квитирования ошибки</CanAckError>
+		<AckErrorTimeout>Длительность импульса квитирования, сек.</AckErrorTimeout>
+		<AckError>Адрес вывода квитирования ошибки</AckError>
+		<WireManagment>Управление проволокой</WireManagment>
+		<UsingWirePush>Есть функция подачи проволоки</UsingWirePush>
+		<PullWire>Адрес для затягивания проволоки</PullWire>
+		<UsingWirePull>Есть функция затягивания проволоки</UsingWirePull>
+		<PushWire>Адрес для подачи проволоки</PushWire>
+		<UsingWireSpeed>Есть функция изменения скорости проволоки</UsingWireSpeed>
+		<SetWireSpeed>Адрес установки скорости проволоки</SetWireSpeed>
+		<GasSettings>Управление газом</GasSettings>
+		<OutGas>Адрес для подачи газа</OutGas>
+		<UsingInGas>Есть возможность читать состояние газа</UsingInGas>
+		<InGas>Адрес для считывания состояние газа</InGas>
+		<GasOutErrorTimeout>Время для подачи газа при возникновении ошибки, сек.</GasOutErrorTimeout>
+		<Power>Управление напряжением и током</Power>
+		<VoltageSettings>Управление напряжением</VoltageSettings>
+		<UsingVoltageI>Есть возможность считывать напряжение аппарата</UsingVoltageI>
+		<UsingVoltageO>Есть возможность устанавливать напряжение аппарата</UsingVoltageO>
+		<InverseBytes>Обратный порядок байт</InverseBytes>
+		<oVoltageAddress>Адрес установки уровня напряжения</oVoltageAddress>
+		<iVoltageAddress>Адрес состояния уровня напряжения</iVoltageAddress>
+		<CurrentSettings>Управление током</CurrentSettings>
+		<UsingCurrentI>Есть возможность считывать ток аппарата</UsingCurrentI>
+		<UsingCurrentO>Есть возможность устанавливать ток аппарата</UsingCurrentO>
+		<oCurrentAddress>Адрес установки уровня тока</oCurrentAddress>
+		<iCurrentAddress>Адрес состояния уровня тока</iCurrentAddress>
+		<HeartBeatData>Управление HeartBeat сигналом</HeartBeatData>
+		<UsingHBO>Необходимо генерировать сигнал</UsingHBO>
+		<oHeartBeat>Адрес для отправления сигнала</oHeartBeat>
+		<HeartBeatEmitPriod>Период генерируемого сигнала, сек.</HeartBeatEmitPriod>
+		<UsingHBI>Аппарат отправляет сигнал</UsingHBI>
+		<iHeartBeat>Адрес для чтения сигнала</iHeartBeat>
+		<HeartbeatInputMaxDelay>Допустимая задержка входного сигнала, сек.</HeartbeatInputMaxDelay>
+		<ChannelInfo>Управление режимами сварки</ChannelInfo>
+		<CannelEnabled>Используются режимы сварки</CannelEnabled>
+		<ChannelAddr>Адрес для установки значения режима</ChannelAddr>
+		<ModeAssign>Адрес для принятия режима</ModeAssign>
+		<ModeAsignDelay>Время импульса установки режима, сек.</ModeAsignDelay>
+		<TouchSenseSettings>Управление детектором прикосновения</TouchSenseSettings>
+		<UsingTouchSense>Сенсор прикасания включен</UsingTouchSense>
+		<InputState>Адрес значения сенсора</InputState>
+		<OutputState>Адрес для включения сенсора</OutputState>
+		<UserDefined>Типы данных определенные пользователем</UserDefined>
+		<UserType>Пользовательский тип</UserType>
+		<UserOutputAddress>Адрес параметра</UserOutputAddress>
+		<UserTypeType>Тип параметра</UserTypeType>
+		<ItemName>Имя параметра</ItemName>
+		<UserFloatMinValue>Минимальное значение вещественного типа</UserFloatMinValue>
+		<UserFloatMaxValue>Максимальное значение вещественного типа</UserFloatMaxValue>	
+
+		<UsingModeSet>Использовать сигнал для перевода сварочного источника в определенный режим работы</UsingModeSet>	
+		<ModeSet>Сигнал для перевода сварочного источника в определенный режим работы</ModeSet>	
+		<ValueModeSet>Значение для сигнала режима работы</ValueModeSet>	
+		<IgnitionAwaitTimeMs>Допустимое время ожидания поджига дуги, мс</IgnitionAwaitTimeMs>	
+		<TeachModeOnStart>Отключать сварку в меню виджета при запуске системы</TeachModeOnStart>	
+	</Messages>
+</MessageDictionary>

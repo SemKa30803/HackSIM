@@ -1,0 +1,9 @@
+<MessageDictionary>
+	<Name>ExtensionProviderWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<PathToModules>Path to folder with modules</PathToModules>
+		<interfaces>Interfaces</interfaces>
+		<extensibleInterface>Extensible interface</extensibleInterface>
+	</Messages>
+</MessageDictionary>

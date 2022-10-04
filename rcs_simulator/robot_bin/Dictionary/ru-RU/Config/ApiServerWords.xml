@@ -1,0 +1,8 @@
+﻿<MessageDictionary>
+	<Name>ApiServerWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<AllowSharedUse>Все подключенные HMI могут управлять роботом</AllowSharedUse>
+		<EmitErrorOnDisconnect>Потеря связи с HMI вызывает ошибку</EmitErrorOnDisconnect>
+	</Messages>
+</MessageDictionary>

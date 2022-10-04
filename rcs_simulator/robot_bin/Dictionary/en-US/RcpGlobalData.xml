@@ -1,0 +1,19 @@
+﻿<MessageDictionary>
+	<Name>RcpGlobalData</Name>
+	<Language>English</Language>
+	<Messages>
+		<FramesErrorHeader>Error while loading file with frames</FramesErrorHeader>
+		<FramesFileNotFound>File not found</FramesFileNotFound>
+		<FramesIncorrectXML>File is no XML</FramesIncorrectXML>
+		<FramesTwoSameId>Multiple frames with same id occurred, value {0}</FramesTwoSameId>
+		<FramesTwoSameName>Multiple frames with same name occurred, name {0}</FramesTwoSameName>
+		<FramesException>Unknown error. Frame name: {0}. Error: {1}.</FramesException>
+		
+		<ToolsErrorHeader>Error while loading file with tools</ToolsErrorHeader>
+		<ToolsFileNotFound>File not found</ToolsFileNotFound>
+		<ToolsIncorrectXML>File is not XML</ToolsIncorrectXML>
+		<ToolsTwoSameId>Multiple tools with same id occurred, value {0}</ToolsTwoSameId>
+		<ToolsTwoSameName>Multiple tools with same name occurred, name {0}</ToolsTwoSameName>
+		<ToolsException>Unknown error. Frame name: {0}. Error: {1}.</ToolsException>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,21 @@
+<MessageDictionary>
+	<Name>CommonWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<!-- common -->
+		<IPAddress>IP адрес</IPAddress>
+		<port>Порт</port>
+		<name>Имя</name>
+		
+		<!-- one time use -->
+		<PasswordFilePath>Путь к файлу паролей</PasswordFilePath>
+		<PathToDictionaryFolder>Путь к папке словарей</PathToDictionaryFolder>
+		<PathToRareData>Путь к файлу дополнительных данных</PathToRareData>
+		<PathToPythonLibFolder>Путь к папке с библиотекой Python</PathToPythonLibFolder>
+		<PathToProgramFolder>Путь к папке с Python программами</PathToProgramFolder>
+		
+		<ProcessOutrunning>Максимальное число функций запущенных в одно время</ProcessOutrunning>
+		
+		<ChangeTime>Время для нормального подключения</ChangeTime>
+	</Messages>
+</MessageDictionary>

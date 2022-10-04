@@ -1,0 +1,19 @@
+<MessageDictionary>
+	<Name>SafetyBlockWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<wire>Wire name</wire>
+		
+		<teachSpeed>Teach mode speed limitation</teachSpeed>
+		<mode_offset>Offset in message for mode value</mode_offset>
+		
+		<enableDrOn>Automatic enable drives</enableDrOn>
+		<when>when</when>
+		<Mode>While in mode</Mode>
+		<trigType>Trigger when</trigType>
+		
+		<wires>Block inputs</wires>
+		<bit>Bit offset in message</bit>
+		<emitCode>Emit message code on error</emitCode>
+	</Messages>
+</MessageDictionary>

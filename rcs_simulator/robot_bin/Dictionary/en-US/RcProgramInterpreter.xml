@@ -1,0 +1,82 @@
+<MessageDictionary>
+<Name>RcProgramInterpreter</Name>
+<Language>English</Language>
+<Messages>
+	<Header>Program interpreter</Header>
+    <RecoveryPathGenFaild>Can not recover from current position. Manual move to position required.</RecoveryPathGenFaild>
+    <RecoveryInWrongMode>Can not recover from in mode other then Teach.</RecoveryInWrongMode>	
+	<BackgoundCantExecuteThisFunction>Non main programs are not allowed to execute this function. Program name: {0}. Function name: {1}. File: {2}. Line: {3}.</BackgoundCantExecuteThisFunction>
+		
+	<JoinedTaskInError>Can not start program, one of joined tasks in error state.</JoinedTaskInError>
+	<BackgroundTaskInError>Can not start program, one of background tasks in error state.</BackgroundTaskInError>
+	
+	<MainProcessDepingponged>Response from main process timed out. Process Id {0}. Program name {1}.</MainProcessDepingponged>
+	<JoinedTaskDepingponged>Response from additional process timed out. Process Id {0}. Program name {1}.</JoinedTaskDepingponged>
+	<BackgroundTastDepingponged>Response from background process timed out. Process Id {0}. Program name {1}.</BackgroundTastDepingponged>
+
+	<SwitchedPointerIsIncorrect>Step debugging: next step gonna be displayed incorrectly, few line already have been executed.</SwitchedPointerIsIncorrect>
+	
+	<InterpreterMessageContainer>{3}</InterpreterMessageContainer>
+	<ExceptionInfo>Message: {0} File: {1}. Line: {2}.</ExceptionInfo>
+	<ExceptionMessage>Message: {0}.</ExceptionMessage>
+	<CrossLibraryError>Program {0} quit incorrectly. It's quit could affect other processes.
+Example of incorrect exit: process entered critical section but never released.</CrossLibraryError>
+	<RcsBufferOverflovC>Buffer overflow, only bytearray designed for big data transfer. File: {1}. Line: {2}.</RcsBufferOverflovC>
+	<InvalidExecutionControllerCmd>RCS function failed to execute. Maybe other messages explain this error.</InvalidExecutionControllerCmd>
+	<CantConvertTypeToC>Input object with unknown type received ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</CantConvertTypeToC>
+	<CanNotConvertTypeX>Index of unknown parameter is </CanNotConvertTypeX>
+	<RcsSideEmittedError>Error emitted while trying to call embedded function. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</RcsSideEmittedError>
+	<PyException>Exception. An unhandled exception occurred in python program. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyException>
+	<PyAssertionError>AssertionError. An assert statement has got false expression on input.  ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyAssertionError>
+	<PyAttributeError>AttributeError. An attribute reference or assignment failed. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyAttributeError>
+	<PyBlockingIOError>BlockingIOError. An blocking occurred on non-blocking input/output stream. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyBlockingIOError>
+	<PyBrokenPipeError>BrokenPipeError. An attempt has been undertaken  to write on a pipe while the other end has been closed. Or an attempt has been undertaked to write on a socket which has been shutdown for writing. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyBrokenPipeError>
+	<PyBufferError>BufferError. A buffer related operation cannot be performed. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyBufferError>
+	<PyChildProcessError>ChildProcessError. An operation on a child process failed. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyChildProcessError>
+	<PyConnectionAbortedError>ConnectionAbortedError. Connection attempt was aborted by the peer. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyConnectionAbortedError>
+	<PyConnectionError>ConnectionError. An exception occurred which related with connection issues. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyConnectionError>
+	<PyConnectionRefusedError>ConnectionRefusedError. A connection attempt was refused by the peer. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyConnectionRefusedError>
+	<PyConnectionResetError>ConnectionResetError. A connection was reset by the peer. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyConnectionResetError>
+	<PyEOFError>EOFError. An input() function hits an end-of-file condition (EOF) without reading any data. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyEOFError>
+	<PyFileExistsError>FileExistsError. An attempt has been undertaken  to create a file or directory which already exists. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyFileExistsError>
+	<PyFileNotFoundError>FileNotFoundError. A file or directory was requested but doesn’t exist. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyFileNotFoundError>
+	<PyGeneratorExit>GeneratorExit.  A generator‘s close() method was called.</PyGeneratorExit>
+	<PyImportError>ImportError.  An "import" statement failed to find the module definition. Or a "from ... import" statement faild to find a name that is to be imported. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyImportError>
+	<PyIndentationError>IndentationError. Syntax error has occurred related to incorrect indentation. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyIndentationError>
+	<PyIndexError>IndexError. An attempt has been undertaken to access sequence element by index which is out of range. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyIndexError>
+	<PyInterruptedError>InterruptedError. A system call was interrupted by an incoming signal. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyInterruptedError>
+	<PyIsADirectoryError>IsADirectoryError. A file operation was requested on a directory. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyIsADirectoryError>
+	<PyKeyError>KeyError. A mapping (dictionary) key was not found in the set of existing keys. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyKeyError>
+	<PyLookupError>LookupError. A key or index used on a mapping or sequence is invalid. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyLookupError>
+	<PyMemoryError>MemoryError. An operation has run out of memory. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyMemoryError>
+	<PyModuleNotFoundError>ModuleNotFoundError. An "import" statement could not locate required module. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyModuleNotFoundError>
+	<PyNameError>NameError.  A local or global name was not found. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyNameError>
+	<PyNotADirectoryError>NotADirectoryError. A directory operation has been requested on something which is not a directory. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyNotADirectoryError>
+	<PyVacant>!Vacant!</PyVacant>
+	<PyNotImplementedError>NotImplementedError. A derived class should override abstract method of baseclass, but implementation for the method hasn't been found in the derived class. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyNotImplementedError>
+	<PyOSError>OSError. An operating system-related error has occurred. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyOSError>
+	<PyOverflowError>OverflowError. An arithmetic operation has produced the result which was too large to be represented. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyOverflowError>
+	<PyPermissionError>PermissionError. An attempt has been undertaken to run an operation without the adequate access rights. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyPermissionError>
+	<PyProcessLookupError>ProcessLookupError. A given process doesn’t exist. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyProcessLookupError>
+	<PyRecursionError>RecursionError. Maximum recursion depth has been exceeded. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyRecursionError>
+	<PyReferenceError>ReferenceError.  A weak reference proxy has been used to access an attribute of the referent after it has been garbage collected. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyReferenceError>
+	<PyRuntimeError>RuntimeError. An runtime error has occurred. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyRuntimeError>
+	<PyStopAsyncIteration>StopAsyncIteration. Exception raised by __anext__() method of an asynchronous iterator object to stop the iteration.</PyStopAsyncIteration>
+	<PyStopIteration>StopIteration. There are no further items produced by the iterator. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyStopIteration>
+	<PySyntaxError>SyntaxError. The parser has encountered a syntax error in a python script. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PySyntaxError>
+	<PySystemError>SystemError. The interpreter has come across an internal error. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PySystemError>
+	<PySystemExit>SystemExit. The system exit exception has been raised. Python interpreter will shut down and will remain unavailable before a system restart. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PySystemExit>
+	<PyTabError>TabError. Indentation contains an inconsistent use of tabs and spaces. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyTabError>
+	<PyTimeoutError>TimeoutError. A system function has timed out at the system level. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyTimeoutError>
+	<PyTypeError>TypeError. An operation or function has been applied to an object of inappropriate type. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyTypeError>
+	<PyUnboundLocalError>UnboundLocalError. A reference has been made to a local variable in a function or method, but no value has been bound to that variable. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnboundLocalError>
+	<PyUnicodeDecodeError>UnicodeDecodeError. A Unicode-related error has been occurred during decoding. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnicodeDecodeError>
+	<PyUnicodeEncodeError>UnicodeEncodeError. A Unicode-related error has been occurred during encoding. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnicodeEncodeError>
+	<PyUnicodeError>UnicodeError. A Unicode-related encoding or decoding error has occurred. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnicodeError>
+	<PyUnicodeTranslateError>UnicodeTranslateError. A Unicode-related error has been occurred during translating. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyUnicodeTranslateError>
+	<PyValueError>ValueError. A built-in operation or function has received an argument that has the right type but an inappropriate value. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyValueError>
+	<PyZeroDivisionError>ZeroDivisionError. The second argument of a division or modulo operation is zero. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyZeroDivisionError>
+	<PyArithmeticError>ArithmeticError. An arithmetic operation related error has occurred. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyArithmeticError>
+	<PyBaseException>BaseException. An unhandled exception has occurred. ~&lt;RcProgramInterpreter::ExceptionInfo&gt;~</PyBaseException>
+</Messages>
+</MessageDictionary>

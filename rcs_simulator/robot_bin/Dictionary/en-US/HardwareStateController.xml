@@ -1,0 +1,17 @@
+<MessageDictionary>
+<Name>HardwareStateController</Name>
+<Language>English</Language>
+<Messages>
+	<Header>Power info</Header>
+	<ConnectError>Can not connect to UPS. COM port device does not exist.</ConnectError>
+	<ReciveError>Reply timed out from COM port UPS device.</ReciveError>
+	<ZeroUsePower>No device assigned as power monitor.</ZeroUsePower>
+	<PowerAndModbus>Two devices assigned as power monitor, only Modbus RTU in use.</PowerAndModbus>	
+	
+	<BadBatteryState>Uninterruptible Power Supply is broken. Contact service engineers.</BadBatteryState>
+	
+	<UdpHeartbeatWarning>Connection to external periphery device is unstable.</UdpHeartbeatWarning>
+	<UdpHeartbeatError>Connection to external play button have been lost.</UdpHeartbeatError>
+	<BadUdpSettings>Invalid IP address or port of external periphery device or computer.</BadUdpSettings>
+</Messages>
+</MessageDictionary>

@@ -1,0 +1,16 @@
+﻿<MessageDictionary>
+	<Name>AddonManager</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>Addon manager</Header>
+		<PathToMeta>Path to meta file</PathToMeta>
+		<PathToRoot>Path to RCS folder</PathToRoot>
+		<NeedReboot>Addon configuration have been changed. Reboot is required.</NeedReboot>
+		<UnfinishedFiles>Error occurred during installation of addon. Reboot is required to fully finish operation.</UnfinishedFiles>
+		<IncorrectAddon>Addon {0} is damaged or does not fulfill addon requirements.</IncorrectAddon>
+		<ErrorOverritesFile>Can not install addon, file {0} will be overwritten</ErrorOverritesFile>
+		
+		<IncorrectPathToMeta>Incorrect path to meta file</IncorrectPathToMeta>
+		<IncorrectPathToRoot>Incorrect path to RCS folder</IncorrectPathToRoot>
+	</Messages>
+</MessageDictionary>

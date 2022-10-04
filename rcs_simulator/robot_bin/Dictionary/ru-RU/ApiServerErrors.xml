@@ -1,0 +1,119 @@
+﻿<MessageDictionary>
+	<Name>ApiServerErrors</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<InvalHeader>Ошибка RcsApi: ошибка чтения заголовка.</InvalHeader>
+		<InvalXML>Ошибка RcsApi: контент содержит неправильную структуру.</InvalXML>
+		<InvalData>Ошибка RcsApi: ошибка чтения содержимого контента.</InvalData>
+		<WDLost>Соединение с HMI не стабильно, данные приходят с задержкой или потеряны</WDLost>
+		<Err104>Запрос был отклонен</Err104>
+		<Err105>Нет прав доступа</Err105>
+		<Err106>Ошибка при работе с файлами бекапа</Err106>
+		
+		<FileNotFound>Файл не найден</FileNotFound>
+		<LastFileManipulationIsBad>Произошла ошибка при работе с файлами.</LastFileManipulationIsBad>
+		<NoFactorySettings>Отсутствует файл заводских настроек.</NoFactorySettings>
+		<HardwCntrlInErro>Контролер сервоприводов в состоянии ошибки.</HardwCntrlInErro>
+		<AlreadyCalibr>Уже проводится одна из калибровок, произошел сброс системы.</AlreadyCalibr>
+		
+		<InternalError>Внутренняя ошибка.</InternalError>
+		
+		<RestrictedAccess>Ограниченный доступ. К роботу подключено несколько клиентов и данный клиент не является основным.</RestrictedAccess>
+		
+		<DeniedNeedOperator>Нет прав доступа, требуемый уровень пользователя: Оператор.</DeniedNeedOperator>
+		<DeniedNeedProgrammer>Нет прав доступа, требуемый уровень пользователя: Программист.</DeniedNeedProgrammer>
+		<DeniedNeedServiceEngineer>Нет прав доступа, требуемый уровень пользователя: Сервисный инженер.</DeniedNeedServiceEngineer>
+		
+		<FileErrorNoDisk>Диск не найден</FileErrorNoDisk>		
+		<FileErrorCantCopy>Невозможно копировать,возможно файл или папка уже существует или доступ запрещен</FileErrorCantCopy>
+		<FileErrorCantCopyDueName>Невозможно копировать,один из файлов или папка содержит недопустимые символы в имени, допустимые символы [ a-z 0-9 _ ], первый символ может быть только [ a-z _ ]</FileErrorCantCopyDueName>
+		<FileErrorCantMove>Невозможно переместить,возможно файл или папка уже существует или доступ запрещен</FileErrorCantMove>
+		<FileErrorCantMoveDueName>Невозможно переместить,один из файлов или папка содержит недопустимые символы в имени, допустимые символы [ a-z 0-9 _ ], первый символ может быть только [ a-z _ ]</FileErrorCantMoveDueName>
+		<FileErrorCantDelete>Невозможно удалить, возможно файл не существует</FileErrorCantDelete>
+		<FileErrorCantDeleteDisk>Нельзя удалять диск или корневую папку</FileErrorCantDeleteDisk>
+		<FileErrorDiskRemoved>Внутренняя ошибка, диск был извлечен</FileErrorDiskRemoved>
+		<FileErrorCanNotMove>Невозможно переместить, возможно файл уже существует или доступ запрещен</FileErrorCanNotMove>
+		<FileErrorCantCreateFolder>Невозможно создать папку, возможно папка с таким именем уже существует или недостаточно прав</FileErrorCantCreateFolder>
+		<FileErrorCantCreateFolderDueName>Невозможно создать папку, имя папки может содержать только следующие символы [ a-z 0-9 _ ], первый символ может быть только [ a-z _ ]</FileErrorCantCreateFolderDueName>
+		<FileErrorCantRenameDueName>Невозможно переименовать, имя может содержать только следующие символы [ a-z 0-9 _ ], первый символ может быть только [ a-z _ ]</FileErrorCantRenameDueName>
+		<FileErrorCantCreateFolderDueNoName>Невозможно создать папку, имя не введено.</FileErrorCantCreateFolderDueNoName>
+		<FileErrorCantRenameDueNoName>Невозможно переименовать, введено пустое имя.</FileErrorCantRenameDueNoName>
+		
+		<AddonErrorNoAddon>Внутренняя ошибка, невозможно найти аддон</AddonErrorNoAddon>
+		<AddonErrorNoDescriptor>Внутренняя ошибка,невозможно получить описание, возможно аддон поврежден</AddonErrorNoDescriptor>
+		<AddonErrorNoWidget>Внутренняя ошибка, невозможно найти виджет</AddonErrorNoWidget>
+		
+		<MultipleNoFile>Внутренняя ошибка, файл не существует</MultipleNoFile>
+		<MultipleNoStructure>Внутренняя ошибка, структура не найдена</MultipleNoStructure>
+		<MultipleCanNotCreate>Невозможно создать структуру</MultipleCanNotCreate>
+		<MultipleEmptyBuffer>Буфер пуст</MultipleEmptyBuffer>
+		<MultipleNoType>Внутренняя ошибка, тип не найден</MultipleNoType>
+		<MultipleCantRename>Невозможно переименовать</MultipleCantRename>
+		<MultipleInternal>Внутренняя ошибка, проблема неизвестна</MultipleInternal>
+		<MultipleFailedSet>Ошибка изменения значений, одно из новых значений выходит за ограничение</MultipleFailedSet>
+		
+		<PointHeader>Ошибка при создании точки</PointHeader>
+		<PointHardwareInError>Робот в состоянии ошибки, включение приводов квитирует ошибку.</PointHardwareInError>
+		
+		<EventLogFileExist>Невозможно сохранить лог, файл уже существует.</EventLogFileExist>
+		<EventDeletingInProgress>Процесс занят удалением сообщений</EventDeletingInProgress>
+		
+		<TeachModeOnly>Данная команда требует Teach режима</TeachModeOnly>		
+
+		<CanNotChangeTime>Не удачная попытка сменить время компьютера.</CanNotChangeTime>
+		<CanNotRetreatTimezones>Неудачная попытка получения списка временных зон.</CanNotRetreatTimezones>
+		
+		<GVNameAlreadyExist>Глобальная переменная с данным именем уже существует.</GVNameAlreadyExist>
+		<GVCanNotResetValue>Не получилось сбросить сообщение.</GVCanNotResetValue>
+		<GVCanNotGetBytearray>Не получилось получить данные из bytearray</GVCanNotGetBytearray>
+		<GVCanNotRename>Не получилось переименовать переменную</GVCanNotRename>
+		<GVCanNotChangeType>Не получилось сменить тип переменной.</GVCanNotChangeType>
+		<GVCanNotChangeDefaultValue>Не получилось сменить дефолтное значение переменной.</GVCanNotChangeDefaultValue>
+		<GVCanNotCreateSnapFile>Не получилось создать файл снимка, возможно имя неверно или недостаточно прав.</GVCanNotCreateSnapFile>
+		<GVCanNotSnapFileAlreadyExist>Невозможно создать файл снапшота, файл с таким именем уже существует.</GVCanNotSnapFileAlreadyExist>
+		
+		<PlayButtonHeader>Запуск программы</PlayButtonHeader>
+		<PlayButtonCanNotRunInAuto>Запрещено использование внешней кнопки запуска программы в режиме Auto</PlayButtonCanNotRunInAuto>
+		<PlayButtonCanNotStartProgram>Ошибка запуска программы</PlayButtonCanNotStartProgram>
+		<PlayButtonNoProgram>Программа для запуска отсутствует</PlayButtonNoProgram>
+		<PlayButtonErrorProgram>Программа в состоянии ошибки</PlayButtonErrorProgram>
+		
+		<AfterFactoryDoReboot>Было восстановление из заводских настроек, изменение конфигурации запрещено.</AfterFactoryDoReboot>
+		
+		<FolderFileInUse>Невозможно удалить файл(ы) так как одна из задач использует его(их)</FolderFileInUse>
+		
+		<BaseNotFound>Перерасчет точки невозможен так как базовая система координат не найдена.</BaseNotFound>
+		
+		<RcProgramCantEditWhileRunning>Невозможно редактировать файлы пока хоть одна программа запущенна (выполняется или приостановлена)</RcProgramCantEditWhileRunning>
+		
+		<NotAllowedInGuided>Данная команда запрещена в ведомом режиме.</NotAllowedInGuided>
+		
+		<MoveToPointHeader>Движение в точку</MoveToPointHeader>
+		<MoveToPointHaveErrors>Невозможно начать движение, робот в состоянии ошибки</MoveToPointHaveErrors>
+		<MoveToPointDrivesDisable>Невозможно начать движение, привода отключены</MoveToPointDrivesDisable>
+		<MoveToPointTeachRequired>Невозможно начать движение, движение в точку возможно только в Teach режиме</MoveToPointTeachRequired>
+		
+		<RcsNotLicensed>Без лицензии данная команда недоступна.</RcsNotLicensed>
+		
+		<CanNotSetPointer>Не удалось изменить исполняемую строку интерпретатора</CanNotSetPointer>
+		<CanNotSetPointerIncorrectState>Не удалось сменить строку. При текущей паузе невозможно сменить указатель. Смена гарантирована при паузе режима по шагам или брейкпоинта.</CanNotSetPointerIncorrectState>
+		
+		<RobotDoesNotHaveSerial>Невозможное действие, отсутствует серийный номер, восстановление из бекапа не восстановит серийный номер</RobotDoesNotHaveSerial>
+		<SerialNumberMismatch>Серийный номер текущего робота и бекап файла не совпадают</SerialNumberMismatch>
+		
+		<BackupInvalidFile>Файл бекапа поврежден или модифицирован внешней программой</BackupInvalidFile>
+		
+		<SignalWithNameAlreadyExist>Сигнал с таким именем уже существует</SignalWithNameAlreadyExist>
+		
+		<PointWithThatNameExist>Точка с таким именем уже существует</PointWithThatNameExist>
+		
+		<MainProgramAlreadySelected>Основная программа уже выбрана</MainProgramAlreadySelected>
+		
+		<AddCalibrationAxisMoved>Калибровка прервана, доп ось была в движении, которая не должна была двигаться</AddCalibrationAxisMoved>
+		
+		<SignalIncorrectFloatSize>Неверный размер для типа "Real", возможные размеры сигнала: 16,32,64.</SignalIncorrectFloatSize>
+		
+		<NotificationErrorHeader>Проблема отправки сообщений</NotificationErrorHeader>
+		<NotificationSendError>Слишком много информативных сообщений, некоторые сообщения отброшены.</NotificationSendError>
+	</Messages>
+</MessageDictionary>

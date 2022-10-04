@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://components_lib/integrated_vision_camera/materials/Glass_3.material" type="Material" id=1]
+[ext_resource path="res://components_lib/integrated_vision_camera/materials/White_3.material" type="Material" id=2]
+[ext_resource path="res://components_lib/integrated_vision_camera/materials/Black_3.material" type="Material" id=3]
+[ext_resource path="res://components_lib/integrated_vision_camera/mesh/M1.mesh" type="ArrayMesh" id=4]
+
+[node name="integrated_vision_camera" type="Spatial"]
+
+[node name="Node_0" type="Spatial" parent="."]
+
+[node name="M1" type="MeshInstance" parent="Node_0"]
+mesh = ExtResource( 4 )
+material/0 = ExtResource( 2 )
+material/1 = ExtResource( 3 )
+material/2 = ExtResource( 1 )

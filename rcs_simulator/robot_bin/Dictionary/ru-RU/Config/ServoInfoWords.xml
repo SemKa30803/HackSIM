@@ -1,0 +1,45 @@
+﻿<MessageDictionary>
+	<Name>ServoInfoWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<defSmoothRadius>Стандартный радиус</defSmoothRadius>
+		<maxEncPerFrame>Максимальное число энкодеров на фрейм</maxEncPerFrame>
+		<allowRecMode>Разрешено ли восстановочное движение</allowRecMode>
+		
+		<JointsData>Информация об осях</JointsData>
+		<joint>ось</joint>
+		<zeroAngle>Угол смещения от нуля, град.</zeroAngle>
+		<gearMultipl>Значение редуктора</gearMultipl>
+		<fullCiImpulse>Число энкодеров на круг</fullCiImpulse>
+		<maxAngSpeed>Предельная скорость двигателя, оборотов в минуту</maxAngSpeed>
+		<maxAngAcceleration>Максимальное угловое ускорение двигателя, оборотов в минуту^2</maxAngAcceleration>
+		<maxAng>Максимальный угол оси, град.</maxAng>
+		<minAng>Минимальный угол оси, град.</minAng>
+		<invMovement>Инвертировать вращение</invMovement>
+		
+		<ChainedJ>Сцепленные оси</ChainedJ>
+		<ChainedJoint>Цепь</ChainedJoint>
+		<jointId>Движение оси</jointId>
+		<affectInArr>Зависимые оси</affectInArr>
+		<affectedArr>ось</affectedArr>
+		<affectTimes>Множитель</affectTimes>
+		<affectOn>номер оси</affectOn>
+		
+		<AxisCount>Число осей</AxisCount>
+		<isLinearType>Ось задает линейное движение</isLinearType>
+		
+		<maxLine>Максимальная позиция линейного движения, мм</maxLine>
+		<minLine>Минимальная позиция линейного движения, мм</minLine>
+		<MaxLinearSpeedMmSec>Максимальная скорость линейного движения, мм/с</MaxLinearSpeedMmSec>
+		<isIgnoreZMark>Игнорировать предупреждения о Z метке</isIgnoreZMark>
+		<isAllowedDeustated>Допускать запуск программ с деюстированной осью</isAllowedDeustated>
+		<CalibrationType>Тип калибровки</CalibrationType>
+		<CalibrationSpeedPercent>Скорость при калибровке, процент от максимальной</CalibrationSpeedPercent>
+		<CalibrationDirPositive>Поиск концевика при калибровке в положительном направлении</CalibrationDirPositive>
+		<accelerationTime>Время разгона до максимальной скорости, мс</accelerationTime>
+		<singularCriteriaDeg>Критерий детектирования сингулярности, градусы за фрейм</singularCriteriaDeg>
+		
+		<MaxEncoderDifference>Максимально допустимая разница в энкодерах при возобновлении команд</MaxEncoderDifference>
+		<CalibrationMoveBackSteps>Количество шагов отступа от концевика для поиска Z метки</CalibrationMoveBackSteps>
+	</Messages>
+</MessageDictionary>

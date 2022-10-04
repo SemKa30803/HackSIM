@@ -1,0 +1,8 @@
+﻿<MessageDictionary>
+	<Name>SimulatedHardwareController</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>Simulator error</Header>
+		<NoConnection>Can not connect to robot simulator</NoConnection>
+	</Messages>
+</MessageDictionary>

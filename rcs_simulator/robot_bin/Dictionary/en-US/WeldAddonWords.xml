@@ -1,0 +1,228 @@
+﻿<MessageDictionary>
+	<Name>RcsWeldAddon</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>Weld addon</Header>
+		<HBError>HeartBeat signal is missing.</HBError>
+		<ArcFailed>Can't start arc.</ArcFailed>
+		<GasFailed>Can't enable gas.</GasFailed>
+		<ErrorEmitted>Welding device contain error. Error code {0}.</ErrorEmitted>
+		<ErrorWithNoCode>Welding device contain error.</ErrorWithNoCode>
+		<CantStartGasStage>Can start welding. Gas system not working.</CantStartGasStage>
+		<ArcStopedWorking>Arc has been interrupted.</ArcStopedWorking>
+		<GasStopedWorking>Gas has stopped flowing.</GasStopedWorking>
+		<WorkingArcWithoutGas>Arc can not work without gas.</WorkingArcWithoutGas>
+		<CantChangeState>Can't change mode while working.</CantChangeState>		
+		<CanNotAckErrors>Can not acknowledge error on welding device, timed out</CanNotAckErrors>
+		<NotReadyToWork>Welding device is not ready.</NotReadyToWork>
+		<OutOfSignalRangeValue>Signal value is beyond range. Name of the parameter {0}.</OutOfSignalRangeValue>
+		
+		<InversePowerSourceCheck>Inverse power source signal</InversePowerSourceCheck>
+		<InverseAutoModeEnabled>Inverse automatic mode check signal</InverseAutoModeEnabled>
+		<InverseUsingMachineState>Inverse ready state signal</InverseUsingMachineState>
+		<InverseWeldOutput>Inverse enable arc signal</InverseWeldOutput>
+		
+		<TooManyNames>Too many user variables with the same name, variable name: </TooManyNames>
+			
+		<EmergencyStopParams>Emergency stop settings</EmergencyStopParams>
+		<UsingSetEmergency>Emergency stop signal available</UsingSetEmergency>
+		<AddEmergencyButton>Add emergency stop button</AddEmergencyButton>
+		<EmergensySet>Emergency stop signal address</EmergensySet>
+		<InverseEmrgValue>Invert signal</InverseEmrgValue>
+		<EmergencyButtonUseTimer>Emergency stop signal turning off by timer</EmergencyButtonUseTimer>
+		<EmergSetDuration>Signal pulse duration, ms</EmergSetDuration>
+		<EmergStop>Emergency stop</EmergStop>
+		
+		<InverseStartWelding>Invert signal</InverseStartWelding>
+		<usingSingelBitError>Monitor error bit</usingSingelBitError>
+		<usingErrorCode>Monitor error code</usingErrorCode>
+		
+		<InptVoltSignalSetts>Input signal representation settings</InptVoltSignalSetts>
+		<OutpVoltSignalSetts>Output signal representation settings</OutpVoltSignalSetts>
+		<minVoltageFrontValue>Signal representation minimum value</minVoltageFrontValue>
+		<maxVoltageFrontValue>Signal representation maximum value</maxVoltageFrontValue>
+		<minVoltageBackValue>Signal minimum value</minVoltageBackValue>
+		<maxVoltageBackValue>Signal maximum value</maxVoltageBackValue>
+		
+		<InptCurSignalSetts>Input signal representation settings</InptCurSignalSetts>
+		<OutpCurSignalSetts>Output signal representation settings</OutpCurSignalSetts>
+		<minCurrentFrontValue>Signal representation minimum value</minCurrentFrontValue>
+		<maxCurrentFrontValue>Signal representation maximum value</maxCurrentFrontValue>
+		<minCurrentBackValue>Signal minimum value</minCurrentBackValue>
+		<maxCurrentBackValue>Signal maximum value</maxCurrentBackValue>
+		
+		<OutpWireSignalSetts>Output signal representation settings</OutpWireSignalSetts>
+		<minWireSpeedFrontValue>Signal representation minimum value</minWireSpeedFrontValue>
+		<maxWireSpeedFrontValue>Signal representation maximum value</maxWireSpeedFrontValue>
+		<minWireSpeedBackValue>Signal minimum value</minWireSpeedBackValue>
+		<maxWireSpeedBackValue>Signal maximum value</maxWireSpeedBackValue>		
+		
+		<UserFloatMinFrontValue>Signal representation minimum value</UserFloatMinFrontValue>
+		<UserFloatMaxFrontValue>Signal representation maximum value</UserFloatMaxFrontValue>
+		<UserFloatMinBackValue>Signal minimum value</UserFloatMinBackValue>
+		<UserFloatMaxBackValue>Signal maximum value</UserFloatMaxBackValue>
+				
+		<VoltageTooCloseFrontEndVals>Signal representation range for voltage is too small.</VoltageTooCloseFrontEndVals>
+		<VoltageTooCloseBackEndVals>Signal real range for voltage is too small.</VoltageTooCloseBackEndVals>
+		<CurrentTooCloseFrontEndVals>Signal representation range for current is too small.</CurrentTooCloseFrontEndVals>
+		<CurrentTooCloseBackEndVals>Signal real range for current is too small.</CurrentTooCloseBackEndVals>
+		
+		<UserDefTooCloseFrontEndVals>Signal representation range is too small. Name of the parameter is </UserDefTooCloseFrontEndVals>
+		<UserDefTooCloseBackEndVals>Signal real range is too small. Name of the parameter is </UserDefTooCloseBackEndVals>
+		
+		<ArcFailedInProgressWaitingOperator>Arc have been interrupted. Program is paused.</ArcFailedInProgressWaitingOperator>
+		<ArcFailedAtStartWaitingOperator>Can not start arc. Program is paused.</ArcFailedAtStartWaitingOperator>
+		<ArcFailedInProgressContinueWork>Arc have been interrupted. Program:"{1}". Line: {0}. Command will be finished without welding.</ArcFailedInProgressContinueWork>
+		<ArcFailedAtStartContinueWork>Can not start arc. Program:"{1}". Line: {0}. Command will be finished without welding.</ArcFailedAtStartContinueWork>
+		<ArcFailedInProgressAutomatic>Arc have been interrupted. Program:"{1}". Line: {0}. Attempting to light arc.</ArcFailedInProgressAutomatic>
+		<ArcFailedAtStartAutomatic>Can not start arc. Program:"{1}". Line: {0}.Attempting to light arc.</ArcFailedAtStartAutomatic>
+		<AutomaitcRestartTry>Attempt number {0} to light arc.</AutomaitcRestartTry>
+		<ArcFailedInProgressFailing>Arc have been interrupted. Program:"{1}". Line: {0}. Program will be stopped without future recover.</ArcFailedInProgressFailing>
+		<ArcFailedAtStartFailing>Can not start arc. Program:"{1}". Line: {0}. Program will be stopped without future recover.</ArcFailedAtStartFailing>
+		
+		<ArcDisableTimeoutError>Could not disable arc in time</ArcDisableTimeoutError>
+		
+		<PowerSourceCheck>Power source check required</PowerSourceCheck>
+		<PowerSourceSignalAddr>Power source state address</PowerSourceSignalAddr>
+		<PowerSourceNotReady>Power source is not ready</PowerSourceNotReady>
+		<AutoModeNotEnabled>Welding device is not in auto mode</AutoModeNotEnabled>
+		
+		<ArcErrorPart>Arc breakage handling</ArcErrorPart>
+		<ArcErrorAutoSettings>Automatic restart settings</ArcErrorAutoSettings>
+		<RevokeArcType>Handling type</RevokeArcType>
+		<RevokeTryes>Attempts count</RevokeTryes>
+		<AfterFailRevoke>Handling type on failed restart</AfterFailRevoke>
+		<IgniteArcPeriod>Lighting arc attempts timeout, sec.</IgniteArcPeriod>
+		<MoveHead>Enable tool backing</MoveHead>
+		<MoveHeadLen>Tool backing length</MoveHeadLen>
+		<MoveHeadSpeed>Tool backing speed</MoveHeadSpeed>
+		<MoveHeadAcceleration>Tool backing acceleration</MoveHeadAcceleration>
+		<ToolForwardAxis>Torch wire aligned to axis</ToolForwardAxis>
+		
+		<WeldStructure>Weld configuration</WeldStructure>
+		<Kvitate>Acknowledge errors</Kvitate>
+		<AckErrorButton>Enable acknowledge error button</AckErrorButton>
+			
+		<PreMoveGasTimeout>Gas flow before welding, gas duration , sec<!-- REPLACE --></PreMoveGasTimeout>
+		<PostMoveGasTimeout>Post move gas duration, sec</PostMoveGasTimeout>
+		<SetArcModeTimeout>Establish arc timeout, sec</SetArcModeTimeout>
+		<ArcDisableTimeout>Disable arc timeout, sec</ArcDisableTimeout>
+			
+		<RadiusOnAngle>Radius for edges in pattern movement</RadiusOnAngle>
+		<RcsWeldSpeed>Speed, mm/sec</RcsWeldSpeed>
+		<RcsWeldAccel>Acceleration, mm/sec^2</RcsWeldAccel>
+		<PatternType>Pattern movement</PatternType>
+		<AmplitudeSizeWalk>Pattern amplitude, mm</AmplitudeSizeWalk>
+		<StepSizeWalk>Pattern period, mm</StepSizeWalk>
+		<RcsWeldChannelAtStart>Welding mode to establish arc.</RcsWeldChannelAtStart>
+		<RcsWeldChannelAtWeld>Welding mode for regular weld.</RcsWeldChannelAtWeld>
+		<RcsWeldChannelAtFinish>Welding mode for crater shrinkage.</RcsWeldChannelAtFinish>
+		<RcsWeldVoltageAtStart>Voltage to establish arc.</RcsWeldVoltageAtStart>
+		<RcsWeldVoltageAtWeld>Voltage for regular welding.</RcsWeldVoltageAtWeld>
+		<RcsWeldVoltageAtFinish>Voltage for crater shrinkage.</RcsWeldVoltageAtFinish>
+		<RcsWeldCurrentAtStart>Current to establish arc.</RcsWeldCurrentAtStart>
+		<RcsWeldCurrentAtWeld>Current for regular welding.</RcsWeldCurrentAtWeld>
+		<RcsWeldCurrentAtFinish>Current for crater shrinkage.</RcsWeldCurrentAtFinish>
+		<WireSpeedAtStart>Wire speed at arc establishing stage.</WireSpeedAtStart>
+		<WireSpeedAtWeld>Wire speed at regular welding stage.</WireSpeedAtWeld>
+		<WireSpeedAtFinish>Wire speed at crater shrinkage stage.</WireSpeedAtFinish>
+		<CratorTimeout>Crater fill time, sec</CratorTimeout>
+		
+		<StartWeldingProcess>Start welding signal</StartWeldingProcess>
+		<UsingStartWeldingProcess>Using start welding signal</UsingStartWeldingProcess>
+		<StartWeldingProcessAddress>Address to set welding signal</StartWeldingProcessAddress>
+		
+		<pushWire>Push wire</pushWire>
+		<pullWire>Pull wire</pullWire>
+		<weldControl>Allow welding</weldControl>
+		<zigzag>Enable pattern</zigzag>
+		<arcState>Arc established</arcState>
+		<SourceReady>Device is ready</SourceReady>
+		<weldVoltage>Weld voltage</weldVoltage>
+		<weldCurrent>Weld current</weldCurrent>
+		<gas>Emit gas</gas>
+		
+		
+		<WeldPathGenerator>Pattern movement settings</WeldPathGenerator>
+		<TimePerFrame>Frame duration, seconds</TimePerFrame>
+		<UsingModeAssign>Mode assign signal required</UsingModeAssign>
+		<addresses>Signal addresses</addresses>
+		<RobotEnabled>Robot state output address</RobotEnabled>
+		<MachineState>Welding power supply state</MachineState>
+		<UsingMachineState>Power supply support state output</UsingMachineState>
+		<ReadyToWork>Ready state output address</ReadyToWork>
+		<ArcState>Arc status</ArcState>
+		<weldOn>Power supply support arc status output</weldOn>
+		<ArcCratorTimeout>Time to shrink crater</ArcCratorTimeout>
+		<ArcEnabled>Arc status address</ArcEnabled>
+		<ReadyToShine>Ready to establish arc status address</ReadyToShine>
+		<AutoModeSettings>Power supply automatic mode</AutoModeSettings>
+		<AutoModeEnabled>Power supply support automatic mode</AutoModeEnabled>
+		<InAuto>Automatic mode status address</InAuto>
+		<ErrorManagment>Power supply error support</ErrorManagment>
+		<ErrorsEnabled>Power supply support error check</ErrorsEnabled>
+		<InError>Error flag address</InError>
+		<ErrorCode>Error code address</ErrorCode>
+		<CanAckError>Power supply support error acknowledge</CanAckError>
+		<AckErrorTimeout>Error acknowledge pulse duration, sec.</AckErrorTimeout>
+		<AckError>Address to output error acknowledge pulse</AckError>
+		<WireManagment>Wire management</WireManagment>
+		<UsingWirePush>Power supply can push wire</UsingWirePush>
+		<PullWire>Push wire address</PullWire>
+		<UsingWirePull>Power supply can pull wire</UsingWirePull>
+		<PushWire>Pull wire address</PushWire>
+		<UsingWireSpeed>Power supply wire speed input</UsingWireSpeed>
+		<SetWireSpeed>Wire speed address</SetWireSpeed>
+		<GasSettings>Gas management</GasSettings>
+		<OutGas>Emit gas address</OutGas>
+		<UsingInGas>Supported gas status</UsingInGas>
+		<InGas>Gas status address</InGas>
+		<GasOutErrorTimeout>Gas emit duration after error, sec.</GasOutErrorTimeout>
+		<Power>Power supply management</Power>
+		<VoltageSettings>Voltage management</VoltageSettings>
+		<UsingVoltageI>Power supply support voltage management</UsingVoltageI>
+		<UsingVoltageO>Power supply output voltage value</UsingVoltageO>
+		<InverseBytes>inverse bytes</InverseBytes>
+		<oVoltageAddress>Address to apply voltage</oVoltageAddress>
+		<iVoltageAddress>Voltage value status address</iVoltageAddress>
+		<minVoltageValue>Power supply minimum voltage value, V</minVoltageValue>
+		<maxVoltageValue>Power supply maximum voltage value, V</maxVoltageValue>
+		<CurrentSettings>Current management</CurrentSettings>
+		<UsingCurrentI>Power supply support current management</UsingCurrentI>
+		<UsingCurrentO>Power supply output current value</UsingCurrentO>
+		<oCurrentAddress>Address to apply current</oCurrentAddress>
+		<iCurrentAddress>Current value status address</iCurrentAddress>
+		<minCurrentValue>Power supply minimum current value, A</minCurrentValue>
+		<maxCurrentValue>Power supply maximum current value, A</maxCurrentValue>
+		<HeartBeatData>HeartBeat signal management</HeartBeatData>
+		<UsingHBO>Generate HeartBeat signal</UsingHBO>
+		<oHeartBeat>Address to output signal</oHeartBeat>
+		<HeartBeatEmitPriod>HeartBeat signal period, sec.</HeartBeatEmitPriod>
+		<UsingHBI>HeartBeat signal check required</UsingHBI>
+		<iHeartBeat>HeartBeat state address</iHeartBeat>
+		<HeartbeatInputMaxDelay>HearBeat max input delay, sec.</HeartbeatInputMaxDelay>
+		<ChannelInfo>Weld channel management</ChannelInfo>
+		<CannelEnabled>Power supply support channels</CannelEnabled>
+		<ChannelAddr>Address to change channel</ChannelAddr>
+		<ModeAssign>Address for channel assignment</ModeAssign>
+		<ModeAsignDelay>Time duration for channel assignment, sec.</ModeAsignDelay>
+		<TouchSenseSettings>Sensor management</TouchSenseSettings>
+		<UsingTouchSense>Sensor supported</UsingTouchSense>
+		<InputState>Sensor status address</InputState>
+		<OutputState>Sensor output management address</OutputState>
+		<UserDefined>User defined variables</UserDefined>
+		<UserType>User variable</UserType>
+		<UserOutputAddress>Address to output value</UserOutputAddress>
+		<UserTypeType>Variable type</UserTypeType>
+		<ItemName>Variable name</ItemName>
+		<UserFloatMinValue>Minimal value for float variable</UserFloatMinValue>
+		<UserFloatMaxValue>Maximum value for float variable</UserFloatMaxValue>	
+		
+		<UsingModeSet>Use signal for activatic specific power source mode</UsingModeSet>	
+		<ModeSet>Specific power source mode signal address</ModeSet>	
+		<ValueModeSet>Power source set mode signal value</ValueModeSet>	
+		<IgnitionAwaitTimeMs>Allowed ignition await time, ms</IgnitionAwaitTimeMs>	
+		<TeachModeOnStart>Disable welding in the widget on system start</TeachModeOnStart>	
+		
+	</Messages>
+</MessageDictionary>

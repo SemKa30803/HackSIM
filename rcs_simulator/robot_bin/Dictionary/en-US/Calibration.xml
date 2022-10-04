@@ -1,0 +1,8 @@
+<MessageDictionary>
+<Name>Calibration</Name>
+<Language>English</Language>
+<Messages>
+	<CalibrationHeader>Unresolved condition</CalibrationHeader>
+	<Deustated>Robot is not aligned</Deustated>
+</Messages>
+</MessageDictionary>

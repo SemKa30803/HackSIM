@@ -1,0 +1,9 @@
+<MessageDictionary>
+	<Name>KinematicPathGenerator</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Ограничение кинематики</Header>
+		<BadKinValue>Дальнейшее движение невозможно. Ограничение кинематики по оси {0}.</BadKinValue>
+		<ComputeInverseFailed>Дальнейшее движение невозможно. Ошибка нахождения обратной кинематики.</ComputeInverseFailed>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,27 @@
+<MessageDictionary>
+	<Name>SplinePathGenerator</Name>
+	<Language>English</Language>
+	<Messages>
+		<SmoothHeader>Trajectory smoothing limitations</SmoothHeader>
+		<SmoothingFailed>Unable to generate smoothing trajectory. </SmoothingFailed>
+		
+		<SingularHeader>Moving through a singularity</SingularHeader>
+		<SingularWarning>Trajectory passes through a singularity.  Motion speed will be reduced significantly near the singularity.</SingularWarning>
+		
+		<KinHeader>Kinematics limitations</KinHeader>
+		<ClampedOnCartesian>A trajectory has been clipped. Kinematics restrictions on axis {0}.</ClampedOnCartesian>
+		<ArcComputingFaild>Unable to build arc trajectory. Incorrect points.</ArcComputingFaild>
+		<CartesianLimitViolation>An incorrect trajectory. Kinematics limits violation has been found on the trajectory. Axis: {0}.</CartesianLimitViolation>
+		<ComputeInverseFailed>Motion path generation failed. Unable to compute inverse kinematics.</ComputeInverseFailed>
+		<ComputeTrajectoryFailed>Unable to compute trajectory. </ComputeTrajectoryFailed>
+		
+		<JointsHeader>Joint Limitations</JointsHeader>
+		<ClampedOnJointLimit>A motion has been clipped. Minimum or maximum value of joint {0} reached.</ClampedOnJointLimit>
+		<JointLimitViolation>An incorrect motion. Joint limits violation has been found. Joint: {0}.</JointLimitViolation>
+		<TooFastJoint>A motion speed has been reduced. Maximum speed or acceleration violation for joint {0}.</TooFastJoint>
+		
+		<ConfigHeader>Internal error in path generator module</ConfigHeader>
+		<ConfigurationError>Internal error. Incorrect joint count in input data or incorrect configuration.</ConfigurationError>
+		<SafetyConfigError>Configuration is incorrect. Safety configures expect different count of joints.</SafetyConfigError>
+	</Messages>
+</MessageDictionary>

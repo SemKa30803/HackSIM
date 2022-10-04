@@ -1,0 +1,9 @@
+﻿<MessageDictionary>
+	<Name>WidgetHandler</Name>
+	<Language>English</Language>
+	<Messages>
+		<Header>Widget error</Header>
+		<ProblemFile>Path to widget data file is incorrect or file has been corrupted.</ProblemFile>
+		<WidgetData>Path to widget data</WidgetData>
+	</Messages>
+</MessageDictionary>

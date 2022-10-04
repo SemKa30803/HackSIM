@@ -1,0 +1,84 @@
+﻿<MessageDictionary>
+	<Name>GuidedModeController</Name>
+	<Language>English</Language>
+	<Messages>
+		
+		<IsGuidedEnabled>Guided mode enabled</IsGuidedEnabled>
+		
+		<InputSignals>Input signals</InputSignals>
+		<iResetErrors>Reset errors</iResetErrors>
+		<iServoOn>Enabled drives</iServoOn>
+		<iBoolChangePrograms>Change programs signal enabled</iBoolChangePrograms>
+		<iChangePrograms>Change programs</iChangePrograms>
+		<iStartPrograms>Start programs</iStartPrograms>
+		<iRestartPrograms>Reset programs</iRestartPrograms>
+		
+		<OutputSignals>Output signals</OutputSignals>
+		<oBoolErrorId>Error code output enabled</oBoolErrorId>
+		<oErrorId>Error code</oErrorId>
+		<oBoolWarningId>Warning code output enabled</oBoolWarningId>
+		<oWarningId>Warning code</oWarningId>
+		<oErrorStatus>Error status</oErrorStatus>
+		<oBoolWarningStatus>Warning status output enabled</oBoolWarningStatus>
+		<oWarningStatus>Warning status</oWarningStatus>
+		<oBoolExCtrlMode>Guided mode status output enabled</oBoolExCtrlMode>
+		<oExCtrlMode>Guided mode status</oExCtrlMode>
+		<oBoolServoStatus>Servo status output enabled</oBoolServoStatus>
+		<oServoStatus>Servo status</oServoStatus>
+		<oRunning>Running status</oRunning>
+		<oProgramError>Contain program with error status</oProgramError>
+		<oProgramStatuses>Program status output</oProgramStatuses>
+		<oProgramStatus>Program status</oProgramStatus>
+		<oProgSignalType>Program type</oProgSignalType>
+		<oProgramStatusSignal>Signal address</oProgramStatusSignal>
+		
+		<ProgramsInfo>Program settings</ProgramsInfo>
+		<IsPlcSetProgramEnabled>Remote control program change enabled</IsPlcSetProgramEnabled>
+		<PredefinedPrograms>Predefined programs</PredefinedPrograms>
+		<MainProgram>Main program</MainProgram>
+		<ExtraPrograms>Additional programs</ExtraPrograms>
+		<ExtraProgram>Program</ExtraProgram>
+		<ExProgram>Path to program</ExProgram>
+		<ProgramIsBackground>Background program</ProgramIsBackground>
+		<ProgramIsAlwaysOn>Program always executing</ProgramIsAlwaysOn>
+		
+		<PCLDefinedParams>Remote control program change</PCLDefinedParams>
+		<iPLCMainProgramAddress>Main program address</iPLCMainProgramAddress>
+		<InputProgSignals>Input program select control</InputProgSignals>
+		<InputProgSignal>Input program</InputProgSignal>
+		<iPLCProgramIsBackground>Background program</iPLCProgramIsBackground>
+		<iProgramSignal>Program signal address</iProgramSignal>
+		<OutputProgSignals>Output selected programs id</OutputProgSignals>
+		<OutputProgSignal>Chosen program</OutputProgSignal>
+		<oProgSignalType>Program type</oProgSignalType>
+		<oProgramSignal>Signal address</oProgramSignal>
+		<ProgramPairIds>Program numbers</ProgramPairIds>
+		<ProgramPairId>Program</ProgramPairId>
+		<ProgramIdValue>Program number</ProgramIdValue>
+		<ProgramPath>Path to program</ProgramPath>		
+		
+		<MessageHeader>Guided mode</MessageHeader>
+		<ConfigError>Incorrect guided mode configuration. Error text: {0}</ConfigError>
+		<IncorrectSetProgram>Can not load program. Program id: {0}</IncorrectSetProgram>
+		<PredefinedProgramNotFound>Error while loading program, program not found, path: {0}</PredefinedProgramNotFound>
+		<PLCInvalidSignalValue>Error while loading program, can not get signal value: {0}</PLCInvalidSignalValue>
+		<PLCNotFoundInTable>Error while loading program, can not find program in table, signal value: {0} </PLCNotFoundInTable>
+		<PLCProgramNotFound>Error while loading program, program not found, path: {0}</PLCProgramNotFound>
+		
+		<CantStartServoDueErrors>Can not enable drives, errors must be acknowledged</CantStartServoDueErrors>
+		<CantStartProgramDueErrors>Can not start programs, errors must be acknowledged</CantStartProgramDueErrors>
+		<CantChangeProgramDueRunning>Can not change programs, there are programs that running, paused or in invalid state</CantChangeProgramDueRunning>
+		<CantChangeProgramDueNoEngine>Can not start programs, drives must be enabled</CantChangeProgramDueNoEngine>
+		
+		<SpeedControl>Speed control</SpeedControl>
+		<ChangeSpeedEnabled>Change speed by signal</ChangeSpeedEnabled>
+		<ChangeSpeedValue>Speed value</ChangeSpeedValue>
+		<ChangeSpeedAnywayByServoOn>Change speed when drives enabling</ChangeSpeedAnywayByServoOn>
+		<ChangeSpeedSignalValue>Change speed signal address</ChangeSpeedSignalValue>
+		<ChangeSpeedLoadValueFromSignal>Retrieve signal value from signal</ChangeSpeedLoadValueFromSignal>
+		<ChangeSpeedSignalForValue>Signal address for signal value</ChangeSpeedSignalForValue>
+		
+		<oBoolSpeedStatus>Write robot speed</oBoolSpeedStatus>
+		<SpeedStatus>Address to output speed</SpeedStatus>
+	</Messages>
+</MessageDictionary>

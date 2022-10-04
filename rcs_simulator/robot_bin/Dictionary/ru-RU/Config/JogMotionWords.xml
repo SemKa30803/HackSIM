@@ -1,0 +1,24 @@
+﻿<MessageDictionary>
+	<Name>JogMotionWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<minLineS>Линейная скорость декартового движения, мм/сек.</minLineS>
+		<minAngSpeed>Угловая скорость декартового движения, град./сек.</minAngSpeed>
+		<isJointSpeedProcent>Угловая скорость углового движения в процентах</isJointSpeedProcent>
+		<minSlowLineAngSpeed>Угловая скорость углового движения</minSlowLineAngSpeed>
+		<JointDeustatedSpeed>Угловая скорость деюстированных осей, %</JointDeustatedSpeed>
+		<LineLen>Шаг линейного движения, мм.</LineLen>
+		<LineJointLen>Шаг угла линейного движения, град.</LineJointLen>
+		<JointLen>Шаг углового движения, град.</JointLen>
+		
+		<MoveToPoint>Движение в точку</MoveToPoint>
+		<MoveToPointJointAccel>Ускорение углового движения, %</MoveToPointJointAccel>
+		<MoveToPointJointSpeed>Скорость углового движения, %</MoveToPointJointSpeed>
+		<MoveToPointPointAccel>Ускорение линейного движения, мм/сек^2</MoveToPointPointAccel>
+		<MoveToPointPointSpeed>Скорость линейного движения, мм/сек</MoveToPointPointSpeed>
+		
+		<SmoothRadius>Радиус сглаживания, мм</SmoothRadius>
+		<JointAcceleration>Ускорение при движении осей, %</JointAcceleration>
+		<LinAcceleration>Ускорение при декартовых движениях, мм/сек^2</LinAcceleration>
+	</Messages>
+</MessageDictionary>

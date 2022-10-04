@@ -1,0 +1,9 @@
+<MessageDictionary>
+	<Name>DhChainWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<DhType>Type of joint</DhType>
+		<joints>Joints</joints>
+		<joint>Joint</joint>
+	</Messages>
+</MessageDictionary>

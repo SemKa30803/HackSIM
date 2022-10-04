@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component_meta>
+<name>PV-400</name>
+<developer>eidos</developer>
+<version>1</version>
+<description>Eidos PV-400 welding positioner. One vertical axis. Max load 400 kg. Max weld current 400A. </description>
+</component_meta>

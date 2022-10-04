@@ -1,0 +1,242 @@
+[gd_scene load_steps=35 format=2]
+
+[ext_resource path="res://components_lib/forklift/meshes/frame_lower.mesh" type="ArrayMesh" id=2]
+[ext_resource path="res://components_lib/forklift/meshes/frame_upper.mesh" type="ArrayMesh" id=3]
+[ext_resource path="res://components_lib/forklift/meshes/frame1.mesh" type="ArrayMesh" id=4]
+[ext_resource path="res://components_lib/forklift/meshes/frame2.mesh" type="ArrayMesh" id=5]
+[ext_resource path="res://components_lib/forklift/meshes/lattice_upper.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://components_lib/forklift/meshes/balk_frame.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://components_lib/forklift/meshes/tire3.mesh" type="ArrayMesh" id=8]
+[ext_resource path="res://components_lib/forklift/meshes/vert_2.mesh" type="ArrayMesh" id=9]
+[ext_resource path="res://components_lib/forklift/meshes/disk1.mesh" type="ArrayMesh" id=10]
+[ext_resource path="res://components_lib/forklift/meshes/seat.mesh" type="ArrayMesh" id=11]
+[ext_resource path="res://components_lib/forklift/meshes/disk3.mesh" type="ArrayMesh" id=12]
+[ext_resource path="res://components_lib/forklift/meshes/disk4.mesh" type="ArrayMesh" id=13]
+[ext_resource path="res://components_lib/forklift/meshes/tire2.mesh" type="ArrayMesh" id=14]
+[ext_resource path="res://components_lib/forklift/meshes/lattice_lower.mesh" type="ArrayMesh" id=15]
+[ext_resource path="res://components_lib/forklift/meshes/handlebar_holder.mesh" type="ArrayMesh" id=16]
+[ext_resource path="res://components_lib/forklift/meshes/vert_1.mesh" type="ArrayMesh" id=17]
+[ext_resource path="res://components_lib/forklift/meshes/upper_fork_1.mesh" type="ArrayMesh" id=18]
+[ext_resource path="res://components_lib/forklift/meshes/upper_fork_2.mesh" type="ArrayMesh" id=19]
+[ext_resource path="res://components_lib/forklift/meshes/tire1.mesh" type="ArrayMesh" id=20]
+[ext_resource path="res://components_lib/forklift/meshes/balk1.mesh" type="ArrayMesh" id=21]
+[ext_resource path="res://components_lib/forklift/meshes/rubber.mesh" type="ArrayMesh" id=22]
+[ext_resource path="res://components_lib/forklift/meshes/balk2.mesh" type="ArrayMesh" id=23]
+[ext_resource path="res://components_lib/forklift/meshes/hor_1.mesh" type="ArrayMesh" id=24]
+[ext_resource path="res://components_lib/forklift/meshes/fork1.mesh" type="ArrayMesh" id=25]
+[ext_resource path="res://components_lib/forklift/material/tex1.tres" type="Material" id=26]
+[ext_resource path="res://components_lib/forklift/meshes/disk2.mesh" type="ArrayMesh" id=27]
+[ext_resource path="res://components_lib/forklift/meshes/tire4.mesh" type="ArrayMesh" id=28]
+[ext_resource path="res://components_lib/forklift/meshes/rubber_centre.mesh" type="ArrayMesh" id=29]
+[ext_resource path="res://components_lib/forklift/meshes/fork2.mesh" type="ArrayMesh" id=30]
+[ext_resource path="res://components_lib/forklift/material/tex2.tres" type="Material" id=31]
+[ext_resource path="res://components_lib/forklift/script/forklift.gd" type="Script" id=32]
+[ext_resource path="res://components_lib/forklift/material/tex.tres" type="Material" id=33]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 90, 1000, 60 )
+
+[sub_resource type="CubeMesh" id=2]
+size = Vector3( 50, 130, 55 )
+
+[node name="forklift" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 0, -1, 0, 1, 0, -25.794, 1011.07, 37.62 )
+script = ExtResource( 32 )
+
+[node name="F1" type="RcsToggleJoint" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1500, -700, -1000 )
+base_translation = Vector3( -1500, -700, -1000 )
+
+[node name="height" type="RcsToggleJoint" parent="F1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 350 )
+base_translation = Vector3( 0, 0, 350 )
+ToggleEnabled = true
+MaxBorder = 0.0
+MinBorder = 0.0
+MaxBorderThreshold = 15.0
+Throttle = 15000.0
+
+[node name="lattice_lower" type="MeshInstance" parent="F1/height"]
+transform = Transform( -2.5443e-05, 0.227936, -9.9634e-09, 0, -9.9634e-09, -0.227936, -0.227936, -2.5443e-05, 1.11215e-12, -1075.9, 694.016, -279.249 )
+redirect_selection = true
+mesh = ExtResource( 15 )
+material/0 = ExtResource( 33 )
+
+[node name="vert_1" type="MeshInstance" parent="F1/height"]
+transform = Transform( 0.0409481, 0, 0, 0, 0.0409481, 0, 0, 0, 0.0409481, -1107.37, 196.743, 0 )
+redirect_selection = true
+mesh = ExtResource( 17 )
+material/0 = ExtResource( 33 )
+
+[node name="vert_2" type="MeshInstance" parent="F1/height"]
+transform = Transform( 0.0409481, 0, 0, 0, 0.0409481, 0, 0, 0, 0.0409481, -1107.73, 1182.65, 0 )
+redirect_selection = true
+mesh = ExtResource( 9 )
+material/0 = ExtResource( 33 )
+
+[node name="hor_1" type="MeshInstance" parent="F1/height"]
+transform = Transform( 0.0411578, 0, 0, 0, 0.0411578, 0, 0, 0, 0.0411578, -1107.35, 1178.6, 164.443 )
+redirect_selection = true
+mesh = ExtResource( 24 )
+material/0 = ExtResource( 33 )
+
+[node name="upper_fork_1" type="MeshInstance" parent="F1/height"]
+transform = Transform( 0.0610965, 0, 0, 0, 0.0666667, 0, 0, 0, 0.0610965, -1211.05, 307.186, 290.455 )
+redirect_selection = true
+mesh = ExtResource( 18 )
+material/0 = ExtResource( 31 )
+
+[node name="upper_fork_2" type="MeshInstance" parent="F1/height"]
+transform = Transform( 0.0610965, 0, 0, 0, 0.0666667, 0, 0, 0, 0.0610965, -1210.44, 1045.27, 290.455 )
+redirect_selection = true
+mesh = ExtResource( 19 )
+material/0 = ExtResource( 31 )
+
+[node name="hor_3" type="MeshInstance" parent="F1/height"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1107.21, 681.119, 607.996 )
+redirect_selection = true
+mesh = SubResource( 1 )
+material/0 = ExtResource( 33 )
+
+[node name="fork2" type="MeshInstance" parent="F1/height"]
+transform = Transform( 0.01, 0, 0, 0, 0.0666667, 0, 0, 0, 0.0610965, -2213.09, 1044.01, 287.994 )
+redirect_selection = true
+mesh = ExtResource( 30 )
+material/0 = ExtResource( 31 )
+
+[node name="fork11" type="MeshInstance" parent="F1/height"]
+transform = Transform( 18.1818, 0, 0, 0, 1, 0, 0, 0, 1, -1777.55, 1042.62, 609.378 )
+redirect_selection = true
+mesh = SubResource( 2 )
+material/0 = ExtResource( 31 )
+
+[node name="fork1" type="MeshInstance" parent="F1/height"]
+transform = Transform( 0.01, 0, 0, 0, 0.0666667, 0, 0, 0, 0.0610965, -2213.09, 310.107, 287.994 )
+redirect_selection = true
+mesh = ExtResource( 25 )
+material/0 = ExtResource( 31 )
+
+[node name="fork22" type="MeshInstance" parent="F1/height"]
+transform = Transform( 18.1818, 0, 0, 0, 1, 0, 0, 0, 1, -1777.55, 304.99, 609.378 )
+redirect_selection = true
+mesh = SubResource( 2 )
+material/0 = ExtResource( 31 )
+
+[node name="tire4" type="MeshInstance" parent="F1"]
+transform = Transform( 0.306766, 0, 0, 0, 0.699748, 0, 0, 0, 0.306766, -605.728, 43.9016, 674.424 )
+redirect_selection = true
+mesh = ExtResource( 28 )
+material/0 = ExtResource( 33 )
+
+[node name="tire3" type="MeshInstance" parent="F1"]
+transform = Transform( 0.306766, 0, 0, 0, 0.699748, 0, 0, 0, 0.306766, 1443.62, 37.2263, 682.114 )
+redirect_selection = true
+mesh = ExtResource( 8 )
+material/0 = ExtResource( 33 )
+
+[node name="tire1" type="MeshInstance" parent="F1"]
+transform = Transform( 0.306766, 0, 0, 0, 0.699748, -1.16415e-10, 0, 0, 0.306766, -606.503, 1309.84, 678.347 )
+redirect_selection = true
+mesh = ExtResource( 20 )
+material/0 = ExtResource( 33 )
+
+[node name="tire2" type="MeshInstance" parent="F1"]
+transform = Transform( 0.306766, 0, 0, 0, 0.699748, 0, 0, 0, 0.306766, 1440.93, 1307.61, 681.551 )
+redirect_selection = true
+mesh = ExtResource( 14 )
+material/0 = ExtResource( 33 )
+
+[node name="balk1" type="MeshInstance" parent="F1"]
+transform = Transform( 0.12, 1.81195e-08, 0, -1.81195e-08, 0.12, 0, 0, 0, 0.15, -945.678, 892.771, 326.599 )
+redirect_selection = true
+mesh = ExtResource( 21 )
+material/0 = ExtResource( 33 )
+
+[node name="balk2" type="MeshInstance" parent="F1"]
+transform = Transform( 0.120158, 0, 0, 0, 0.120158, 0, 0, 0, 0.15, -945.678, 508.949, 326.599 )
+redirect_selection = true
+mesh = ExtResource( 23 )
+material/0 = ExtResource( 33 )
+
+[node name="handlebar_holder" type="MeshInstance" parent="F1"]
+transform = Transform( 0.015481, -0.0116466, 5.77353e-10, -5.77353e-10, -2.30941e-09, -0.0193727, 0.0116466, 0.015481, -2.30941e-09, -504.526, 665.172, 80.7101 )
+redirect_selection = true
+mesh = ExtResource( 16 )
+material/0 = ExtResource( 33 )
+
+[node name="balk_frame" type="MeshInstance" parent="F1"]
+transform = Transform( 0.301781, 0, 0, 0, 0.301781, 0, 0, 0, 0.301781, -553.248, 1030.33, 527.681 )
+redirect_selection = true
+mesh = ExtResource( 7 )
+material/0 = ExtResource( 31 )
+
+[node name="disk2" type="MeshInstance" parent="F1"]
+transform = Transform( 0.194738, 0, 0, 0, 0.18051, 0, 0, 0, 0.192051, 1440.19, 1380.08, 681.962 )
+redirect_selection = true
+mesh = ExtResource( 27 )
+material/0 = ExtResource( 26 )
+
+[node name="disk4" type="MeshInstance" parent="F1"]
+transform = Transform( 0.212596, 0, 0, 0, 0.18051, 0, 0, 0, 0.207411, -608.021, -62.0616, 672.467 )
+redirect_selection = true
+mesh = ExtResource( 13 )
+material/0 = ExtResource( 26 )
+
+[node name="disk3" type="MeshInstance" parent="F1"]
+transform = Transform( 0.202171, 0, 0, 0, 0.18051, 0, 0, 0, 0.198971, 1440.6, -57.2866, 679.972 )
+redirect_selection = true
+mesh = ExtResource( 12 )
+material/0 = ExtResource( 26 )
+
+[node name="disk1" type="MeshInstance" parent="F1"]
+transform = Transform( 0.189689, 0, 0, 0, 0.18051, 0, 0, 0, 0.188231, -610.482, 1381.3, 685.584 )
+redirect_selection = true
+mesh = ExtResource( 10 )
+material/0 = ExtResource( 26 )
+
+[node name="rubber_centre" type="MeshInstance" parent="F1"]
+transform = Transform( -0.0594844, 0, 0, 0, -0.0594844, 0, 0, 0, -0.0594844, -115.261, 668.607, -410.835 )
+redirect_selection = true
+mesh = ExtResource( 29 )
+material/0 = ExtResource( 33 )
+
+[node name="rubber" type="MeshInstance" parent="F1"]
+transform = Transform( -0.113087, -0.123548, 6.48906e-08, 0, -8.98485e-08, -0.16749, -0.123548, 0.113087, -5.9899e-08, -113.345, 671.687, -407.691 )
+redirect_selection = true
+mesh = ExtResource( 22 )
+material/0 = ExtResource( 33 )
+
+[node name="seat" type="MeshInstance" parent="F1"]
+transform = Transform( -0.256824, 0, 0, 0, -0.256824, 0, 0, 0, -0.256824, 416.504, 670.333, 74.025 )
+redirect_selection = true
+mesh = ExtResource( 11 )
+material/0 = ExtResource( 33 )
+
+[node name="lattice_upper" type="MeshInstance" parent="F1"]
+redirect_selection = true
+mesh = ExtResource( 6 )
+material/0 = ExtResource( 33 )
+
+[node name="frame_upper" type="MeshInstance" parent="F1"]
+transform = Transform( -0.0409529, 0, 0, 0, -0.0409529, 0, 0, 0, -0.0409529, -83.3665, 961.386, -233.303 )
+redirect_selection = true
+mesh = ExtResource( 3 )
+material/0 = ExtResource( 31 )
+
+[node name="frame_lower" type="MeshInstance" parent="F1"]
+transform = Transform( 0.488538, 0, 0, 0, 0, -0.488538, 0, 0.488538, 0, 320.64, 793.087, 771.257 )
+redirect_selection = true
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 31 )
+
+[node name="frame2" type="MeshInstance" parent="F1"]
+transform = Transform( 0.126698, 0, 0, 0, -0.126698, 0, 0, 0, 0.126698, -32.9358, 200.504, 647.31 )
+redirect_selection = true
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 31 )
+
+[node name="frame1" type="MeshInstance" parent="F1"]
+transform = Transform( 0.126698, 0, 0, 0, 0.126698, 0, 0, 0, 0.126698, -32.8716, 1153.45, 648.94 )
+redirect_selection = true
+mesh = ExtResource( 4 )
+material/0 = ExtResource( 31 )

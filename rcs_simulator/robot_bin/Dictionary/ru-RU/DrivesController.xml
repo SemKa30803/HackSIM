@@ -1,0 +1,66 @@
+﻿<MessageDictionary>
+<Name>DrivesController</Name>
+<Language>Russian</Language>
+<Messages>
+	<Header>Ошибка контроллера сервоприводов</Header>
+	<REPLY_ERROR>Команда завершилась с ошибкой<!-- 1:ERRCAT_UNKNOWN--></REPLY_ERROR>
+	<REPLY_INVALID_CMDID_OR_LENGHT>Неверный Id команды или длина сообщения<!-- 2:ERRCAT_SOFTWARE--></REPLY_INVALID_CMDID_OR_LENGHT>
+	<REPLY_SERVO_OFF>Управляющее устройство сервоприводов находится в состоянии ошибки<!-- 3:ERRCAT_RETRY--></REPLY_SERVO_OFF>
+	<REPLY_ABNORMAL_ROWID>Ошибка потока фреймов: неверный идентификатор команды<!-- 4:ERRCAT_SOFTWARE--></REPLY_ABNORMAL_ROWID>
+	<REPLY_SERVOS_NOT_ANSWERED>Нет ответа от устройства управления сервоприводов<!-- 5:ERRCAT_HARDWARE--></REPLY_SERVOS_NOT_ANSWERED>
+	<REPLY_SD_CARD_ERROR>SD карта повреждена<!-- 6:ERRCAT_BREAKAGE--></REPLY_SD_CARD_ERROR>
+	<REPLY_HALL_SENSOR_CONNECTION_BREAK>Повреждение проводов<!-- 7:ERRCAT_BREAKAGE--></REPLY_HALL_SENSOR_CONNECTION_BREAK>
+	<REPLY_EXCEEDED_POSITIONING_TIME>Вышло время позиционирования<!-- 8:ERRCAT_RETRY--></REPLY_EXCEEDED_POSITIONING_TIME>
+	<REPLY_EXEC_CMD_BUFFER_FULL>Ошибка потока фреймов: контроллер занят<!-- 9:ERRCAT_SOFTWARE--></REPLY_EXEC_CMD_BUFFER_FULL>
+	<REPLY_ERROR_POSITION>Положение энкодера, зафиксированное при включении двигателя, слишком сильно отличалось от значения, сохраненного при последнем отключении.<!-- 10:ERRCAT_UNKNOWN--></REPLY_ERROR_POSITION>
+	<REPLY_NOT_ENABLE>Невозможно запустить серводвигатели<!-- 11:ERRCAT_HARDWARE--></REPLY_NOT_ENABLE>
+	<REPLY_INCORRECT_MB_LEN>Modbus: некорректная длина команды<!-- 12:ERRCAT_SOFTWARE--></REPLY_INCORRECT_MB_LEN>
+	<REPLY_MB_DEV_CRC_ERR>Modbus: несовпадение crc кода от ведомого устройства<!-- 13:ERRCAT_HARDWARE--></REPLY_MB_DEV_CRC_ERR>
+	<REPLY_STEPS_PERIOD_LIMIT>Превышение лимита: Слишком большой шаг или период фрейма команды<!-- 14:ERRCAT_SOFTWARE--></REPLY_STEPS_PERIOD_LIMIT>
+	<REPLY_ADC_ERR>Adc устройство не работает<!-- 15:ERRCAT_HARDWARE--></REPLY_ADC_ERR>
+	<REPLY_UART_ERR>UART устройство не работает<!-- 16:ERRCAT_HARDWARE--></REPLY_UART_ERR>
+	<REPLY_MB_DEV_NOT_ANS>Modbus: Нет ответа от ведомого устройства<!-- 17:ERRCAT_HARDWARE--></REPLY_MB_DEV_NOT_ANS>
+	<REPLY_BIG_ENC_DIF>Произошел скачек значения энкодера, требуется переюстировка оси.</REPLY_BIG_ENC_DIF>
+	<REPLY_ZMARK_ERROR>Положение метки сервопривода не совпадает с ожидаемой позицией, требуется переюстировка оси.</REPLY_ZMARK_ERROR>
+	
+	<REPLY_RESET_ERROR_WHILE_MOVING>Команда сброса ошибки вызвана во время движения.</REPLY_RESET_ERROR_WHILE_MOVING>
+	<REPLY_RESET_ROW_WHILE_MOVING>Команда сброса индекса фрейма вызвана во время движения.</REPLY_RESET_ROW_WHILE_MOVING>
+	<REPLY_EVENT_TIMESTAMP_IN_PAST>Метка времени синхронной команды находится в прошлом.</REPLY_EVENT_TIMESTAMP_IN_PAST>
+	<REPLY_INCORRECT_PARAMS>Некорректное значение параметров команды.</REPLY_INCORRECT_PARAMS>
+	<REPLY_POSITION_LAG_TOO_BIG>Слишком большое отклонение реальной позиции оси от плановой в процессе движения.</REPLY_POSITION_LAG_TOO_BIG>
+	<REPLY_RESUME_WHILE_NOT_READY>Команда синхронного запуска движения получена в момент, когда серводвигатель не в состоянии ожидания или не включен.</REPLY_RESUME_WHILE_NOT_READY>
+	<REPLY_INCORRECT_AXIS_ID>Номер оси в команде не совпадает ни с одной из осей, которые управляются данным контроллером.</REPLY_INCORRECT_AXIS_ID>
+	
+	<REPLY_POS_CONTINUITY_VIOLATION>Нарушена непрерывность позиции в очереди фреймов, отправленных на контроллер.</REPLY_POS_CONTINUITY_VIOLATION>	
+	<REPLY_ABRUPT_POS_CHANGE_ON_FRAME>Слишком большая скорость на фрейме. Превышена допустимая частота выдачи шагов.</REPLY_ABRUPT_POS_CHANGE_ON_FRAME>	
+	<REPLY_CANT_HANDLE_CMD_WHILE_MOVING>Получена команда, выполнение которой недопустимо во время движения.</REPLY_CANT_HANDLE_CMD_WHILE_MOVING>	
+	<REPLY_VEL_CONTINUITY_VIOLATION>Нарушена непрерывность скорости в очереди фреймов отправленных на контроллер.</REPLY_VEL_CONTINUITY_VIOLATION>	
+		<REPLY_POSITIVE_LIMIT_SWITCH>Движение остановлено концевым выключателем. Достигнуто максимально допустимое положение оси. </REPLY_POSITIVE_LIMIT_SWITCH>	
+				<REPLY_NEGATIVE_LIMIT_SWITCH>Движение остановлено концевым выключателем. Достигнуто минимально допустимое положение оси.</REPLY_NEGATIVE_LIMIT_SWITCH>	
+	
+	<ERR_SOCK_BIND>Невозможно создать сокет, возможно порт уже занят или неправильный ip адрес<!-- 161:ERRCAT_SOFTWARE--></ERR_SOCK_BIND>
+	<ERR_SOCK_MOTORS_CONNECT>Отсутствует соединение с сервоприводами<!-- 162:ERRCAT_HARDWARE--></ERR_SOCK_MOTORS_CONNECT>
+	<ERR_ENCDIFF_TOO_MUCH>Слишком большая разница энкодеров, движение робота невозможно<!-- 163:ERRCAT_UNKNOWN--></ERR_ENCDIFF_TOO_MUCH>
+	<ERR_TARGET_WAIT_TIMEOUT>Превышено время ожидания позиционирования.<!-- 164:ERRCAT_UNKNOWN--></ERR_TARGET_WAIT_TIMEOUT>
+	<ERR_FRAME_RESTRICTIONS>Превышение лимита: Слишком большой шаг или период фрейма для робота<!-- 165:ERRCAT_SOFTWARE--></ERR_FRAME_RESTRICTIONS>
+	<REPLY_ERROR_BAD_REPLY>Неверный ответ на команду<!-- 254:ERRCAT_UNKNOWN--></REPLY_ERROR_BAD_REPLY>
+	<REPLY_ERROR_NO_REPLY>Превышено время ожидания ответа<!-- 255:ERRCAT_UNKNOWN--></REPLY_ERROR_NO_REPLY>
+	<ERR_SAFETY_PROTOCOL_VIOLATION>Движение прервано. Нарушение контура безопасности во время движения.</ERR_SAFETY_PROTOCOL_VIOLATION>
+	
+	<ERR_INCONSISTENT_AXIS_STATES>На одном или нескольких контроллерах сервоприводов обнаружено недопустимое для данного режима работы состояние.</ERR_INCONSISTENT_AXIS_STATES>
+	<ERR_AXIS_TIME_SYNC>Нарушение синхронизации времени между контроллерами осей. Метка времени на одном или нескольких контроллерах слишком сильно отличается от времени мастер-контроллера.</ERR_AXIS_TIME_SYNC>
+	
+	<ERR_IDLE_WITHOUT_PASSING_STOP_FRAME>Контроллеры осей перешли в состояние ожидания, но движение завершилось не на стоп-фрейме.</ERR_IDLE_WITHOUT_PASSING_STOP_FRAME>
+	<ERR_PAUSING_TIME_EXCEEDED>Превышено время отведенное на паузу движения.</ERR_PAUSING_TIME_EXCEEDED>
+	<ERR_CANCELLING_TIME_EXCEEDED>Превышено время отведенное на отмену движения.</ERR_CANCELLING_TIME_EXCEEDED>
+	<ERR_SWITCHED_TO_CANCEL_WITHOUT_ERRORS>Контроллер оси переключился в состояние отмены движения без указания конкретного кода ошибки.</ERR_SWITCHED_TO_CANCEL_WITHOUT_ERRORS>
+	<ERR_SWITCHED_TO_PAUSE_WITHOUT_ERRORS>Контроллер оси переключился в состояние паузы движения без указания конкретного кода ошибки.</ERR_SWITCHED_TO_PAUSE_WITHOUT_ERRORS>
+	
+	<ERR_JOINTS_MISMATCH>Внутренняя ошибка, количество осей в конфигурации DrivesController не совпадает с другими модулями.</ERR_JOINTS_MISMATCH>
+	
+	<REPLY_ABRUPT_CMD_QUEUE_END>Поток команд резко прервался.</REPLY_ABRUPT_CMD_QUEUE_END>
+	<REPLY_COMMAND_INVALID_IN_CURRENT_STATE>Запрос невозможен в текущем состоянии.</REPLY_COMMAND_INVALID_IN_CURRENT_STATE>
+	
+	<JointsMismatch>Внутренняя ошибка, количество осей в конфигурации DrivesController не совпадает с другими модулями.</JointsMismatch>
+</Messages>
+</MessageDictionary>

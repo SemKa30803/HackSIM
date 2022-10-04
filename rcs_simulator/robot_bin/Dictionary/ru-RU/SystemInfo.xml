@@ -1,0 +1,38 @@
+﻿<MessageDictionary>
+	<Name>SystemInfo</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<CompanyNameHeader>Компания:</CompanyNameHeader>
+		<CompanyNameContent>ОАО "Эйдос-Робототехника"
+© Авторские права ООО "Эйдос-Робототехника" 2016-2022</CompanyNameContent>
+		<ContactInformationHeader>Контактная информация:</ContactInformationHeader>
+		<ContactInformationContent>Российская Федерация
+Республика Татарстан, 420107, Казань, Петербургская, 50
+Телефон: +7(843) 227-40-62
+Web-сайт: www.eidos-robotics.ru
+E-mail: mail@eidos-robotics.com</ContactInformationContent>
+		
+		<ModelHeader>Модель:</ModelHeader>
+		<ModelContent>A12-1450</ModelContent>
+		<SerialNumberHeader>Серийный номер:</SerialNumberHeader>
+		<SerialNumberNotFound>Серийный номер отсутствует</SerialNumberNotFound>
+		<HoursDrivesWorkedHeader>Часов в состоянии движения:</HoursDrivesWorkedHeader>
+		<HoursSystemWorkedHeader>Часов работы системы:</HoursSystemWorkedHeader>
+		<AxisCountHeader>Количество осей:</AxisCountHeader>
+		<ExtraAxisHeader>Дополнительные оси:</ExtraAxisHeader>
+		<ExtraAxisNO>Отсутствуют</ExtraAxisNO>
+		<SoftwareVersionHeader>Версия программного обеспечения:</SoftwareVersionHeader>
+		<LicenseHeader>Лицензия:</LicenseHeader>
+		<DiskSpaceHeader>Объем памяти:</DiskSpaceHeader>
+		<DiskLeftSpaceBegin>Свободно</DiskLeftSpaceBegin>
+		<DiskLeftSpaceOf>из</DiskLeftSpaceOf>
+		
+		<SizeByte>Байт</SizeByte>
+		<SizeKiloByte>КБ</SizeKiloByte>
+		<SizeMegaByte>МБ</SizeMegaByte>
+		<SizeGigaByte>ГБ</SizeGigaByte>
+		<SizeTerraByte>ТБ</SizeTerraByte>
+		<SizePetaByte>ПБ</SizePetaByte>
+		<SizeExoByte>ЭБ</SizeExoByte>
+	</Messages>
+</MessageDictionary>

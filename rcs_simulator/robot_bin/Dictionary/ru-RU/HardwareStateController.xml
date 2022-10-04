@@ -1,0 +1,17 @@
+﻿<MessageDictionary>
+<Name>HardwareStateController</Name>
+<Language>Russian</Language>
+<Messages>
+	<Header>Информация энергосети</Header>
+	<ConnectError>Невозможно подключиться к UPS устройству, не найдено COM устройство.</ConnectError>
+	<ReciveError>Сообщение отправлено,но не был получен ответ от COM устройства.</ReciveError>
+	<ZeroUsePower>Не обозначено устройство для определения состояния питания.</ZeroUsePower>
+	<PowerAndModbus>Обозначены два устройства определения питания сразу, используется Modbus RTU вариант.</PowerAndModbus>
+	
+	<BadBatteryState>Источник бесперебойного питания не исправен. Свяжитесь с сервисным инженером.</BadBatteryState>
+	
+	<UdpHeartbeatWarning>Нестабильное соединение с платой периферии.</UdpHeartbeatWarning>
+	<UdpHeartbeatError>Прервано соединение с внешней кнопкой пуска.</UdpHeartbeatError>
+	<BadUdpSettings>Неправильный IP адрес или порт устройства внешней периферии или компьютера.</BadUdpSettings>
+</Messages>
+</MessageDictionary>

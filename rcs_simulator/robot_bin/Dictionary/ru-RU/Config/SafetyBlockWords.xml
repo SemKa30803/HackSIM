@@ -1,0 +1,19 @@
+<MessageDictionary>
+	<Name>SafetyBlockWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<wire>Имя провода</wire>
+		
+		<teachSpeed>Ограничение скорости Teach режима</teachSpeed>
+		<mode_offset>Смещение байта мода в сообщении</mode_offset>
+		
+		<enableDrOn>Автоматическое включение драйвером</enableDrOn>
+		<when>если</when>
+		<Mode>Активен мод</Mode>
+		<trigType>Включать когда</trigType>
+		
+		<wires>Входные провода</wires>
+		<bit>Смещение бита в статусе сообщения</bit>
+		<emitCode>Вызывать код сообщения</emitCode>
+	</Messages>
+</MessageDictionary>

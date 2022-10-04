@@ -1,0 +1,22 @@
+﻿<MessageDictionary>
+	<Name>VirtualBus</Name>
+	<Language>English</Language>
+	<Messages>
+		<InputCheckPeriod>Input request period</InputCheckPeriod>
+		<InputSignals>Input signals</InputSignals>
+		<InputSignal>Signal</InputSignal>
+		<InputUnionType>Union function</InputUnionType>
+		<InverseIn>Invert signal</InverseIn>
+		<UsingInputSignals>Linked input signals</UsingInputSignals>
+		<UsingInputSignal>Input signal</UsingInputSignal>
+		<InpSignalAddress>Address</InpSignalAddress>
+		<InverseSignalRead>Inverte read value</InverseSignalRead>
+		<OutputSignals>Output signals</OutputSignals>
+		<OutputSignal>Signal</OutputSignal>
+		<InverseOut>Invert signal</InverseOut>
+		<UsingOutputSignals>Linked output signals</UsingOutputSignals>
+		<UsingOutputSignal>Output signal</UsingOutputSignal>
+		<OutSignalAddress>Address</OutSignalAddress>
+		<InverseSignalWrite>Invert write value</InverseSignalWrite>
+	</Messages>
+</MessageDictionary>

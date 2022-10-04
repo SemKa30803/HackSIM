@@ -1,0 +1,28 @@
+<MessageDictionary>
+	<Name>KinematicsPathWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<intervTime>Time per frame</intervTime>
+		<smoothLineLen>Default smooth line length, mm</smoothLineLen>
+		<smooth_angle_len>Default smooth angle degree length, deg.</smooth_angle_len>
+		<angleSpeed>Default angle speed</angleSpeed>
+		<allowRecMode>Is recover mode allowed?</allowRecMode>
+		<minX>Minimum x position, mm</minX>
+		<minY>Minimum y position, mm</minY>
+		<minZ>Minimum z position, mm</minZ>
+		<maxX>Maximum x position, mm</maxX>
+		<maxY>Maximum y position, mm</maxY>
+		<maxZ>Maximum z position, mm</maxZ>
+		<epsilon_s>Accuracy of linear movement, length mm</epsilon_s>
+		<epsilon_r>Accuracy of linear movement, angle deg.</epsilon_r>
+		
+		<lawIterationStep>Step of trajectory iteration during spline building, mm</lawIterationStep>
+		<splineIterationStep>Step of spline iteration during frames building, ms</splineIterationStep>
+		<smoothAccelerationMmSec2>Acceleration for trajectory smoothing computing, mm/s^2</smoothAccelerationMmSec2>
+		<smoothTimeRate>Maximum allowed ratio of time of smoothed path to time of path with exact stop</smoothTimeRate>
+		<smoothSafeMisrate>Allowed speed rate reduction on safe speed spline while smoothing</smoothSafeMisrate>
+		<DefaultAccelerationMmSec2>Default acceleration, mm/s^2</DefaultAccelerationMmSec2>
+		<velocityComputingEpsilon>Velocity computing epsilon, fraction of path iteration step</velocityComputingEpsilon>
+		<WristMaxReorintationSpeed>Robot wrist or flange max speed during orientation changing on CP motion, mm/s</WristMaxReorintationSpeed>
+	</Messages>
+</MessageDictionary>

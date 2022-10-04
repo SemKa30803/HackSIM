@@ -1,0 +1,10 @@
+﻿<MessageDictionary>
+	<Name>SafeSpeedWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<SafeSpeedSetts>Предельные скорости робота в Teach режиме</SafeSpeedSetts>
+		<SafeJointsArray>Максимальная скорость оси, град / сек.</SafeJointsArray>
+		<SafeDecardSpeed>Максимальная декартовая скорость, мм / сек.</SafeDecardSpeed>
+		<SafeJointsArrayPart>Ось</SafeJointsArrayPart>
+	</Messages>
+</MessageDictionary>

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/pluck-pcm24.wav-8e070e9737d22876671caab6d0ae35ea.sample"
+
+[deps]
+
+source_file="res://robots/rcs_robot_bin/Python/Lib/test/audiodata/pluck-pcm24.wav"
+dest_files=[ "res://.import/pluck-pcm24.wav-8e070e9737d22876671caab6d0ae35ea.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

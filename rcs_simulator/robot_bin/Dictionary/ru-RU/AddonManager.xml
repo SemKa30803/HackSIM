@@ -1,0 +1,16 @@
+﻿<MessageDictionary>
+	<Name>AddonManager</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Менеджер аддонов</Header>
+		<PathToMeta>Путь к файлу метаданных</PathToMeta>
+		<PathToRoot>Путь к папке Rcs</PathToRoot>
+		<NeedReboot>Требуется перезагрузка для полной установки/удаления аддона</NeedReboot>
+		<UnfinishedFiles>Возникла ошибка во время удаления аддонов. Для полного удаления необходимо перезагрузить Rcs.</UnfinishedFiles>
+		<IncorrectAddon>Аддон {0} не выполняет требований API или поврежден.</IncorrectAddon>
+		<ErrorOverritesFile>Невозможно установить аддон, так как в процессе он удалит файл {0}</ErrorOverritesFile>
+		
+		<IncorrectPathToMeta>Некорректный путь к файлу метаданных</IncorrectPathToMeta>
+		<IncorrectPathToRoot>Некорректный путь к папке Rcs</IncorrectPathToRoot>
+	</Messages>
+</MessageDictionary>

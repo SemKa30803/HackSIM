@@ -1,0 +1,24 @@
+<MessageDictionary>
+<Name>AutorunController</Name>
+<Language>English</Language>
+<Messages>
+	<Enabled>Enabled autorun</Enabled>
+	<ContinueOnDisconnect>Continue work after HMI disconnected</ContinueOnDisconnect>
+	<ErrorResponse>Response on program in error</ErrorResponse>
+	<PauseResponse>Response on paused program</PauseResponse>
+	<UseMainProgram>Select main program</UseMainProgram>
+	<MainProgram>Main program</MainProgram>
+	<AdditionalPrograms>Additional program</AdditionalPrograms>
+	<AdditionalProgram>Program</AdditionalProgram>
+	<ProgramName>Path to program</ProgramName>
+	<IsBackground>Is background</IsBackground>
+	
+	<MsgHeader>Autorun program</MsgHeader>
+	<ProgramNotFoundMain>Main program is not found</ProgramNotFoundMain>
+	<ProgramNotFoundExtra>Program with index {0} is not found</ProgramNotFoundExtra>
+	
+	<AllowFirstRun>First run ignores HMI</AllowFirstRun>
+	
+	<StartSpeed>Robot speed</StartSpeed>
+</Messages>
+</MessageDictionary>

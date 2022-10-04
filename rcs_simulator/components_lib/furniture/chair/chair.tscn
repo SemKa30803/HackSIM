@@ -1,0 +1,63 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://components_lib/chair/scripts/chair.gd" type="Script" id=1]
+[ext_resource path="res://components_lib/chair/mesh/back_of_chair_pr1.tres" type="CubeMesh" id=2]
+[ext_resource path="res://components_lib/chair/mesh/plate.tres" type="CubeMesh" id=3]
+[ext_resource path="res://components_lib/chair/mesh/back_of_chair_pr3.tres" type="CubeMesh" id=4]
+[ext_resource path="res://components_lib/chair/mesh/leg.tres" type="CubeMesh" id=5]
+[ext_resource path="res://components_lib/chair/material/gray_legs.tres" type="Material" id=6]
+[ext_resource path="res://components_lib/chair/material/mat_0.material" type="Material" id=7]
+
+[node name="Chair" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="sys" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 200, 400, 200 )
+redirect_selection = true
+
+[node name="back_of_chair_pr3" type="MeshInstance" parent="sys"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -173.913, 40, -200 )
+redirect_selection = true
+mesh = ExtResource( 4 )
+material/0 = ExtResource( 7 )
+
+[node name="back_of_chair_pr2" type="MeshInstance" parent="sys"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 176.056, 40, -200 )
+redirect_selection = true
+mesh = ExtResource( 4 )
+material/0 = ExtResource( 7 )
+
+[node name="back_of_chair_pr1" type="MeshInstance" parent="sys"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 240, -200 )
+redirect_selection = true
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 7 )
+
+[node name="plate" type="MeshInstance" parent="sys"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 4 )
+redirect_selection = true
+mesh = ExtResource( 3 )
+material/0 = ExtResource( 7 )
+
+[node name="legs" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 200, 0 )
+
+[node name="leg4" type="MeshInstance" parent="legs"]
+transform = Transform( 1, 0, 0, 0, 400, 0, 0, 0, 1, 400, 0, 400 )
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 6 )
+
+[node name="leg2" type="MeshInstance" parent="legs"]
+transform = Transform( 1, 0, 0, 0, 400, 0, 0, 0, 1, 0, 0, 0 )
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 6 )
+
+[node name="leg3" type="MeshInstance" parent="legs"]
+transform = Transform( 1, 0, 0, 0, 400, 0, 0, 0, 1, 400, 0, 0 )
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 6 )
+
+[node name="leg1" type="MeshInstance" parent="legs"]
+transform = Transform( 1, 0, 0, 0, 400, 0, 0, 0, 1, 0, 0, 400 )
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 6 )

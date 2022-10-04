@@ -1,0 +1,33 @@
+﻿<MessageDictionary>
+	<Name>SignalsWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<tokens_path>Путь к файлу сигналов</tokens_path>
+		<bus_list>Шины</bus_list>
+		<bus>Шина</bus>
+		<bus_name>Имя шины</bus_name>
+		<bus_uuid>UUID шины</bus_uuid>
+		<input_map>Отображение входных сигналов</input_map>
+		<output_map>Отображение выходных сигналов</output_map>
+		<bus_offset>Смещение, байт</bus_offset>
+		<bus_width>Ширина, байт</bus_width>
+		<ask_period>Период опроса шин, мс</ask_period>
+		
+		<Header>Ошибка контролера сигналов</Header>
+		<BadAddress>Адрес {0} неверен или выходит за пределы шины.</BadAddress>
+		<BadBusSettings1>Шина сигналов {0} обладает меньшим входным буфером чем указано в конфигурации. Ширина {1} бит.</BadBusSettings1>
+		<BadBusSettings2>Шина сигналов {0} обладает меньшим выходным буфером чем указано в конфигурации. Ширина {1} бит.</BadBusSettings2>
+		<BadSpans>Некорректная конфигурация сигналов. Есть пересекающиеся шины.</BadSpans>
+		<WrongBus>Источник шины {0} отсутствует. Имя шины {1}.</WrongBus>		
+		<IncorrectBusCfg>Конфигурация шины неверна. Сброс до значений по умолчанию.</IncorrectBusCfg>
+		
+		<TokenSameNames>Имя сигнала {0} встречено более одного раза.</TokenSameNames>
+		<TokenSameIds>Id с номером {0} встречен более одного раза. Имя одного из сигналов {1}.</TokenSameIds>
+		<TokenNoField>Один из сигналов не обладает полем имени.</TokenNoField>
+		<TokenNoField2>Сигнал {1} не обладает полем {0} .</TokenNoField2>
+		<TokenWithException>Неизвестная ошибка чтения сигнала {0} .</TokenWithException>
+		<TokenInvalidXml>Файл сигналов не соответствует формату .xml .</TokenInvalidXml>
+		<TokenFileNotFound>Файл сигналов не найден.</TokenFileNotFound>
+		<TokenEnumError>Значение перечесления не находится в пределах допустимого. Неверное значение {0}.</TokenEnumError>
+	</Messages>
+</MessageDictionary>

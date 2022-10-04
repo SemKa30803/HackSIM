@@ -1,0 +1,84 @@
+﻿<MessageDictionary>
+	<Name>GuidedModeController</Name>
+	<Language>Russian</Language>
+	<Messages>
+		
+		<IsGuidedEnabled>Включена поддержка ведомого режима</IsGuidedEnabled>
+		
+		<InputSignals>Входные сигналы</InputSignals>
+		<iResetErrors>Сброс ошибки</iResetErrors>
+		<iServoOn>Включение приводов</iServoOn>
+		<iBoolChangePrograms>Включить установку программ</iBoolChangePrograms>
+		<iChangePrograms>Установка программ</iChangePrograms>
+		<iStartPrograms>Запуск программ</iStartPrograms>
+		<iRestartPrograms>Сброс всех программ</iRestartPrograms>
+		
+		<OutputSignals>Выходные сигналы</OutputSignals>
+		<oBoolErrorId>Используется вывод кода ошибки</oBoolErrorId>
+		<oErrorId>Вывод кода ошибки</oErrorId>
+		<oBoolWarningId>Используется вывод кода предупреждения</oBoolWarningId>
+		<oWarningId>Вывод кода предупреждения</oWarningId>
+		<oErrorStatus>Вывод наличия ошибки</oErrorStatus>
+		<oBoolWarningStatus>Используется вывод наличия предупреждения</oBoolWarningStatus>
+		<oWarningStatus>Вывод наличия предупреждения</oWarningStatus>
+		<oBoolExCtrlMode>Используется вывод состояния режима ведомого</oBoolExCtrlMode>
+		<oExCtrlMode>Вывод состояния режима ведомого</oExCtrlMode>
+		<oBoolServoStatus>Используется вывод состояния приводов</oBoolServoStatus>
+		<oServoStatus>Вывод состояния приводов</oServoStatus>
+		<oRunning>Вывод выполнения программы</oRunning>
+		<oProgramError>Вывод наличия программы с ошибкой</oProgramError>
+		<oProgramStatuses>Вывод состояния программ</oProgramStatuses>
+		<oProgramStatus>Состояние программы</oProgramStatus>
+		<oProgSignalType>Тип программы</oProgSignalType>
+		<oProgramStatusSignal>Сигнал вывода</oProgramStatusSignal>
+		
+		<ProgramsInfo>Настройка программ</ProgramsInfo>
+		<IsPlcSetProgramEnabled>Программы выбираются через сигналы</IsPlcSetProgramEnabled>
+		<PredefinedPrograms>Заранее установленный набор</PredefinedPrograms>
+		<MainProgram>Основная программа</MainProgram>
+		<ExtraPrograms>Дополнительные программы</ExtraPrograms>
+		<ExtraProgram>Программа</ExtraProgram>
+		<ExProgram>Путь к программе</ExProgram>
+		<ProgramIsBackground>Фоновая задача</ProgramIsBackground>
+		<ProgramIsAlwaysOn>Задача всегда выполняется</ProgramIsAlwaysOn>
+		
+		<PCLDefinedParams>Настройка установки по сигналам</PCLDefinedParams>
+		<iPLCMainProgramAddress>Адрес для основной программы</iPLCMainProgramAddress>
+		<InputProgSignals>Сигналы номеров программ для исполнения</InputProgSignals>
+		<InputProgSignal>Сигнал номера программы</InputProgSignal>
+		<iPLCProgramIsBackground>Фоновая программа</iPLCProgramIsBackground>
+		<iProgramSignal>Сигнал программы</iProgramSignal>
+		<OutputProgSignals>Вывод текущих выбранных программ</OutputProgSignals>
+		<OutputProgSignal>Выбранная программа</OutputProgSignal>
+		<oProgSignalType>Тип программы</oProgSignalType>
+		<oProgramSignal>Сигнал вывода номера программы</oProgramSignal>
+		<ProgramPairIds>База номеров программ</ProgramPairIds>
+		<ProgramPairId>Программа</ProgramPairId>
+		<ProgramIdValue>Номер программы</ProgramIdValue>
+		<ProgramPath>Путь к файлу</ProgramPath>		
+		
+		<MessageHeader>Ведомый режим</MessageHeader>
+		<ConfigError>Нарушение конфигурации модуля ведомого контроля. Текст ошибки: {0}</ConfigError>
+		<IncorrectSetProgram>Не удалось установить программу. Id полученной программы: {0}</IncorrectSetProgram>
+		<PredefinedProgramNotFound>Ошибка загрузки программы, программа не найдена, путь программы: {0}</PredefinedProgramNotFound>
+		<PLCInvalidSignalValue>Ошибка загрузки программы, не удалось получить значение сигнала {0}</PLCInvalidSignalValue>
+		<PLCNotFoundInTable>Ошибка загрузки программы, для данного значения сигнала не найден путь программы в таблице, значение сигнала {0} </PLCNotFoundInTable>
+		<PLCProgramNotFound>Ошибка загрузки программы, программа не найдена, путь программы {0}</PLCProgramNotFound>
+		
+		<CantStartServoDueErrors>Невозможно запустить привода, есть неквитированные ошибки</CantStartServoDueErrors>
+		<CantStartProgramDueErrors>Невозможно запустить программы, есть неквитированные ошибки</CantStartProgramDueErrors>
+		<CantChangeProgramDueRunning>Невозможно изменить программы, есть программы которые выполняются,приостановленные или в ошибке</CantChangeProgramDueRunning>
+		<CantChangeProgramDueNoEngine>Невозможно запустить программы, привода отключены</CantChangeProgramDueNoEngine>
+		
+		<SpeedControl>Контроль скорости</SpeedControl>
+		<ChangeSpeedEnabled>Изменять скорость по сигналу</ChangeSpeedEnabled>
+		<ChangeSpeedValue>Значение скорости</ChangeSpeedValue>
+		<ChangeSpeedAnywayByServoOn>Изменять скорость по сигналу включения приводов</ChangeSpeedAnywayByServoOn>
+		<ChangeSpeedSignalValue>Сигнал изменения сигналов</ChangeSpeedSignalValue>
+		<ChangeSpeedLoadValueFromSignal>Значение скорости определяется сигналом</ChangeSpeedLoadValueFromSignal>
+		<ChangeSpeedSignalForValue>Сигнал для снятия значения скорости</ChangeSpeedSignalForValue>
+		
+		<oBoolSpeedStatus>Выводить скорость робота</oBoolSpeedStatus>
+		<SpeedStatus>Адрес сигнала скорости</SpeedStatus>
+	</Messages>
+</MessageDictionary>

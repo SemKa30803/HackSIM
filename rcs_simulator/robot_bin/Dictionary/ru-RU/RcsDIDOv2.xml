@@ -1,0 +1,27 @@
+<MessageDictionary>
+<Name>RcsDIDOv2</Name>
+<Language>Russian</Language>
+<Messages>
+	<ReciveFailed>Невозможно получить ответ.</ReciveFailed>
+	<SendFailed>Невозможно отправить данные.</SendFailed>
+	<CanNotBind>Невозможно создать сокет. Возможно данный адрес и порт занят.</CanNotBind>
+	<TimedOut>Превышено время ожидания ответа.</TimedOut>
+	
+	<BindAddress>Адрес Rcs компьютера</BindAddress>
+	<BindPort>Порт Rcs компьютера</BindPort>
+	<DeviceAddress>Адрес платы DIDO</DeviceAddress>
+	<DevicePort>Порт платы DIDO</DevicePort>
+	<AskPeriod>Период опроса, мс</AskPeriod>
+	<ReplyAwaitTime>Время ожидания оствета, мс</ReplyAwaitTime>
+	<PermissibleNoRepliesCount>Допустимое количество запросов без ответа до регистрации ошибки</PermissibleNoRepliesCount>
+	<NotifyOnNoReply>Отправлять сервисные оповещения при отсутствии ответа</NotifyOnNoReply>		
+	<ContainError>Модуль дидо ответил ошибкой {0}</ContainError>
+	<InvalidSize>Получен пакет с неверым размером</InvalidSize>
+	
+	<InputsOnly>Не изменять выходные сигналы</InputsOnly>
+	<UseFilter>Использовать фильтрацию дискретов</UseFilter>
+	<FilterSamplesCount>Количество образцов фильтрации</FilterSamplesCount>
+	<FilterMask>Маска фильтра</FilterMask>
+	<MaskByte>Байт маски</MaskByte>
+</Messages>
+</MessageDictionary>

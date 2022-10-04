@@ -1,0 +1,12 @@
+<MessageDictionary>
+	<Name>LicenseChecker</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<Header>Отсутствует лицензия</Header>
+		<NoLicense>Текущая лицензия RCS - некорректна. Обратитесь к производителю или интегратору, установившему робототехническую систему</NoLicense>
+		<ErrorGeneratingLicense>Ошибка при сборке информации о системе</ErrorGeneratingLicense>
+		
+		<SerialHeader>Ошибка конфигурации робота</SerialHeader>
+		<SerialContent>Невозможно узнать серийный номер робота, обратитесь за тех. поддержкой</SerialContent>
+	</Messages>
+</MessageDictionary>

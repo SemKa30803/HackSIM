@@ -1,0 +1,28 @@
+<MessageDictionary>
+<Name>RcsDIDOv2</Name>
+<Language>English</Language>
+<Messages>
+	<ReciveFailed>Could not receive data.</ReciveFailed>
+	<SendFailed>Can not send data.</SendFailed>
+	<CanNotBind>Can not create socket. Maybe ip address and port is busy.</CanNotBind>
+	<TimedOut>Answer from device timed out.</TimedOut>
+	
+	<BindAddress>Rcs computer address</BindAddress>
+	<BindPort>Rcs computer port</BindPort>
+	<DeviceAddress>Device address</DeviceAddress>
+	<DevicePort>Device port</DevicePort>
+	<AskPeriod>Monitor period, ms</AskPeriod>
+	<ReplyAwaitTime>Reply await time, ms</ReplyAwaitTime>
+	<PermissibleNoRepliesCount>Permissible count of skipped replies</PermissibleNoRepliesCount>
+	<NotifyOnNoReply>Send service notifications on skipped reply</NotifyOnNoReply>	
+	
+	<ContainError>Received error id {0} from DIDO module</ContainError>
+	<InvalidSize>Recived a package with invalid size</InvalidSize>
+	
+	<InputsOnly>Do not affect outputs</InputsOnly>
+	<UseFilter>Use discrete filtering</UseFilter>
+	<FilterSamplesCount>Filter samples count</FilterSamplesCount>
+	<FilterMask>Filter mask</FilterMask>
+	<MaskByte>Mask byte</MaskByte>
+</Messages>
+</MessageDictionary>

@@ -1,0 +1,45 @@
+﻿<MessageDictionary>
+	<Name>ModbusTCPBus</Name>
+	<Language>English</Language>
+	<Messages>
+		
+		<Description>ModbusTCPBus is a link between Rcs and modbus devices</Description>
+		
+		<BindAddress>IP address of computer</BindAddress>
+		<BindPort>Port</BindPort>
+		<ReadPeriod>Get status period, ms</ReadPeriod>
+		<EmitError>Emit error on disconnect</EmitError>
+		<ModbusObjects>Modbus devices</ModbusObjects>
+		<ModbusObject>device</ModbusObject>
+		<ModbusAddress>IP address</ModbusAddress>
+		<ModbusPort>Port</ModbusPort>
+		<DeviceId>device id</DeviceId>
+		<ModbusObjectName>Modbus object name</ModbusObjectName>
+		<DISettings>Digital input settings</DISettings>
+		<DOSettings>Digital output settings</DOSettings>
+		<AISettings>Analog input settings</AISettings>
+		<AOSettings>Analog output settings</AOSettings>
+		<Spans>Registers</Spans>
+		<SpanObject>Register</SpanObject>
+		<SpanStart>Address start</SpanStart>
+		<RegisterCount>Register count</RegisterCount>
+		<MemReserve>Reserved memory, byte</MemReserve>
+		
+		<InternalError>Internal error, reboot required</InternalError>
+		<NotConnectedError>No connection with device {0}(ID: {1})</NotConnectedError>
+		<ModbusErr>Device {0}(ID: {1}) emited error {2}</ModbusErr>
+		
+		<MemSizeMismatch>Registers don't fit reserved memory. Device id - </MemSizeMismatch>
+		
+		<InverseBytes>Inverse bytes</InverseBytes>
+		
+		<DisableModule>Disable module</DisableModule>
+		<ResMemInput>Reserved memory for input data, byte</ResMemInput>
+		<ResMemOutput>Reserved memory for output data, byte</ResMemOutput>
+		<InputRegisters>Input registers</InputRegisters>
+		<OutputRegisters>Output registers</OutputRegisters>
+		<Register>Registers</Register>
+		<RegisterReadType>Type of input register</RegisterReadType>
+		<RegisterWriteType>Type of output register</RegisterWriteType>
+	</Messages>
+</MessageDictionary>

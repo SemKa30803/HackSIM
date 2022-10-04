@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://components_lib/carousel/scenes/carousel_base.tscn" type="PackedScene" id=1]
+[ext_resource path="res://components_lib/carousel/materials/carousel_table/mat_0.material" type="Material" id=2]
+[ext_resource path="res://components_lib/carousel/materials/carousel_table/mat_1.material" type="Material" id=3]
+[ext_resource path="res://components_lib/carousel/materials/carousel_table/mat_2.material" type="Material" id=4]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_table/drive_2.mesh" type="ArrayMesh" id=5]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_table/drive_1.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_table/table.mesh" type="ArrayMesh" id=7]
+
+[node name="table" type="Spatial"]
+transform = Transform( -1, -3.25841e-07, 0, 3.25841e-07, -1, 0, 0, 0, 1, 0, 0, 0 )
+
+[node name="joint" type="RcsJoint" parent="."]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
+rotation_axis = Vector3( 0, 1, 0 )
+base_rotation = Vector3( 0, 180, 0 )
+
+[node name="table_with_drive" type="Spatial" parent="joint"]
+
+[node name="table" type="MeshInstance" parent="joint/table_with_drive"]
+transform = Transform( 1, 0, 3.82137e-15, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0.000145148, -82.1919, 2.47227e-12 )
+redirect_selection = true
+mesh = ExtResource( 7 )
+material/0 = ExtResource( 4 )
+
+[node name="drive_1" type="MeshInstance" parent="joint/table_with_drive"]
+transform = Transform( 0, -1, -8.74228e-08, 1, 0, 1.69455e-22, 0, -8.74228e-08, 1, 2.30777e-05, -70.1919, 2.01752e-12 )
+redirect_selection = true
+mesh = ExtResource( 6 )
+material/0 = ExtResource( 2 )
+material/1 = ExtResource( 3 )
+
+[node name="drive_2" type="MeshInstance" parent="joint/table_with_drive"]
+transform = Transform( 1, 0, 8.74228e-08, 0, -1, -6.93526e-21, 8.74228e-08, 0, -1, 2.30777e-05, 46.8077, 1.35024e-12 )
+redirect_selection = true
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 4 )
+
+[node name="carousel_base" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1, -8.74228e-08, 2.84217e-14, 0, -1.62921e-07, -1, 8.74228e-08, -1, 1.62921e-07, -8.74228e-07, -8.13152e-20, -10 )
+redirect_selection = true

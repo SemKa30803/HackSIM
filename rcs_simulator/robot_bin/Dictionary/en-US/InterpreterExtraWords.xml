@@ -1,0 +1,46 @@
+﻿<MessageDictionary>
+	<Name>InterpreterExtraWords</Name>
+	<Language>English</Language>
+	<Messages>
+		<InvCmd>command is invalid</InvCmd>
+		<WrongRawInput>RawPathGeneretor: Incorrect input</WrongRawInput>
+		<RawLimit>RawPathGeneretor: Joint angle limit reached</RawLimit>
+		<RawUnknown>RawPathGeneretor: Unknown error</RawUnknown>
+		<KinError>Kinematics error</KinError>
+		
+		<ErrorLoadingParam>Error while loading input parameter</ErrorLoadingParam>
+		<ErrorLoadingParamN>Error while loading input parameter, parameter number </ErrorLoadingParamN>
+		<TypeMismatch>Input parameter type mismatch</TypeMismatch>
+		<TooMuchParams>Too many input parameters</TooMuchParams>
+		<TooFewParams>Too many input parameters</TooFewParams>
+		<CartPtpCantuseMatrix4>cart_ptp does not accept matrix as a target point</CartPtpCantuseMatrix4>
+		
+		<TypeMismatch2>Input parameter type mismatch, parameter </TypeMismatch2>
+		<NotEnoughParams>Not enough input parameters, required minimum parameters: </NotEnoughParams>
+		
+		<PointIncorrectInputType>Incorrect type, point can only be Matrix4 or string</PointIncorrectInputType>
+		<PointCanNotFindByName>Point not found, name of searched for point </PointCanNotFindByName>
+		<PointNoMatrix4>Current command does not accept Matrix4 as value, string only</PointNoMatrix4>
+		<PointIncorrectBaseSystem>Point is correct bat base system is missing, name of searched point </PointIncorrectBaseSystem>
+		<SignalNotFound>Signal not found, name of searched signal </SignalNotFound>
+		<SignalWrongType>Only string could be used as signal</SignalWrongType>
+		<ToolNotFound>Tool not found, name of searched tools </ToolNotFound>
+		<ToolBadType>Incorrect type for tool, expected type string </ToolBadType>
+		<FrameNotFound>Base system not found, name of searched base system </FrameNotFound>
+		<FrameIncorrectType>Incorrect type for base system, expected type string</FrameIncorrectType>
+		<JointNotFound>Joint position not found, name of searched point </JointNotFound>
+		<JointIncorrectType>Incorrect type for joint position, expected type string or array of float</JointIncorrectType>
+		<JointRelIncorrectType>Incorrect type for relative joint position, expected array of float</JointRelIncorrectType>
+		<PositionIncorrectType>Incorrect type for position, expected float[3] or Vector3</PositionIncorrectType>
+		<RotationIncorrectType>Incorrect type for position, expected float[3] or Vector3</RotationIncorrectType>
+		<StructIncorrectType>Incorrect type for structure, expected string</StructIncorrectType>
+		<StructNotFound>Structure not found, name of searched structure </StructNotFound>
+		<IncorrectKinematicLinksCount>Size of array for joints move parameter differs from the base system kinematic joints count. Base system kinematic  joints count:</IncorrectKinematicLinksCount>
+		<CommandNotAllowedWithKinematicBase>Command is not allowed with points in a kinematic base system </CommandNotAllowedWithKinematicBase>
+		<InvMoveCmdSpeed>Invalid speed value</InvMoveCmdSpeed>
+		<InvMoveCmdAccel>Invalid acceleration value</InvMoveCmdAccel>
+		
+		<MoveCmdIncorrectJoint>Incorrect joint number. Numbering starts with 1. Joint number in command params shouldn't be bigger than joints count in the system.</MoveCmdIncorrectJoint>
+		<JointCountMismatch>Incorrect array size</JointCountMismatch>
+	</Messages>
+</MessageDictionary>

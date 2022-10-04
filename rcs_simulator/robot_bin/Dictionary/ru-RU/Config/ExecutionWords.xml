@@ -1,0 +1,8 @@
+<MessageDictionary>
+	<Name>ExecutionWords</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<maximum_allowed_angle>Максимальный угол для восстановления, град.</maximum_allowed_angle>
+		<maximum_allowed_path_len>Максимальный путь для восстановления, мм</maximum_allowed_path_len>
+	</Messages>
+</MessageDictionary>

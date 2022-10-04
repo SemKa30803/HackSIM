@@ -1,0 +1,60 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://components_lib/carousel/materials/carousel_cabinet/mat_2.material" type="Material" id=1]
+[ext_resource path="res://components_lib/carousel/materials/carousel_cabinet/mat_4.material" type="Material" id=2]
+[ext_resource path="res://components_lib/carousel/materials/carousel_cabinet/mat_3.material" type="Material" id=3]
+[ext_resource path="res://components_lib/carousel/materials/carousel_cabinet/mat_1.material" type="Material" id=4]
+[ext_resource path="res://components_lib/carousel/materials/carousel_cabinet/mat_0.material" type="Material" id=5]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/838001.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/884003.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/932.mesh" type="ArrayMesh" id=8]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/884001.mesh" type="ArrayMesh" id=9]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/884002.mesh" type="ArrayMesh" id=10]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/884.mesh" type="ArrayMesh" id=11]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/838.mesh" type="ArrayMesh" id=12]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/cabinet_cube.mesh" type="ArrayMesh" id=13]
+[ext_resource path="res://components_lib/carousel/meshes/carousel_cabinet/910.mesh" type="ArrayMesh" id=14]
+
+[node name="carousel_cabinet" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0 )
+
+[node name="cabinet_cube" type="MeshInstance" parent="."]
+transform = Transform( 0.168, 0, 0, 0, -0.17796, 0, 0, 0, 0.326415, 165.219, 178.426, -331.216 )
+mesh = ExtResource( 13 )
+material/0 = null
+
+[node name="__12" type="Spatial" parent="."]
+
+[node name="838" type="MeshInstance" parent="__12"]
+mesh = ExtResource( 12 )
+material/0 = ExtResource( 5 )
+
+[node name="838001" type="MeshInstance" parent="__12"]
+mesh = ExtResource( 6 )
+material/0 = ExtResource( 5 )
+
+[node name="884" type="MeshInstance" parent="__12"]
+mesh = ExtResource( 11 )
+material/0 = ExtResource( 5 )
+
+[node name="884001" type="MeshInstance" parent="__12"]
+mesh = ExtResource( 9 )
+material/0 = ExtResource( 5 )
+
+[node name="884002" type="MeshInstance" parent="__12"]
+mesh = ExtResource( 10 )
+material/0 = ExtResource( 5 )
+
+[node name="884003" type="MeshInstance" parent="__12"]
+mesh = ExtResource( 7 )
+material/0 = ExtResource( 5 )
+
+[node name="910" type="MeshInstance" parent="__12"]
+mesh = ExtResource( 14 )
+material/0 = ExtResource( 4 )
+
+[node name="932" type="MeshInstance" parent="__12"]
+mesh = ExtResource( 8 )
+material/0 = ExtResource( 1 )
+material/1 = ExtResource( 3 )
+material/2 = ExtResource( 2 )

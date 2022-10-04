@@ -1,0 +1,30 @@
+﻿<MessageDictionary>
+	<Name>UserAlarms</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<EmergencyButtonAlarmHeader>Аварийный останов.</EmergencyButtonAlarmHeader>
+		<EmergencyButtonAlarmText>Нажата кнопка аварийного останова.</EmergencyButtonAlarmText>
+		<GatesAlarmHeader>Калитка открыта.</GatesAlarmHeader>
+		<GatesAlarmText>Калитка открыта до остановки линии.</GatesAlarmText>
+		<CriticalSoftwareAlarmHeader>Критический сбой.</CriticalSoftwareAlarmHeader>
+		<CriticalSoftwareAlarmText>Критический сбой программного обеспечения.</CriticalSoftwareAlarmText>
+		<LowWorkAirAlarmHeader>Недостаточное давление в пневмосистеме рабочего воздуха.</LowWorkAirAlarmHeader>
+		<LowWorkAirAlarmText>Недостаточное давление в пневмосистеме рабочего воздуха.</LowWorkAirAlarmText>
+		<LowControlAirAlarmHeader>Недостаточное давление в системе управляющего воздуха.</LowControlAirAlarmHeader>
+		<LowControlAirAlarmText>Недостаточное давление в системе управляющего воздуха.</LowControlAirAlarmText>
+		<TimeoutForNormalStopExceededHeader>Превышено время ожидания штатной остановки</TimeoutForNormalStopExceededHeader>
+		<TimeoutForNormalStopExceededText>Превышено время ожидания штатной остановки</TimeoutForNormalStopExceededText>
+		<HeartbeatAlarmHeader>Heartbeat сигнал.</HeartbeatAlarmHeader>
+		<HeartbeatAlarmText>Превышен таймаут Heartbeat сигнала</HeartbeatAlarmText>
+		<SafetySwitchHeader>Нарушение в работе одного из переключателей безопасности.</SafetySwitchHeader>
+		<SafetySwitchText>Нарушение в работе одного из переключателей безопасности.</SafetySwitchText>
+		<CantCompleteCommandHeader>Невозможно выполнить команды.</CantCompleteCommandHeader>
+		<CantCompleteCommandText>Невозможно выполнить команды при текущем состоянии контура безопасности.</CantCompleteCommandText>
+		<UnknownCommandHeader>Неизвестная команда.</UnknownCommandHeader>
+		<UnknownCommandText>Неизвестная команда.</UnknownCommandText>
+		<LowShieldingGasPressureHeader>Недостаточное давление в системе защитного газа.</LowShieldingGasPressureHeader>
+		<LowShieldingGasPressureText>Недостаточное давление в системе подачи защитного газа для лиофилизованных шариков.</LowShieldingGasPressureText>
+		<RollerShutterTimeoutHeader>Превышено время ожидания штатной остановки.</RollerShutterTimeoutHeader>
+		<RollerShutterTimeoutText>Превышено время ожидания штатной остановки.</RollerShutterTimeoutText>
+	</Messages>
+</MessageDictionary>

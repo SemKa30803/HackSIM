@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://components_lib/fence/scripts/fence_section_generator_up.gd" type="Script" id=1]
+[ext_resource path="res://components_lib/fence/scripts/fence_section_generator.gd" type="Script" id=2]
+[ext_resource path="res://components_lib/fence/scripts/fence_section.gd" type="Script" id=3]
+[ext_resource path="res://components_lib/fence/fence_section/fence_section.tscn" type="PackedScene" id=4]
+
+[node name="fence_section_generator" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Spatial" type="Spatial" parent="."]
+script = ExtResource( 2 )
+toggle_rebuild = true
+scene_to_instance = "res://components_lib/fence/fence_section/fence_section.tscn"
+parts_group = "fence"
+
+[node name="fence_1" type="Spatial" parent="Spatial" groups=[
+"fence",
+] instance=ExtResource( 4 )]
+script = ExtResource( 3 )
+section_width = 1500
+
+[node name="fence_2" type="Spatial" parent="Spatial" groups=[
+"fence",
+] instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1500 )
+script = ExtResource( 3 )
+section_width = 1500
+
+[node name="fence_3" type="Spatial" parent="Spatial" groups=[
+"fence",
+] instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3000 )
+script = ExtResource( 3 )
+section_width = 1500
+
+[node name="fence_4" type="Spatial" parent="Spatial" groups=[
+"fence",
+] instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4500 )
+script = ExtResource( 3 )
+section_width = 1500
+
+[node name="fence_5" type="Spatial" parent="Spatial" groups=[
+"fence",
+] instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6000 )
+script = ExtResource( 3 )
+section_width = 1500

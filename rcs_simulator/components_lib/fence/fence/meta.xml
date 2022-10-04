@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component_meta>
+<name>fence</name>
+<developer>eidos</developer>
+<version>1</version>
+<description>Fence model. The user can adjust the height and width of the section, gap beetwen floor and lower crossbar, number of sections and full length of fence.</description>
+</component_meta>

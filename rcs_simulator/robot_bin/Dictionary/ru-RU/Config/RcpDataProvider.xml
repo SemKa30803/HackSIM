@@ -1,0 +1,9 @@
+<MessageDictionary>
+	<Name>RcpDataProvider</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<PathToGlobalDataTools>Путь к файлу инструментов</PathToGlobalDataTools>
+		<PathToGlobalDataFrames>Путь к файлу системы координат</PathToGlobalDataFrames>
+		<GlobalParametersPath>Путь к папке для хранения глобальных переменных</GlobalParametersPath>
+	</Messages>
+</MessageDictionary>

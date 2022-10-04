@@ -1,0 +1,7 @@
+<MessageDictionary>
+	<Name>SoftwareSafetyState</Name>
+	<Language>Russian</Language>
+	<Messages>
+		<start_mode>Режим работы при старте системы</start_mode>
+	</Messages>
+</MessageDictionary>

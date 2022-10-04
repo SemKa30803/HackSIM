@@ -1,0 +1,55 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://components_lib/table/script/table.gd" type="Script" id=1]
+[ext_resource path="res://components_lib/table/material/write.tres" type="Material" id=2]
+[ext_resource path="res://components_lib/table/material/brown2.tres" type="Material" id=3]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 1000, 30, 1000 )
+
+[sub_resource type="CubeMesh" id=2]
+size = Vector3( 100, 1000, 100 )
+
+[sub_resource type="CubeMesh" id=3]
+size = Vector3( 100, 1000, 100 )
+
+[sub_resource type="CubeMesh" id=4]
+size = Vector3( 100, 1000, 100 )
+
+[sub_resource type="CubeMesh" id=5]
+size = Vector3( 100, 1000, 100 )
+
+[node name="Table" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="table" type="RcsToggleJoint" parent="."]
+
+[node name="board" type="MeshInstance" parent="table"]
+transform = Transform( 2, 0, 0, 0, 1, 0, 0, 0, 2, 0, 15, 0 )
+redirect_selection = true
+mesh = SubResource( 1 )
+material/0 = ExtResource( 2 )
+
+[node name="leg1" type="MeshInstance" parent="table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 950, -500, 950 )
+redirect_selection = true
+mesh = SubResource( 2 )
+material/0 = ExtResource( 3 )
+
+[node name="leg2" type="MeshInstance" parent="table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 950, -500, -950 )
+redirect_selection = true
+mesh = SubResource( 3 )
+material/0 = ExtResource( 3 )
+
+[node name="leg3" type="MeshInstance" parent="table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -950, -497.665, 950 )
+redirect_selection = true
+mesh = SubResource( 4 )
+material/0 = ExtResource( 3 )
+
+[node name="leg4" type="MeshInstance" parent="table"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -950, -500, -950 )
+redirect_selection = true
+mesh = SubResource( 5 )
+material/0 = ExtResource( 3 )
